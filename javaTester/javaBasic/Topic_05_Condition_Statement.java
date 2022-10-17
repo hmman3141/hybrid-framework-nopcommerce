@@ -9,7 +9,7 @@ public class Topic_05_Condition_Statement {
 		String name1, name2;
 		Scanner sc = new Scanner(System.in);
 
-		// 1. Input integer n. Print even if n is even, odd if n is odd
+		// 1. Insert integer n. Print even if n is even, odd if n is odd
 		System.out.println("1. Input integer n. Print even if n is even, odd if n is odd");
 		System.out.print("n: ");
 		n = sc.nextInt();
@@ -19,7 +19,7 @@ public class Topic_05_Condition_Statement {
 			System.out.println("Odd");
 		}
 
-		// 2. Input integer a and b. Print 'a is greater than or equal to b' if a > b, 'a is lower than b' if a < b
+		// 2. Insert integer a and b. Print 'a is greater than or equal to b' if a > b, 'a is lower than b' if a < b
 		System.out.println("2. Input integer a and b. Print 'a is greater than or equal to b' if a > b, 'a is lower than b' if a < b");
 		System.out.print("a: ");
 		a = sc.nextInt();
@@ -30,7 +30,7 @@ public class Topic_05_Condition_Statement {
 		// Clear enter press
 		sc.nextLine();
 
-		// 3. Input name of two people. Print true if their name is the same
+		// 3. Insert name of two people. Print true if their name is the same
 		System.out.println("3. Input name of two people. Print true if their name is the same");
 		System.out.print("Name 1: ");
 		name1 = sc.nextLine();
@@ -42,7 +42,7 @@ public class Topic_05_Condition_Statement {
 			System.out.println("Their name is not the same");
 		}
 
-		// 4. Input 3 integer. Print the highest
+		// 4. Insert 3 integer. Print the highest
 		System.out.println("4. Input 3 integer. Print the highest");
 		System.out.print("Number 1: ");
 		n = sc.nextInt();
@@ -55,13 +55,13 @@ public class Topic_05_Condition_Statement {
 		max = (max < b) ? b : max;
 		System.out.println(max);
 
-		// 5. Input integer a. Check if a is between 10 and 100
+		// 5. Insert integer a. Check if a is between 10 and 100
 		System.out.println("5. Input integer a. Check if a is between 10 and 100");
 		System.out.print("a: ");
 		a = sc.nextInt();
 		System.out.println((10 <= a && a <= 100) ? "a is between 10 and 100" : "a is not between 10 and 100");
 
-		// 6. Input score of a student. Print type of score corresponding to score
+		// 6. Insert score of a student. Print type of score corresponding to score
 		System.out.println("6. Input score of a student. Print type of score corresponding to score");
 		System.out.print("Score: ");
 		n = sc.nextInt();
@@ -75,7 +75,7 @@ public class Topic_05_Condition_Statement {
 			System.out.println("A");
 		}
 
-		// 7. Input month. Print total days of month
+		// 7. Insert month. Print total days of month
 		System.out.println("7. Input month. Print total days of month");
 		System.out.print("Month: ");
 		n = sc.nextInt();
