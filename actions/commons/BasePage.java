@@ -14,6 +14,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
+	public BasePage getBasePage() {
+		return new BasePage();
+	}
 
 	public void openURL(WebDriver driver, String url) {
 		driver.get(url);
@@ -102,15 +105,15 @@ public class BasePage {
 		driver.switchTo().window(parentID);
 	}
 
-	public By getByXPath(String xpath) {
+	private By getByXPath(String xpath) {
 		return By.xpath(xpath);
 	}
 
-	public WebElement getWebElement(WebDriver driver, String xpath) {
+	private WebElement getWebElement(WebDriver driver, String xpath) {
 		return driver.findElement(getByXPath(xpath));
 	}
 
-	public List<WebElement> getWebElements(WebDriver driver, String xpath) {
+	private List<WebElement> getWebElements(WebDriver driver, String xpath) {
 		return driver.findElements(getByXPath(xpath));
 	}
 
@@ -280,7 +283,7 @@ public class BasePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 10);
 		explicitWait.until(ExpectedConditions.presenceOfElementLocated(getByXPath(xpath)));
 	}
-	
+
 	public void waitForAllElementsPresence(WebDriver driver, String xpath) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 10);
 		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByXPath(xpath)));
