@@ -1,7 +1,6 @@
 package pageUIs;
 
 public class RegisterPageUI {
-	public static final String REGISTER_LINK = "//a[@class='ico-register']";
 	public static final String LOGOUT_LINK = "//a[@class='ico-logout']";
 	public static final String REGISTER_BUTTON = "//button[@id='register-button']";
 	public static final String FIRST_NAME_TEXTBOX = "//input[@id='FirstName']";

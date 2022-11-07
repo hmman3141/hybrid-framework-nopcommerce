@@ -10,13 +10,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import PageObjects.HomePageObject;
 import PageObjects.RegisterPageObject;
 
 public class User_01_Register_04_Page_Object {
 	private WebDriver driver;
 	private String projectPath = System.getProperty("user.dir");
-	private String email;
+	private String email, invalidEmail, firstName, lastName, password, invalidPassword, confirmPassword, invalidConfirmPassword;
 	private RegisterPageObject registerPageObject;
+	private HomePageObject homePageObject;
 
 	private int getRandomNumber() {
 		Random rand = new Random();
@@ -30,12 +32,20 @@ public class User_01_Register_04_Page_Object {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
 		registerPageObject = new RegisterPageObject(driver);
+		homePageObject = new HomePageObject(driver);
 		email = getRandomNumber() + "@test.com";
+		invalidEmail = "abc@test/com";
+		password = "password";
+		invalidPassword = "passw";
+		confirmPassword = "password";
+		invalidConfirmPassword = "password1";
+		firstName = "First name";
+		lastName = "Last name";
 	}
 
 	@Test
 	public void TC_01_RegisterWithEmptyData() {
-		registerPageObject.clickToRegisterLink();
+		homePageObject.clickToRegisterLink();
 		registerPageObject.clickToRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtFirstNameInput(), "First name is required.");
@@ -47,9 +57,9 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_02_RegisterWithInvalidEmail() {
-		registerPageObject.clickToRegisterLink();
+		homePageObject.clickToRegisterLink();
 
-		registerPageObject.sendKeyToEmailTextbox("abc@test/com");
+		registerPageObject.sendKeyToEmailTextbox(invalidEmail);
 		registerPageObject.clickToRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtEmailInput(), "Wrong email");
@@ -57,12 +67,12 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_03_SuccessfullyRegister() {
-		registerPageObject.clickToRegisterLink();
+		homePageObject.clickToRegisterLink();
 
-		registerPageObject.sendKeyToFirstNameTextbox("Firstname");
-		registerPageObject.sendKeyToLastNameTextbox("Lastname");
-		registerPageObject.sendKeyToPasswordTextbox("password");
-		registerPageObject.sendKeyToConfirmPasswordTextbox("password");
+		registerPageObject.sendKeyToFirstNameTextbox(firstName);
+		registerPageObject.sendKeyToLastNameTextbox(lastName);
+		registerPageObject.sendKeyToPasswordTextbox(password);
+		registerPageObject.sendKeyToConfirmPasswordTextbox(confirmPassword);
 		registerPageObject.sendKeyToEmailTextbox(email);
 		registerPageObject.clickToRegisterButton();
 
@@ -72,12 +82,12 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_04_RegisterWithExistedEmail() {
-		registerPageObject.clickToRegisterLink();
+		homePageObject.clickToRegisterLink();
 
-		registerPageObject.sendKeyToFirstNameTextbox("Firstname");
-		registerPageObject.sendKeyToLastNameTextbox("Lastname");
-		registerPageObject.sendKeyToPasswordTextbox("password");
-		registerPageObject.sendKeyToConfirmPasswordTextbox("password");
+		registerPageObject.sendKeyToFirstNameTextbox(firstName);
+		registerPageObject.sendKeyToLastNameTextbox(lastName);
+		registerPageObject.sendKeyToPasswordTextbox(password);
+		registerPageObject.sendKeyToConfirmPasswordTextbox(confirmPassword);
 		registerPageObject.sendKeyToEmailTextbox(email);
 		registerPageObject.clickToRegisterButton();
 
@@ -86,9 +96,9 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_05_RegisterWithInvalidPassword() {
-		registerPageObject.clickToRegisterLink();
+		homePageObject.clickToRegisterLink();
 
-		registerPageObject.sendKeyToPasswordTextbox("passw");
+		registerPageObject.sendKeyToPasswordTextbox(invalidPassword);
 		registerPageObject.clickToRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtPasswordNameInput(),
@@ -97,10 +107,10 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_06_RegisterWithInvalidConfirmPassword() {
-		registerPageObject.clickToRegisterLink();
+		homePageObject.clickToRegisterLink();
 
-		registerPageObject.sendKeyToPasswordTextbox("password");
-		registerPageObject.sendKeyToConfirmPasswordTextbox("password1");
+		registerPageObject.sendKeyToPasswordTextbox(password);
+		registerPageObject.sendKeyToConfirmPasswordTextbox(invalidConfirmPassword);
 		registerPageObject.clickToRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtConfirmPasswordInput(),

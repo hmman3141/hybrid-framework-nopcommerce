@@ -13,11 +13,6 @@ public class RegisterPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void clickToRegisterLink() {
-		waitForElementClickable(driver, RegisterPageUI.REGISTER_LINK);
-		clickToElement(driver, RegisterPageUI.REGISTER_LINK);
-	}
-
 	public void clickToRegisterButton() {
 		waitForElementClickable(driver, RegisterPageUI.REGISTER_BUTTON);
 		clickToElement(driver, RegisterPageUI.REGISTER_BUTTON);
