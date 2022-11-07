@@ -217,8 +217,12 @@ public class BasePage {
 		return getWebElement(driver, xpath).isDisplayed();
 	}
 
-	public boolean isElementEnableed(WebDriver driver, String xpath) {
+	public boolean isElementEnable(WebDriver driver, String xpath) {
 		return getWebElement(driver, xpath).isEnabled();
+	}
+	
+	public boolean isElementPresence(WebDriver driver, String xpath) {
+		return getWebElements(driver, xpath).size() != 0;
 	}
 
 	public void switchToFrameIFrame(WebDriver driver, String xpath) {
