@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="NopCommerce">
+
 	<test name="Run on Firefox">
+		<parameter name="Browser" value="Firefox" />
 		<classes>
-			<class name="com.nopcommerce.user.User_01_Register_Login" />
+			<class name="com.nopcommerce.user.User_01_Register_05_Multiple_Browsers" />
 		</classes>
 	</test> <!-- Test -->
+
+	<test name="Run on Chrome">
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class name="com.nopcommerce.user.User_01_Register_05_Multiple_Browsers" />
+		</classes>
+	</test> <!-- Test -->
+
 </suite> <!-- Suite -->
