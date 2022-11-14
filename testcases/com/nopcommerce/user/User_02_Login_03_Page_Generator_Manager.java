@@ -1,7 +1,5 @@
 package com.nopcommerce.user;
 
-import java.util.Random;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -29,11 +27,6 @@ public class User_02_Login_03_Page_Generator_Manager extends BaseTest {
 		email = getRandomNumber() + "@test.com";
 		invalidEmail = "abc@test/com";
 		password = "password";
-	}
-
-	private int getRandomNumber() {
-		Random rand = new Random();
-		return rand.nextInt();
 	}
 
 	@Test

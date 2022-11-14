@@ -1,29 +1,28 @@
 package com.nopcommerce.user;
 
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import PageObjects.HomePageObject_BaseFactory;
 import PageObjects.LoginPageObject_BaseFactory;
+import commons.BaseTest;
 
-public class User_02_Login_02_Page_Factory {
+public class User_02_Login_02_Page_Factory extends BaseTest {
 	private WebDriver driver;
 	private LoginPageObject_BaseFactory loginPageObject;
 	private HomePageObject_BaseFactory homePageObject;
-	private String projectPath = System.getProperty("user.dir");
 	private String email, invalidEmail, password;
 
+	@Parameters("Browser")
 	@BeforeClass
-	public void beforeClass() {
-		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
-		driver = new FirefoxDriver();
+	public void beforeClass(String browserName) {
+		driver = getBrowserDriver(browserName);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
 		loginPageObject = new LoginPageObject_BaseFactory(driver);
@@ -31,11 +30,6 @@ public class User_02_Login_02_Page_Factory {
 		email = getRandomNumber() + "@test.com";
 		invalidEmail = "abc@test/com";
 		password = "password";
-	}
-
-	private int getRandomNumber() {
-		Random rand = new Random();
-		return rand.nextInt();
 	}
 
 	@Test
