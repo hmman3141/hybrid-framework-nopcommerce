@@ -10,15 +10,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import PageObjects.HomePageObject;
-import PageObjects.LoginPageObject;
-import PageObjects.RegisterPageObject;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
 public class User_02_Login_01_Page_Object {
 	private WebDriver driver;
-	private LoginPageObject loginPageObject;
-	private HomePageObject homePageObject;
-	private RegisterPageObject registerPageObject;
+	private UserLoginPageObject loginPageObject;
+	private UserHomePageObject homePageObject;
+	private UserRegisterPageObject registerPageObject;
 	private String projectPath = System.getProperty("user.dir");
 	private String email, invalidEmail, nonExistentEmail, password, incorrectPassword, firstName, lastName;
 
@@ -28,9 +28,9 @@ public class User_02_Login_01_Page_Object {
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
-		loginPageObject = new LoginPageObject(driver);
-		homePageObject = new HomePageObject(driver);
-		registerPageObject = new RegisterPageObject(driver);
+		loginPageObject = new UserLoginPageObject(driver);
+		homePageObject = new UserHomePageObject(driver);
+		registerPageObject = new UserRegisterPageObject(driver);
 		email = getRandomNumber() + "@test.com";
 		invalidEmail = "abc@test/com";
 		nonExistentEmail = getRandomNumber() + "@yahoo.com";

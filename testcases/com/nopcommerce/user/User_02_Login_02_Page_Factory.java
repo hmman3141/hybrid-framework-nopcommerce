@@ -9,14 +9,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import PageObjects.HomePageObject_BaseFactory;
-import PageObjects.LoginPageObject_BaseFactory;
 import commons.BaseTest;
+import pageObjects.nopCommerce.user.UserHomePageObject_BaseFactory;
+import pageObjects.nopCommerce.user.UserLoginPageObject_BaseFactory;
 
 public class User_02_Login_02_Page_Factory extends BaseTest {
 	private WebDriver driver;
-	private LoginPageObject_BaseFactory loginPageObject;
-	private HomePageObject_BaseFactory homePageObject;
+	private UserLoginPageObject_BaseFactory loginPageObject;
+	private UserHomePageObject_BaseFactory homePageObject;
 	private String email, invalidEmail, password;
 
 	@Parameters("Browser")
@@ -25,8 +25,8 @@ public class User_02_Login_02_Page_Factory extends BaseTest {
 		driver = getBrowserDriver(browserName);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://demo.nopcommerce.com/");
-		loginPageObject = new LoginPageObject_BaseFactory(driver);
-		homePageObject = new HomePageObject_BaseFactory(driver);
+		loginPageObject = new UserLoginPageObject_BaseFactory(driver);
+		homePageObject = new UserHomePageObject_BaseFactory(driver);
 		email = getRandomNumber() + "@test.com";
 		invalidEmail = "abc@test/com";
 		password = "password";

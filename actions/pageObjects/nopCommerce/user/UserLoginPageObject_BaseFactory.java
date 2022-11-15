@@ -1,4 +1,4 @@
-package PageObjects;
+package pageObjects.nopCommerce.user;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import commons.BaseFactory;
 
-public class LoginPageObject_BaseFactory extends BaseFactory {
+public class UserLoginPageObject_BaseFactory extends BaseFactory {
 	private WebDriver driver;
 
-	public LoginPageObject_BaseFactory(WebDriver driver) {
+	public UserLoginPageObject_BaseFactory(WebDriver driver) {
 		super();
 		this.driver = driver;
 		PageFactory.initElements(driver, this);

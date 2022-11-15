@@ -7,15 +7,15 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import PageObjects.HomePageObject;
-import PageObjects.LoginPageObject;
-import PageObjects.PageGeneratorManager;
 import commons.BaseTest;
+import pageObjects.nopCommerce.user.UserHomePageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.PageGeneratorManager;
 
 public class User_02_Login_03_Page_Generator_Manager extends BaseTest {
 	private WebDriver driver;
-	private LoginPageObject loginPageObject;
-	private HomePageObject homePageObject;
+	private UserLoginPageObject loginPageObject;
+	private UserHomePageObject homePageObject;
 	private String email, invalidEmail, password;
 
 	@Parameters("Browser")
@@ -23,7 +23,7 @@ public class User_02_Login_03_Page_Generator_Manager extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get("https://demo.nopcommerce.com/");
-		homePageObject = PageGeneratorManager.getHomePage(driver);
+		homePageObject = PageGeneratorManager.getUserHomePage(driver);
 		email = getRandomNumber() + "@test.com";
 		invalidEmail = "abc@test/com";
 		password = "password";

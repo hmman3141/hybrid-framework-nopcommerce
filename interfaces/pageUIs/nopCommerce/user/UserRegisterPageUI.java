@@ -1,7 +1,6 @@
-package pageUIs;
+package pageUIs.nopCommerce.user;
 
-public class RegisterPageUI {
-	public static final String LOGOUT_LINK = "//a[@class='ico-logout']";
+public class UserRegisterPageUI {
 	public static final String REGISTER_BUTTON = "//button[@id='register-button']";
 	public static final String FIRST_NAME_TEXTBOX = "//input[@id='FirstName']";
 	public static final String LAST_NAME_TEXTBOX = "//input[@id='LastName']";
