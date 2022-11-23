@@ -1,4 +1,4 @@
-package com.nopcommerce.user;
+package com.nopcommerce.exclude.user;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

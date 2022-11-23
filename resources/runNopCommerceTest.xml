@@ -2,18 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="NopCommerce">
 
-	<test name="Run on Firefox">
-		<parameter name="Browser" value="firefox" />
-		<classes>
-			<class name="com.nopcommerce.user.User_03_Switch_Page_02_Dynamic_Locator" />
-		</classes>
-	</test> <!-- Test -->
-
 	<test name="Run on Chrome">
 		<parameter name="Browser" value="chrome" />
-		<classes>
-			<class name="com.nopcommerce.user.User_03_Switch_Page_02_Dynamic_Locator" />
-		</classes>
+		<packages>
+			<package name="com.nopcommerce.*">
+				<exclude name="com.nopcommerce.exclude.*" />
+			</package>
+		</packages>
 	</test> <!-- Test -->
 
 </suite> <!-- Suite -->
