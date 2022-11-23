@@ -17,7 +17,7 @@ import pageObjects.nopCommerce.user.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointsPageObject;
 
-public class User_03_Switch_Page extends BaseTest {
+public class User_03_Switch_Page_01 extends BaseTest {
 	private WebDriver driver;
 	private String email, firstName, lastName, password;
 	private UserRegisterPageObject registerPageObject;
