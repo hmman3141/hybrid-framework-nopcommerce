@@ -186,6 +186,16 @@ public class BasePage {
 		return getWebElement(driver, xpathLocator, dynamicVariables).getText();
 	}
 
+	protected String getElementTextJS(WebDriver driver, String locator) {
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+		return (String) executor.executeScript("return arguments[0].value", getWebElement(driver, locator));
+	}
+	
+	protected String getElementTextJS(WebDriver driver, String xpathLocator, String... dynamicVariables) {
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
+		return (String) executor.executeScript("return arguments[0].value", getWebElement(driver, xpathLocator, dynamicVariables));
+	}
+	
 	protected void selectItemInDefaultDropdown(WebDriver driver, String locator, String text) {
 		Select select = new Select(getWebElement(driver, locator));
 		select.selectByVisibleText(text);
@@ -297,6 +307,11 @@ public class BasePage {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locator)).perform();
 	}
+	
+	protected void hoverMouseToElementAndClick(WebDriver driver, String locator) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getWebElement(driver, locator)).click().perform();
+	}
 
 	protected String getValidationMessage(WebDriver driver, String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
@@ -406,8 +421,14 @@ public class BasePage {
 			return PageGeneratorManager.getUserRewardPointsPage(driver);
 		case UserCustomerInfoSidebar.MY_PRODUCT_REVIEW:
 			return PageGeneratorManager.getUserMyProductReviewPage(driver);
+		case UserCustomerInfoSidebar.CHANGE_PASSWORD:
+			return PageGeneratorManager.getUserChangePasswordPage(driver);
 		default:
 			throw new RuntimeException("Unavailable name");
 		}
+	}
+	
+	public boolean isAccountLink(WebDriver driver) {
+		return isElementPresence(driver, BasePageUI.ACCOUNT_LINK_AT_USER);
 	}
 }

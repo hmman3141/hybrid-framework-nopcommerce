@@ -3,6 +3,7 @@ package pageObjects.nopCommerce.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import pageUIs.nopCommerce.user.BasePageUI;
 import pageUIs.nopCommerce.user.UserHomePageUI;
 
 public class UserHomePageObject extends BasePage {
@@ -11,6 +12,17 @@ public class UserHomePageObject extends BasePage {
 	public UserHomePageObject(WebDriver driver) {
 		super();
 		this.driver = driver;
+	}
+	
+	public void hoverMouseToComputersDropdown() {
+		waitForElementVisibile(driver, BasePageUI.COMPUTER_DROPDOWN_TOPMENU);
+		hoverMouseToElement(driver, BasePageUI.COMPUTER_DROPDOWN_TOPMENU);
+	}
+	
+	public UserDesktopsPageObject hoverMouseToDesktopsLinkInComputersDropdownAndClick() {
+		waitForAllElementsVisibile(driver, BasePageUI.DESKTOPS_DROPDOWN_TOPMENU_CHOICE);
+		hoverMouseToElementAndClick(driver, BasePageUI.DESKTOPS_DROPDOWN_TOPMENU_CHOICE);
+		return PageGeneratorManager.getUserDesktopsPage(driver);
 	}
 
 	public UserRegisterPageObject clickToRegisterLink() {

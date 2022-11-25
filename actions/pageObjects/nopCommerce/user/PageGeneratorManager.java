@@ -30,6 +30,22 @@ public class PageGeneratorManager{
 		return new UserAddressesPageObject(driver);
 	}
 	
+	public static UserChangePasswordPageObject getUserChangePasswordPage(WebDriver driver) {
+		return new UserChangePasswordPageObject(driver);
+	}
+	
+	public static UserDesktopsPageObject getUserDesktopsPage(WebDriver driver) {
+		return new UserDesktopsPageObject(driver);
+	}
+	
+	public static UserProductInformationPageObject getUserProductInformationPage(WebDriver driver) {
+		return new UserProductInformationPageObject(driver);
+	}
+	
+	public static UserProductReviewPageObject getUserProductReviewPage(WebDriver driver) {
+		return new UserProductReviewPageObject(driver);
+	}
+	
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
 		return new AdminLoginPageObject(driver);
 	}
