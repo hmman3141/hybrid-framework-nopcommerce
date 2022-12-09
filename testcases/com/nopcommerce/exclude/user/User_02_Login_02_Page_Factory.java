@@ -10,6 +10,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import pageObjects.nopCommerce.user.UserHomePageObject_BaseFactory;
 import pageObjects.nopCommerce.user.UserLoginPageObject_BaseFactory;
 
@@ -24,7 +25,7 @@ public class User_02_Login_02_Page_Factory extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		loginPageObject = new UserLoginPageObject_BaseFactory(driver);
 		homePageObject = new UserHomePageObject_BaseFactory(driver);
 		email = getRandomNumber() + "@test.com";

@@ -8,6 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
@@ -20,7 +21,7 @@ public class User_01_Register_05_Multiple_Browsers extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		registerPageObject = new UserRegisterPageObject(driver);
 		homePageObject = new UserHomePageObject(driver);
 	}

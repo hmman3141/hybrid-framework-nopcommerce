@@ -12,7 +12,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	public String projectPath = System.getProperty("user.dir");
 	private String cocCocPath = "C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe";
 	private String cocCocDriverVersion = "106.0.5249.61";
 	private String firefoxDriverVersion = "0.31.0";
@@ -42,7 +41,7 @@ public class BaseTest {
 			throw new RuntimeException("Invalid browser name");
 		}
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		return driver;
 	}
 	

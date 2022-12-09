@@ -8,6 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.PageGeneratorManager;
@@ -22,7 +23,7 @@ public class User_02_Login_03_Page_Generator_Manager extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		homePageObject = PageGeneratorManager.getUserHomePage(driver);
 		email = getRandomNumber() + "@test.com";
 		invalidEmail = "abc@test/com";

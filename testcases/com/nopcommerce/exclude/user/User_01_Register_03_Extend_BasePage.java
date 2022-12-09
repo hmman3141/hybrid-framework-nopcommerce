@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import commons.BasePage;
+import commons.GlobalConstants;
 
 public class User_01_Register_03_Extend_BasePage extends BasePage {
 	WebDriver driver;
@@ -28,7 +29,7 @@ public class User_01_Register_03_Extend_BasePage extends BasePage {
 		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		email = getRandomNumber() + "@test.com";
 	}
 

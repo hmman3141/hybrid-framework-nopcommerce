@@ -29,7 +29,7 @@ public class User_04_Switch_Role extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 
 		userEmail = getRandomNumber() + "@test.com";

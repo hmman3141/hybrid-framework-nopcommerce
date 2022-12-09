@@ -11,6 +11,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import commons.GlobalConstants;
+
 public class User_01_Register_01_DRY {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
@@ -26,7 +28,7 @@ public class User_01_Register_01_DRY {
 		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		email = getRandomNumber() + "@test.com";
 	}
 
