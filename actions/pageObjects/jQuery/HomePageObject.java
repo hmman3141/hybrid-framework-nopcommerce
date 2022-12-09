@@ -22,4 +22,22 @@ public class HomePageObject extends BasePage {
 		waitForElementVisibile(driver, HomePageUI.DYNAMIC_SEARCH_TEXTBOX, textBoxName);
 		sendKeyToElement(driver, HomePageUI.DYNAMIC_SEARCH_TEXTBOX, key, textBoxName);
 	}
+
+	public void sendKeyToTextboxAppendGrid(int rowNumber, String columnName, String key) {
+		String row = String.valueOf(rowNumber);
+		waitForElementVisibile(driver, HomePageUI.DYNAMIC_INPUT_APPENDGRID, row, columnName);
+		sendKeyToElement(driver, HomePageUI.DYNAMIC_INPUT_APPENDGRID, key, row, columnName);
+	}
+	
+	public void selectValueFromDefaultCheckboxAppendGrid(int rowNumber, String columnName) {
+		String row = String.valueOf(rowNumber);
+		waitForElementVisibile(driver, HomePageUI.DYNAMIC_INPUT_APPENDGRID, row, columnName);
+		selectValueFromDefaultCheckbox(driver, HomePageUI.DYNAMIC_INPUT_APPENDGRID, row, columnName);
+	}
+	
+	public void clickToButtonAppendGrid(int rowNumber, String buttonTitle) {
+		String row = String.valueOf(rowNumber);
+		waitForElementVisibile(driver, HomePageUI.DYNAMIC_ACTION_BUTTON_APPENDGRID, row, buttonTitle);
+		clickToElement(driver, HomePageUI.DYNAMIC_ACTION_BUTTON_APPENDGRID, row, buttonTitle);
+	}
 }

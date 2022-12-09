@@ -129,11 +129,7 @@ public class BasePage {
 	}
 
 	private String getDynamicXpath(String locator, String... dynamicVariables) {
-		String lowerCaseLocator = locator.toLowerCase();
-		if (lowerCaseLocator.startsWith("xpath=")) {
-			locator = String.format(locator, (Object[]) dynamicVariables);
-		}
-		return locator;
+		return String.format(locator, (Object[]) dynamicVariables);
 	}
 
 	private WebElement getWebElement(WebDriver driver, String locator) {
@@ -190,12 +186,13 @@ public class BasePage {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		return (String) executor.executeScript("return arguments[0].value", getWebElement(driver, locator));
 	}
-	
+
 	protected String getElementTextJS(WebDriver driver, String xpathLocator, String... dynamicVariables) {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
-		return (String) executor.executeScript("return arguments[0].value", getWebElement(driver, xpathLocator, dynamicVariables));
+		return (String) executor.executeScript("return arguments[0].value",
+				getWebElement(driver, xpathLocator, dynamicVariables));
 	}
-	
+
 	protected void selectItemInDefaultDropdown(WebDriver driver, String locator, String text) {
 		Select select = new Select(getWebElement(driver, locator));
 		select.selectByVisibleText(text);
@@ -255,6 +252,12 @@ public class BasePage {
 			element.click();
 	}
 
+	protected void selectValueFromDefaultCheckbox(WebDriver driver, String xpathLocator, String... dynamicVariables) {
+		WebElement element = getWebElement(driver, xpathLocator, dynamicVariables);
+		if (!element.isSelected())
+			element.click();
+	}
+
 	protected void deselectValueFromCheckbox(WebDriver driver, String locator) {
 		WebElement element = getWebElement(driver, locator);
 		if (element.isSelected())
@@ -307,7 +310,7 @@ public class BasePage {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locator)).perform();
 	}
-	
+
 	protected void hoverMouseToElementAndClick(WebDriver driver, String locator) {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locator)).click().perform();
@@ -427,7 +430,7 @@ public class BasePage {
 			throw new RuntimeException("Unavailable name");
 		}
 	}
-	
+
 	public boolean isAccountLink(WebDriver driver) {
 		return isElementPresence(driver, BasePageUI.ACCOUNT_LINK_AT_USER);
 	}
