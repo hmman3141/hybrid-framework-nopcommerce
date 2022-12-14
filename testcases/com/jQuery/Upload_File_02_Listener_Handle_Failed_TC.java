@@ -1,7 +1,5 @@
 package com.jQuery;
 
-import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -12,7 +10,7 @@ import commons.BaseTest;
 import pageObjects.jQuery.uploadFiles.HomePageObject;
 import pageObjects.jQuery.uploadFiles.PageGeneratorManager;
 
-public class Upload_File extends BaseTest {
+public class Upload_File_02_Listener_Handle_Failed_TC extends BaseTest {
 	private WebDriver driver;
 	private String[] files = { "file2.png", "file3.png" };
 	private HomePageObject homePage;
@@ -30,7 +28,7 @@ public class Upload_File extends BaseTest {
 		homePage.sendFilesToElement();
 		homePage.clickToMultipleStartButtons();
 		for (String file : files) {
-			assertTrue(homePage.isFileLoadedByName(file));
+			verifyFalse(homePage.isFileLoadedByName(file));
 		}
 	}
 

@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="NopCommerce">
 
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+	</listeners>
+	
 	<test name="Run on Chrome">
 		<parameter name="Browser" value="chrome" />
 		<packages>
