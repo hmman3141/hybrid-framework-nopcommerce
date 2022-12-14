@@ -1,5 +1,6 @@
 package commons;
 
+import java.io.File;
 import java.util.List;
 import java.util.Set;
 
@@ -153,6 +154,14 @@ public class BasePage {
 		getWebElement(driver, locator).click();
 	}
 
+	public void clickToElements(WebDriver driver, String locator) {
+		waitForAllElementsPresence(driver, locator);
+		for (WebElement element : getWebElements(driver, locator)) {
+			waitForElementClickable(driver, locator);
+			element.click();
+		}
+	}
+
 	protected void clickToElement(WebDriver driver, String xpathLocator, String... dynamicVariables) {
 		waitForElementClickable(driver, xpathLocator, dynamicVariables);
 		getWebElement(driver, xpathLocator, dynamicVariables).click();
@@ -290,6 +299,10 @@ public class BasePage {
 		return getWebElement(driver, locator).isDisplayed();
 	}
 
+	protected boolean isElementDisplayed(WebDriver driver, String locator, String... dynamicVariables) {
+		return getWebElement(driver, locator, dynamicVariables).isDisplayed();
+	}
+
 	protected boolean isElementEnable(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).isEnabled();
 	}
@@ -335,6 +348,15 @@ public class BasePage {
 	protected void clickToElementByJS(WebDriver driver, String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].click()", getWebElement(driver, locator));
+	}
+
+	protected void uploadMultipleFiles(WebDriver driver, String locator, String... fileNames) {
+		String fullFileName = "";
+		for (String fileName : fileNames) {
+			fullFileName += GlobalConstants.UPLOAD_FILE_FOLDER_PATH + File.separator + fileName + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		getWebElement(driver, locator).sendKeys(fullFileName);
 	}
 
 	protected void waitForElementVisibile(WebDriver driver, String locator) {

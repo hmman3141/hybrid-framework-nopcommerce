@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce">
+
+	<test name="Run on Chrome">
+		<parameter name="Browser" value="chrome" />
+		<packages>
+			<package name="com.jQuery.*">
+				<exclude name="com.jQuery.exclude.*" />
+			</package>
+		</packages>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
