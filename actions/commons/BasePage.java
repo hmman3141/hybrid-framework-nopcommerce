@@ -2,7 +2,9 @@ package commons;
 
 import java.io.File;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -296,11 +298,36 @@ public class BasePage {
 	}
 
 	protected boolean isElementDisplayed(WebDriver driver, String locator) {
-		return getWebElement(driver, locator).isDisplayed();
+		try {
+			return getWebElement(driver, locator).isDisplayed();
+		} catch (NoSuchElementException e) {
+			return false;
+		}
 	}
 
 	protected boolean isElementDisplayed(WebDriver driver, String locator, String... dynamicVariables) {
-		return getWebElement(driver, locator, dynamicVariables).isDisplayed();
+		try {
+			return getWebElement(driver, locator, dynamicVariables).isDisplayed();
+		} catch (NoSuchElementException e) {
+			return false;
+		}
+	}
+
+	protected boolean isElementUndisplayed(WebDriver driver, String locator) {
+		overrideGlobalImplicitTime(driver, GlobalConstants.SHORT_TIMEOUT);
+		List<WebElement> elements = getWebElements(driver, locator);
+		overrideGlobalImplicitTime(driver, GlobalConstants.LONG_TIMEOUT);
+		if (elements.size() == 0) {
+			return true;
+		} else if (elements.size() > 0 && elements.get(0).isDisplayed()) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+
+	protected void overrideGlobalImplicitTime(WebDriver driver, long time) {
+		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}
 
 	protected boolean isElementEnable(WebDriver driver, String locator) {
