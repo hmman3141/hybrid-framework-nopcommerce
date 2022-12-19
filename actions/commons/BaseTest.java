@@ -3,6 +3,8 @@ package commons;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,9 +16,15 @@ import org.testng.Reporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
+	protected final Log log;
+	
 	private String cocCocPath = "C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe";
 	private String cocCocDriverVersion = "106.0.5249.61";
 	private String firefoxDriverVersion = "0.31.0";
+	
+	public BaseTest() {
+		log = LogFactory.getLog(getClass());
+	}
 
 	protected WebDriver getBrowserDriver(String browserName) {
 		WebDriver driver = null;

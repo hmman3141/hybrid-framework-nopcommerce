@@ -27,5 +27,10 @@
 	<classpathentry kind="lib" path="libWebDriverManager/webdrivermanager-4.2.0.jar"/>
 	<classpathentry kind="lib" path="libWebDriverManager/slf4j-simple-1.7.30.jar"/>
 	<classpathentry kind="lib" path="libraries/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libLog4J/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="libReportNG/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="libReportNG/velocity-1.4.jar"/>
+	<classpathentry kind="lib" path="libReportNG/reportng-1.2.2.jar"/>
+	<classpathentry kind="lib" path="libReportNG/freemarker.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

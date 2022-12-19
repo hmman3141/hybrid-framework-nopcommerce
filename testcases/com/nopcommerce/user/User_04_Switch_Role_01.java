@@ -16,7 +16,7 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
-public class User_04_Switch_Role extends BaseTest {
+public class User_04_Switch_Role_01 extends BaseTest {
 	private WebDriver driver;
 	private String userEmail, userFirstName, userLastName, userPassword, adminEmail, adminPassword;
 	private UserRegisterPageObject userRegisterPageObject;
