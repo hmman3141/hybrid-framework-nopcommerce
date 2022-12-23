@@ -92,3 +92,346 @@
 [INFO] [2022-12-19 19:47:38,539] Role User - Step 11: Open admin URL
 [INFO] [2022-12-19 19:47:40,340] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
 [INFO] [2022-12-19 19:47:44,884] Role User - Step 13: Click to log out link
+[INFO] [2022-12-22 20:52:51,008] Role User - Step 01: Click to register link
+[INFO] [2022-12-22 20:52:52,230] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-22 20:52:52,455] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-22 20:52:52,678] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-22 20:52:52,887] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-22 20:52:53,089] Role User - Step 06: Enter to email textbox with value '-2119225721@test.com'
+[INFO] [2022-12-22 20:52:53,289] Role User - Step 07: Click to register button
+[INFO] [2022-12-22 20:52:54,327] Role User - Step 08: Click to log in link
+[INFO] [2022-12-22 20:52:54,793] Role User - Step 09: Log in with giving information: -2119225721@test.com / password
+[INFO] [2022-12-22 20:52:56,022] Role User - Step 10: Click to log out link
+[INFO] [2022-12-22 20:52:56,751] Role User - Step 11: Open admin URL
+[INFO] [2022-12-22 20:52:58,627] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-22 20:53:02,808] Role User - Step 13: Click to log out link
+[INFO] [2022-12-22 21:06:33,389] Role User - Step 01: Click to register link
+[INFO] [2022-12-22 21:06:34,705] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-22 21:06:34,942] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-22 21:06:35,153] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-22 21:06:35,357] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-22 21:06:35,572] Role User - Step 06: Enter to email textbox with value '-216643531@test.com'
+[INFO] [2022-12-22 21:06:35,781] Role User - Step 07: Click to register button
+[INFO] [2022-12-22 21:06:37,002] Role User - Step 08: Click to log in link
+[INFO] [2022-12-22 21:06:37,607] Role User - Step 09: Log in with giving information: -216643531@test.com / password
+[INFO] [2022-12-22 21:06:39,270] Role User - Step 10: Click to log out link
+[INFO] [2022-12-22 21:06:40,140] Role User - Step 11: Open admin URL
+[INFO] [2022-12-22 21:06:42,807] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-22 21:06:47,854] Role User - Step 13: Click to log out link
+[INFO] [2022-12-22 21:10:29,448] Role User - Step 01: Click to register link
+[INFO] [2022-12-22 21:10:30,676] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-22 21:10:30,905] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-22 21:10:31,119] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-22 21:10:31,344] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-22 21:10:31,575] Role User - Step 06: Enter to email textbox with value '6715239@test.com'
+[INFO] [2022-12-22 21:10:31,799] Role User - Step 07: Click to register button
+[INFO] [2022-12-22 21:10:32,753] Role User - Step 08: Click to log in link
+[INFO] [2022-12-22 21:10:33,221] Role User - Step 09: Log in with giving information: 6715239@test.com / password
+[INFO] [2022-12-22 21:10:34,408] Role User - Step 10: Click to log out link
+[INFO] [2022-12-22 21:10:35,122] Role User - Step 11: Open admin URL
+[INFO] [2022-12-22 21:10:37,829] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-22 21:10:42,433] Role User - Step 13: Click to log out link
+[INFO] [2022-12-22 21:13:00,158] Role User - Step 01: Click to register link
+[INFO] [2022-12-22 21:13:01,624] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-22 21:13:01,878] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-22 21:13:02,147] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-22 21:13:02,411] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-22 21:13:02,689] Role User - Step 06: Enter to email textbox with value '1778299465@test.com'
+[INFO] [2022-12-22 21:13:02,915] Role User - Step 07: Click to register button
+[INFO] [2022-12-22 21:13:03,832] Role User - Step 08: Click to log in link
+[INFO] [2022-12-22 21:13:04,298] Role User - Step 09: Log in with giving information: 1778299465@test.com / password
+[INFO] [2022-12-22 21:13:05,620] Role User - Step 10: Click to log out link
+[INFO] [2022-12-22 21:13:06,405] Role User - Step 11: Open admin URL
+[INFO] [2022-12-22 21:13:09,873] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-22 21:13:23,033] Role User - Step 13: Click to log out link
+[INFO] [2022-12-22 21:42:54,804] Role User - Step 01: Click to register link
+[INFO] [2022-12-22 21:42:56,038] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-22 21:42:56,247] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-22 21:42:56,436] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-22 21:42:56,640] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-22 21:42:56,854] Role User - Step 06: Enter to email textbox with value '-374115880@test.com'
+[INFO] [2022-12-22 21:42:57,030] Role User - Step 07: Click to register button
+[INFO] [2022-12-22 21:42:57,912] Role User - Step 08: Click to log in link
+[INFO] [2022-12-22 21:42:58,361] Role User - Step 09: Log in with giving information: -374115880@test.com / password
+[INFO] [2022-12-22 21:42:59,544] Role User - Step 10: Click to log out link
+[INFO] [2022-12-22 21:43:00,270] Role User - Step 11: Open admin URL
+[INFO] [2022-12-22 21:43:02,646] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-22 21:43:07,123] Role User - Step 13: Click to log out link
+[INFO] [2022-12-22 22:00:44,312] Role User - Step 01: Click to register link
+[INFO] [2022-12-22 22:00:45,413] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-22 22:00:45,607] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-22 22:00:45,821] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-22 22:00:46,018] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-22 22:00:46,200] Role User - Step 06: Enter to email textbox with value '566836396@test.com'
+[INFO] [2022-12-22 22:00:46,393] Role User - Step 07: Click to register button
+[INFO] [2022-12-22 22:00:47,291] Role User - Step 08: Click to log in link
+[INFO] [2022-12-22 22:00:47,717] Role User - Step 09: Log in with giving information: 566836396@test.com / password
+[INFO] [2022-12-22 22:00:48,808] Role User - Step 10: Click to log out link
+[INFO] [2022-12-22 22:00:49,565] Role User - Step 11: Open admin URL
+[INFO] [2022-12-22 22:00:51,049] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-22 22:00:56,895] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:02:52,791] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:02:53,832] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:02:54,090] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:02:54,345] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:02:54,560] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:02:54,769] Role User - Step 06: Enter to email textbox with value '71387725@test.com'
+[INFO] [2022-12-23 14:02:54,982] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:02:56,021] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:02:56,470] Role User - Step 09: Log in with giving information: 71387725@test.com / password
+[INFO] [2022-12-23 14:02:57,680] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:02:58,348] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:03:00,199] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:03:03,942] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:07:48,741] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:07:49,766] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:07:50,016] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:07:50,269] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:07:50,546] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:07:50,865] Role User - Step 06: Enter to email textbox with value '-1981994391@test.com'
+[INFO] [2022-12-23 14:07:51,172] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:07:52,121] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:09:28,498] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:09:29,462] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:09:29,692] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:09:29,932] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:09:30,168] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:09:30,399] Role User - Step 06: Enter to email textbox with value '1772735401@test.com'
+[INFO] [2022-12-23 14:09:30,630] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:09:31,637] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:09:32,100] Role User - Step 09: Log in with giving information: 1772735401@test.com / password
+[INFO] [2022-12-23 14:09:33,424] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:09:34,139] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:09:35,570] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:09:39,047] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:13:26,545] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:13:27,821] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:13:28,036] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:13:28,261] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:13:28,475] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:13:28,689] Role User - Step 06: Enter to email textbox with value '1275270201@test.com'
+[INFO] [2022-12-23 14:13:28,905] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:13:29,958] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:13:30,495] Role User - Step 09: Log in with giving information: 1275270201@test.com / password
+[INFO] [2022-12-23 14:13:31,952] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:13:32,759] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:13:35,061] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:13:39,210] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:29:16,775] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:29:18,031] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:29:18,240] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:29:18,449] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:29:18,670] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:29:18,881] Role User - Step 06: Enter to email textbox with value '1883880601@test.com'
+[INFO] [2022-12-23 14:29:19,094] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:29:20,025] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:29:20,503] Role User - Step 09: Log in with giving information: 1883880601@test.com / password
+[INFO] [2022-12-23 14:29:21,719] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:29:22,433] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:29:24,738] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:29:28,917] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:31:41,867] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:31:43,100] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:31:43,360] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:31:43,567] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:31:43,785] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:31:43,999] Role User - Step 06: Enter to email textbox with value '1465233680@test.com'
+[INFO] [2022-12-23 14:31:44,222] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:31:45,229] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:31:45,742] Role User - Step 09: Log in with giving information: 1465233680@test.com / password
+[INFO] [2022-12-23 14:31:46,937] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:31:47,689] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:31:49,870] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:31:54,148] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:38:32,201] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:38:33,199] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:38:33,454] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:38:33,694] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:38:33,900] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:38:34,143] Role User - Step 06: Enter to email textbox with value '689621264@test.com'
+[INFO] [2022-12-23 14:38:34,363] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:38:35,245] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:38:35,697] Role User - Step 09: Log in with giving information: 689621264@test.com / password
+[INFO] [2022-12-23 14:38:36,771] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:38:37,460] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:38:39,365] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:38:42,462] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:49:28,244] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:49:29,117] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:49:29,311] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:49:29,508] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:49:29,691] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:49:29,879] Role User - Step 06: Enter to email textbox with value '1304228390@test.com'
+[INFO] [2022-12-23 14:49:30,072] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:49:30,896] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:49:31,320] Role User - Step 09: Log in with giving information: 1304228390@test.com / password
+[INFO] [2022-12-23 14:49:32,462] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:49:33,152] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:49:34,496] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:49:37,646] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:50:07,233] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:50:08,367] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:50:08,589] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:50:08,818] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:50:09,028] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:50:09,227] Role User - Step 06: Enter to email textbox with value '-1532946984@test.com'
+[INFO] [2022-12-23 14:50:09,438] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:50:10,347] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:50:10,828] Role User - Step 09: Log in with giving information: -1532946984@test.com / password
+[INFO] [2022-12-23 14:50:12,264] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:50:12,996] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:50:15,246] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:50:19,265] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:51:49,242] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:51:50,169] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:51:50,417] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:51:50,638] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:51:50,859] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:51:51,117] Role User - Step 06: Enter to email textbox with value '-1943700921@test.com'
+[INFO] [2022-12-23 14:51:51,424] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:51:52,336] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:51:52,761] Role User - Step 09: Log in with giving information: -1943700921@test.com / password
+[INFO] [2022-12-23 14:51:53,918] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:51:54,621] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:51:57,127] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:52:04,055] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:54:11,251] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:54:12,384] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:54:12,609] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:54:12,851] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:54:13,097] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:54:13,299] Role User - Step 06: Enter to email textbox with value '614554888@test.com'
+[INFO] [2022-12-23 14:54:13,533] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:54:14,538] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:54:15,059] Role User - Step 09: Log in with giving information: 614554888@test.com / password
+[INFO] [2022-12-23 14:54:16,459] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:54:17,286] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:54:19,647] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:54:24,335] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:57:07,462] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:57:08,673] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:57:08,877] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:57:09,088] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:57:09,290] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:57:09,495] Role User - Step 06: Enter to email textbox with value '878057354@test.com'
+[INFO] [2022-12-23 14:57:09,690] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:57:10,586] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:57:11,029] Role User - Step 09: Log in with giving information: 878057354@test.com / password
+[INFO] [2022-12-23 14:57:12,220] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:57:12,943] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:57:14,797] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:57:19,242] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 14:58:19,964] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 14:58:21,204] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 14:58:21,413] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 14:58:21,621] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 14:58:21,825] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 14:58:22,028] Role User - Step 06: Enter to email textbox with value '-1844016523@test.com'
+[INFO] [2022-12-23 14:58:22,252] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 14:58:23,165] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 14:58:23,616] Role User - Step 09: Log in with giving information: -1844016523@test.com / password
+[INFO] [2022-12-23 14:58:24,841] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 14:58:25,574] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 14:58:27,336] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 14:58:31,832] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 15:00:30,839] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:00:31,762] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 15:00:31,963] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 15:00:32,172] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 15:00:32,369] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 15:00:32,578] Role User - Step 06: Enter to email textbox with value '1060173655@test.com'
+[INFO] [2022-12-23 15:00:32,790] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 15:00:33,712] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 15:00:34,167] Role User - Step 09: Log in with giving information: 1060173655@test.com / password
+[INFO] [2022-12-23 15:00:35,329] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 15:00:36,020] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 15:00:37,380] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 15:00:40,640] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 15:05:04,653] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:05:05,744] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 15:05:05,920] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 15:05:06,116] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 15:05:06,288] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 15:05:06,459] Role User - Step 06: Enter to email textbox with value '1663919860@test.com'
+[INFO] [2022-12-23 15:05:06,654] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 15:05:07,626] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 15:05:08,110] Role User - Step 09: Log in with giving information: 1663919860@test.com / password
+[INFO] [2022-12-23 15:05:09,277] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 15:05:10,442] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 15:05:12,568] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 15:05:16,852] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 15:09:28,528] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:09:29,746] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 15:09:29,959] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 15:09:30,169] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 15:09:30,374] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 15:09:30,555] Role User - Step 06: Enter to email textbox with value '1779842481@test.com'
+[INFO] [2022-12-23 15:09:30,755] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 15:09:31,635] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 15:09:32,075] Role User - Step 09: Log in with giving information: 1779842481@test.com / password
+[INFO] [2022-12-23 15:09:33,227] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 15:09:33,939] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 15:09:36,335] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 15:09:40,234] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 15:17:15,289] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:18:24,769] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:18:25,919] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 15:18:26,136] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 15:18:26,326] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 15:18:26,499] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 15:18:26,680] Role User - Step 06: Enter to email textbox with value '-812036183@test.com'
+[INFO] [2022-12-23 15:18:26,873] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 15:18:27,778] Role User - Step 08: Click to log in link
+[INFO] [2022-12-23 15:18:28,202] Role User - Step 09: Log in with giving information: -812036183@test.com / password
+[INFO] [2022-12-23 15:18:29,648] Role User - Step 10: Click to log out link
+[INFO] [2022-12-23 15:18:30,386] Role User - Step 11: Open admin URL
+[INFO] [2022-12-23 15:18:32,722] Role User - Step 12: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 15:18:36,754] Role User - Step 13: Click to log out link
+[INFO] [2022-12-23 15:25:23,735] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:25:24,635] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 15:25:24,842] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 15:25:25,060] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 15:25:25,245] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 15:25:25,416] Role User - Step 06: Enter to email textbox with value '-1609095192@test.com'
+[INFO] [2022-12-23 15:25:25,617] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 15:25:26,365] Role User - Step 08: Verify successfully register message
+[INFO] [2022-12-23 15:25:26,468] Role User - Step 09: Click to log in link
+[INFO] [2022-12-23 15:25:26,895] Role User - Step 10: Log in with giving information: -1609095192@test.com / password
+[INFO] [2022-12-23 15:25:28,006] Role User - Step 11: Verify account is link
+[INFO] [2022-12-23 15:25:28,478] Role User - Step 12: Click to log out link
+[INFO] [2022-12-23 15:25:29,161] Role User - Step 13: Open admin URL
+[INFO] [2022-12-23 15:25:30,519] Role User - Step 14: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 15:25:33,855] Role User - Step 15: Verify dashboard header is displayed
+[INFO] [2022-12-23 15:25:34,089] Role User - Step 16: Click to log out link
+[INFO] [2022-12-23 15:26:41,749] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:26:42,934] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 15:26:43,126] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 15:26:43,333] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 15:26:43,524] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 15:26:43,726] Role User - Step 06: Enter to email textbox with value '-315393290@test.com'
+[INFO] [2022-12-23 15:26:43,942] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 15:26:44,699] Role User - Step 08: Verify successfully register message
+[INFO] [2022-12-23 15:26:44,810] Role User - Step 09: Click to log in link
+[INFO] [2022-12-23 15:26:45,255] Role User - Step 10: Log in with giving information: -315393290@test.com / password
+[INFO] [2022-12-23 15:26:46,392] Role User - Step 11: Verify account is link
+[INFO] [2022-12-23 15:26:46,848] Role User - Step 12: Click to log out link
+[INFO] [2022-12-23 15:26:47,573] Role User - Step 13: Open admin URL
+[INFO] [2022-12-23 15:26:49,654] Role User - Step 14: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 15:26:54,320] Role User - Step 15: Verify dashboard header is displayed
+[INFO] [2022-12-23 15:26:54,620] Role User - Step 16: Click to log out link
+[INFO] [2022-12-23 15:37:04,221] Role User - Step 01: Click to register link
+[INFO] [2022-12-23 15:37:05,384] Role User - Step 02: Enter to first name textbox with value 'First name'
+[INFO] [2022-12-23 15:37:05,583] Role User - Step 03: Enter to last name textbox with value 'Last name'
+[INFO] [2022-12-23 15:37:05,811] Role User - Step 04: Enter to password textbox with value 'password'
+[INFO] [2022-12-23 15:37:06,027] Role User - Step 05: Enter to confirm password textbox with value 'password'
+[INFO] [2022-12-23 15:37:06,288] Role User - Step 06: Enter to email textbox with value '-98583161@test.com'
+[INFO] [2022-12-23 15:37:06,530] Role User - Step 07: Click to register button
+[INFO] [2022-12-23 15:37:07,523] Role User - Step 08: Verify successfully register message
+[INFO] [2022-12-23 15:37:07,682] Role User - Step 09: Click to log in link
+[INFO] [2022-12-23 15:37:08,317] Role User - Step 10: Log in with giving information: -98583161@test.com / password
+[INFO] [2022-12-23 15:37:09,926] Role User - Step 11: Verify account is link
+[INFO] [2022-12-23 15:37:09,964] Role User - Step 12: Click to log out link
+[INFO] [2022-12-23 15:37:10,857] Role User - Step 13: Open admin URL
+[INFO] [2022-12-23 15:37:12,693] Role User - Step 14: Login with admin information: admin@yourstore.com / admin
+[INFO] [2022-12-23 15:37:16,888] Role User - Step 15: Verify dashboard header is displayed
+[INFO] [2022-12-23 15:37:17,001] Role User - Step 16: Click to log out link

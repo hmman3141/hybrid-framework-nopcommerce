@@ -32,5 +32,9 @@
 	<classpathentry kind="lib" path="libReportNG/velocity-1.4.jar"/>
 	<classpathentry kind="lib" path="libReportNG/reportng-1.2.2.jar"/>
 	<classpathentry kind="lib" path="libReportNG/freemarker.jar"/>
+	<classpathentry kind="lib" path="libExtendReport/extentreports-5.0.9.jar"/>
+	<classpathentry kind="lib" path="libExtendReport/lombok-1.18.12.jar"/>
+	<classpathentry kind="lib" path="libExtendReport/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libExtendReport/rxjava-3.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import pageObjects.nopCommerce.user.PageGeneratorManager;
-import pageUIs.nopCommerce.admin.AdminDashboardPageUI;
 import pageUIs.nopCommerce.admin.AdminLoginPageUI;
 
 public class AdminLoginPageObject extends BasePage {

@@ -42,41 +42,45 @@ public class User_04_Switch_Role_02_Log_ReportNG extends BaseTest {
 
 	@Test
 	public void Role_01_User() {
-		log.info("Role User - Step 01: Click to register link");
+		Info("Role User - Step 01: Click to register link");
 		userRegisterPageObject = userHomePage.clickToRegisterLink();
 
-		log.info("Role User - Step 02: Enter to first name textbox with value '" + userFirstName + "'");
+		Info("Role User - Step 02: Enter to first name textbox with value '" + userFirstName + "'");
 		userRegisterPageObject.sendKeyToFirstNameTextbox(userFirstName);
-		log.info("Role User - Step 03: Enter to last name textbox with value '" + userLastName + "'");
+		Info("Role User - Step 03: Enter to last name textbox with value '" + userLastName + "'");
 		userRegisterPageObject.sendKeyToLastNameTextbox(userLastName);
-		log.info("Role User - Step 04: Enter to password textbox with value '" + userPassword + "'");
+		Info("Role User - Step 04: Enter to password textbox with value '" + userPassword + "'");
 		userRegisterPageObject.sendKeyToPasswordTextbox(userPassword);
-		log.info("Role User - Step 05: Enter to confirm password textbox with value '" + userPassword + "'");
+		Info("Role User - Step 05: Enter to confirm password textbox with value '" + userPassword + "'");
 		userRegisterPageObject.sendKeyToConfirmPasswordTextbox(userPassword);
-		log.info("Role User - Step 06: Enter to email textbox with value '" + userEmail + "'");
+		Info("Role User - Step 06: Enter to email textbox with value '" + userEmail + "'");
 		userRegisterPageObject.sendKeyToEmailTextbox(userEmail);
-		log.info("Role User - Step 07: Click to register button");
+		Info("Role User - Step 07: Click to register button");
 		userRegisterPageObject.clickToRegisterButton();
 
+		Info("Role User - Step 08: Verify successfully register message");
 		verifyEquals(userRegisterPageObject.getRegisterSuccessMessage(), "Your registration completed");
 
-		log.info("Role User - Step 08: Click to log in link");
+		Info("Role User - Step 09: Click to log in link");
 		userLoginPage = userHomePage.clickToLoginLink();
-		log.info("Role User - Step 09: Log in with giving information: " + userEmail + " / " + userPassword);
+		Info("Role User - Step 10: Log in with giving information: " + userEmail + " / " + userPassword);
 		userHomePage = userLoginPage.loginAsUser(userEmail, userPassword);
 
+		Info("Role User - Step 11: Verify account is link");
 		verifyTrue(userHomePage.isAccountLink());
 
-		log.info("Role User - Step 10: Click to log out link");
+		Info("Role User - Step 12: Click to log out link");
 		userHomePage = userHomePage.clickToLogoutAtUserPage(driver);
-		log.info("Role User - Step 11: Open admin URL");
+		Info("Role User - Step 13: Open admin URL");
 		userHomePage.openURL(driver, GlobalConstants.ADMIN_PAGE_URL);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
 
-		log.info("Role User - Step 12: Login with admin information: " + adminEmail + " / " + adminPassword);
+		Info("Role User - Step 14: Login with admin information: " + adminEmail + " / " + adminPassword);
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
+		
+		Info("Role User - Step 15: Verify dashboard header is displayed");
 		verifyTrue(adminDashboardPage.isDashboardHeaderDisplayed());
-		log.info("Role User - Step 13: Click to log out link");
+		Info("Role User - Step 16: Click to log out link");
 		adminLoginPage = adminDashboardPage.clickToLogoutAtAdminPage(driver);
 	}
 

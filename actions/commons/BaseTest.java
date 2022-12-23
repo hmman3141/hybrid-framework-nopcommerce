@@ -1,5 +1,7 @@
 package commons;
 
+import static reportConfig.ExtentTestManager.getTest;
+
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -13,21 +15,28 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import com.aventstack.extentreports.Status;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
+import static reportConfig.TestListener.getBase64Screenshot;
 
 public class BaseTest {
+	private WebDriver driver;
 	protected final Log log;
-	
+
 	private String cocCocPath = "C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe";
 	private String cocCocDriverVersion = "106.0.5249.61";
 	private String firefoxDriverVersion = "0.31.0";
-	
+
 	public BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
 
+	public WebDriver getInstanceDriver() {
+		return this.driver;
+	}
+
 	protected WebDriver getBrowserDriver(String browserName) {
-		WebDriver driver = null;
 		switch (browserName) {
 		case "firefox":
 			WebDriverManager.firefoxdriver().driverVersion(firefoxDriverVersion).setup();
@@ -54,12 +63,12 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		return driver;
 	}
-	
+
 	protected int getRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt();
 	}
-	
+
 	private boolean checkTrue(boolean condition) {
 		boolean pass = true;
 		try {
@@ -68,31 +77,32 @@ public class BaseTest {
 		} catch (Throwable e) {
 			pass = false;
 			System.out.println(" -------------------------- FAILED -------------------------- ");
-
 			FailureVerification.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
+			Fail();
 		}
 		return pass;
 	}
-	
+
 	protected boolean verifyTrue(boolean condition) {
 		return checkTrue(condition);
 	}
-	
+
 	private boolean checkFailed(boolean condition) {
 		boolean pass = true;
 		try {
 			Assert.assertFalse(condition);
-			System.out.println(" -------------------------- FAILED -------------------------- ");
+			System.out.println(" -------------------------- PASSED -------------------------- ");
 		} catch (Throwable e) {
 			pass = false;
-			System.out.println(" -------------------------- PASSED -------------------------- ");
+			System.out.println(" -------------------------- FAILED -------------------------- ");
 			FailureVerification.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
+			Fail();
 		}
 		return pass;
 	}
-	
+
 	protected boolean verifyFalse(boolean condition) {
 		return checkFailed(condition);
 	}
@@ -107,11 +117,23 @@ public class BaseTest {
 			System.out.println(" -------------------------- PASSED -------------------------- ");
 			FailureVerification.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
+			Fail();
 		}
 		return pass;
 	}
 
 	protected boolean verifyEquals(Object actual, Object expected) {
 		return checkEquals(actual, expected);
+	}
+
+	protected void Info(String message) {
+		log.info(message);
+		getTest().log(Status.INFO, message);
+	}
+
+	private void Fail() {
+		String base64Screenshot = getBase64Screenshot(driver);
+		getTest().log(Status.FAIL, "Step Failed",
+				getTest().addScreenCaptureFromBase64String(base64Screenshot).getModel().getMedia().get(0));
 	}
 }
