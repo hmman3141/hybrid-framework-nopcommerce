@@ -36,5 +36,9 @@
 	<classpathentry kind="lib" path="libExtendReport/lombok-1.18.12.jar"/>
 	<classpathentry kind="lib" path="libExtendReport/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="libExtendReport/rxjava-3.0.4.jar"/>
+	<classpathentry kind="lib" path="libAllure/allure-java-commons-2.20.1.jar"/>
+	<classpathentry kind="lib" path="libAllure/allure-testng-2.20.1.jar"/>
+	<classpathentry kind="lib" path="libAllure/allure-test-filter-2.20.1.jar"/>
+	<classpathentry kind="lib" path="libAllure/allure-model-2.20.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce">
+
+	<listeners>
+		<listener class-name="reportConfig.AllureListener" />
+	</listeners>
+
+	<test name="Run on Chrome">
+		<parameter name="Browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.exclude.user.User_01_Register_Login_06_Allure"></class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.GlobalConstants;
-import pageObjects.nopCommerce.user.UserHomePageObject_BaseFactory;
-import pageObjects.nopCommerce.user.UserLoginPageObject_BaseFactory;
+import pageObjects.nopCommerce.user.baseFactory.UserHomePageObject_BaseFactory;
+import pageObjects.nopCommerce.user.baseFactory.UserLoginPageObject_BaseFactory;
 
 public class User_02_Login_02_Page_Factory extends BaseTest {
 	private WebDriver driver;
