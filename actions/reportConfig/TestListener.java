@@ -24,6 +24,14 @@ public class TestListener extends BaseTest implements ITestListener {
 		return "data:image/png;base64,"
 				+ ((TakesScreenshot) Objects.requireNonNull(driver)).getScreenshotAs(OutputType.BASE64);
 	}
+	
+	public static void startTest(String testName, String desc) {
+		ExtentTestManager.startTest(testName, desc);
+	}
+	
+	public static void endTest() {
+		ExtentManager.extentReports.flush();
+	}
 
 	@Override
 	public void onStart(ITestContext iTestContext) {

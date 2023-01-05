@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -202,6 +203,16 @@ public class BasePage {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		return (String) executor.executeScript("return arguments[0].value",
 				getWebElement(driver, xpathLocator, dynamicVariables));
+	}
+	
+	public Set<Cookie> getAllCookies(WebDriver driver) {
+		return driver.manage().getCookies();
+	}
+	
+	public void setCookies(WebDriver driver, Set<Cookie> cookies) {
+		for (Cookie cookie : cookies) {
+			driver.manage().addCookie(cookie);
+		}
 	}
 
 	protected void selectItemInDefaultDropdown(WebDriver driver, String locator, String text) {

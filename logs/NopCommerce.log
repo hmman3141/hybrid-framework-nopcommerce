@@ -435,3 +435,130 @@
 [INFO] [2022-12-23 15:37:12,693] Role User - Step 14: Login with admin information: admin@yourstore.com / admin
 [INFO] [2022-12-23 15:37:16,888] Role User - Step 15: Verify dashboard header is displayed
 [INFO] [2022-12-23 15:37:17,001] Role User - Step 16: Click to log out link
+[INFO] [2023-01-05 21:30:28,020] Login - Step 01: Click to login link
+[INFO] [2023-01-05 21:30:29,167] Login - Step 02: Login with information: '%s/%s'-102448807@test.com/password
+[INFO] [2023-01-05 21:30:30,468] Login - Step 03: Verify account is linked
+[INFO] [2023-01-05 21:30:33,435] User-Addresses - Step 01: Click to my account link
+[INFO] [2023-01-05 21:36:37,180] Login - Step 01: Click to login link
+[INFO] [2023-01-05 21:36:38,001] Login - Step 02: Login with information: '%s/%s'-1105126030@test.com/password
+[INFO] [2023-01-05 21:36:39,402] Login - Step 03: Verify account is linked
+[INFO] [2023-01-05 21:36:39,594] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-05 21:36:40,229] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-05 21:36:40,412] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-05 21:36:40,634] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-05 21:36:40,857] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 21:36:41,103] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-05 21:36:41,277] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-05 21:36:41,449] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-05 21:36:41,620] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-05 21:36:41,839] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-05 21:36:43,528] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-05 21:36:43,604] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-05 21:36:43,665] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 21:36:43,728] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-05 21:36:43,792] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-05 21:36:43,954] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-05 21:36:44,095] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-05 21:36:48,431] User-Addresses - Step 01: Click to my account link
+[INFO] [2023-01-05 21:41:22,164] Login - Step 01: Click to login link
+[INFO] [2023-01-05 21:41:23,708] Login - Step 02: Login with information: '%s/%s'1685048733@test.com/password
+[INFO] [2023-01-05 21:41:24,919] Login - Step 03: Verify account is linked
+[INFO] [2023-01-05 21:41:25,103] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-05 21:41:25,786] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-05 21:41:25,954] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-05 21:41:26,151] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-05 21:41:26,371] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 21:41:26,573] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-05 21:41:26,717] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-05 21:41:26,874] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-05 21:41:27,029] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-05 21:41:27,253] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-05 21:41:28,636] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-05 21:41:28,735] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-05 21:41:28,797] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 21:41:28,858] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-05 21:41:28,936] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-05 21:41:29,097] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-05 21:41:29,231] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-05 21:41:50,293] User-Addresses - Step 01: Click to my account link
+[INFO] [2023-01-05 21:49:44,385] Login - Step 01: Click to login link
+[INFO] [2023-01-05 21:49:44,970] Login - Step 02: Login with information: '%s/%s'-1591619653@test.com/password
+[INFO] [2023-01-05 21:49:46,247] Login - Step 03: Verify account is linked
+[INFO] [2023-01-05 21:49:46,391] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-05 21:49:46,959] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-05 21:49:47,112] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-05 21:49:47,307] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-05 21:49:47,528] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 21:49:47,874] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-05 21:49:48,047] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-05 21:49:48,216] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-05 21:49:48,416] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-05 21:49:48,665] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-05 21:49:49,197] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-05 21:49:49,315] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-05 21:49:49,410] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 21:49:49,515] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-05 21:49:49,633] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-05 21:49:49,772] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-05 21:49:49,989] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-05 21:50:11,022] User-Addresses - Step 01: Click to my account link
+[INFO] [2023-01-05 22:11:39,118] Login - Step 01: Click to login link
+[INFO] [2023-01-05 22:11:42,863] Login - Step 02: Login with information: '%s/%s'-526414574@test.com/password
+[INFO] [2023-01-05 22:11:44,636] Login - Step 03: Verify account is linked
+[INFO] [2023-01-05 22:11:44,675] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-05 22:11:45,454] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-05 22:11:45,631] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-05 22:11:45,827] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-05 22:11:46,027] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 22:11:46,243] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-05 22:11:46,386] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-05 22:11:46,547] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-05 22:11:46,732] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-05 22:11:46,935] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-05 22:11:48,799] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-05 22:11:48,857] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-05 22:11:48,919] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 22:11:48,980] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-05 22:11:49,041] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-05 22:11:49,158] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-05 22:11:49,265] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-05 22:16:35,309] Login - Step 01: Click to login link
+[INFO] [2023-01-05 22:16:36,732] Login - Step 02: Login with information: 1006505468@test.com/password
+[INFO] [2023-01-05 22:16:38,045] Login - Step 03: Verify account is linked
+[INFO] [2023-01-05 22:16:38,082] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-05 22:16:38,767] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-05 22:16:38,925] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-05 22:16:39,107] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-05 22:16:39,315] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 22:16:39,546] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-05 22:16:39,686] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-05 22:16:39,847] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-05 22:16:40,004] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-05 22:16:40,220] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-05 22:16:40,713] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-05 22:16:40,798] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-05 22:16:40,861] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-05 22:16:40,926] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-05 22:16:40,985] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-05 22:16:41,102] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-05 22:16:41,243] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-06 00:17:01,569] Login - Step 01: Click to login link
+[INFO] [2023-01-06 00:17:02,877] Login - Step 02: Login with information: -223168961@test.com/password
+[INFO] [2023-01-06 00:17:04,266] Login - Step 03: Verify account is linked
+[INFO] [2023-01-06 00:17:04,480] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-06 00:17:05,187] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-06 00:17:05,387] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-06 00:17:05,660] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-06 00:17:05,917] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 00:17:06,209] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-06 00:17:06,406] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-06 00:17:06,589] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-06 00:17:06,789] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-06 00:17:07,091] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-06 00:17:07,970] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-06 00:17:08,079] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-06 00:17:08,157] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 00:17:08,233] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-06 00:17:08,328] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-06 00:17:08,514] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-06 00:17:08,682] User-Customer Information - Step 17: Verify first name with value: 1999

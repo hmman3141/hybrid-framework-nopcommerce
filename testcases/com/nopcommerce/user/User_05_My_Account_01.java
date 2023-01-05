@@ -22,7 +22,7 @@ import pageObjects.nopCommerce.user.UserProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageUIs.nopCommerce.user.UserCustomerInfoSidebar;
 
-public class User_05_My_Account extends BaseTest {
+public class User_05_My_Account_01 extends BaseTest {
 	private WebDriver driver;
 	private String createdEmail, createdFirstName, createdLastName, password, newPassword, dayOfBirth, monthOfBirth,
 			yearOfBirth, firstName, lastName, email, company, country, state, city, address1, address2, postalCode,
