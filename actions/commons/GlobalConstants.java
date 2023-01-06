@@ -10,6 +10,7 @@ public class GlobalConstants {
 	public static final String DOWNLOAD_FILE_FOLDER_PATH = PROJECT_PATH + File.separator + "downloadFiles";
 	public static final String BROWSER_LOG_FOLDER_PATH = PROJECT_PATH + File.separator + "browserLogs";
 	public static final String REPORT_HTML5_FOLDER_PATH = PROJECT_PATH + File.separator + "reportHTML";
+	public static final String OS_NAME = "window";
 	public static final long SHORT_TIMEOUT = 5;
 	public static final long LONG_TIMEOUT = 10;
 	public static final long RETRY_TEST_FAIL = 3;

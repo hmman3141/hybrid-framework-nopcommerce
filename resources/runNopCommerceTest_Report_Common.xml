@@ -11,7 +11,7 @@
 		<parameter name="Browser" value="chrome" />
 		<classes>
 			<class name="com.nopcommerce.common.Common_01_Register_New_Account"></class>
-			<class name="com.nopcommerce.exclude.user.User_05_My_Account_02_Log_Cookies"></class>
+			<class name="com.nopcommerce.exclude.user.User_05_My_Account_02_Log_Common"></class>
 		</classes>
 	</test> <!-- Test -->
 

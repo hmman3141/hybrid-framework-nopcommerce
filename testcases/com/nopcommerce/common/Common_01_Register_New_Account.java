@@ -1,7 +1,6 @@
 package com.nopcommerce.common;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -57,10 +56,7 @@ public class Common_01_Register_New_Account extends BaseTest {
 		userHomePage.clickToLoginLink();
 		
 		TestListener.endTest();
-	}
-
-	@AfterTest
-	public void afterTest() {
-		driver.close();
+		
+		closeBrowserDriver();
 	}
 }

@@ -16,7 +16,7 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import reportConfig.TestListener;
 
-public class User_05_My_Account_02_Log_Cookies extends BaseTest {
+public class User_05_My_Account_02_Log_Common extends BaseTest {
 	private WebDriver driver;
 	private String dayOfBirth, monthOfBirth, yearOfBirth, firstName, lastName, email, company;
 	private UserHomePageObject userHomePage;
@@ -94,8 +94,8 @@ public class User_05_My_Account_02_Log_Cookies extends BaseTest {
 		verifyEquals(userCustomerInfoPage.getTextFromYearOfBirthDropdown(), yearOfBirth);
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		driver.close();
+		closeBrowserDriver();
 	}
 }
