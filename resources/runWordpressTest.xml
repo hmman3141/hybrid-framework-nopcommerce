@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.TestListener" />
+	</listeners>
+
+	<test name="Run on Chrome">
+		<parameter name="Browser" value="chrome" />
+		<packages>
+			<package name="com.wordpress.post"></package>
+		</packages>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

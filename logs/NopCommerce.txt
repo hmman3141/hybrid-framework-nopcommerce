@@ -1,20 +1,43 @@
-[INFO] [2023-01-06 00:17:01,569] Login - Step 01: Click to login link
-[INFO] [2023-01-06 00:17:02,877] Login - Step 02: Login with information: -223168961@test.com/password
-[INFO] [2023-01-06 00:17:04,266] Login - Step 03: Verify account is linked
-[INFO] [2023-01-06 00:17:04,480] User-Customer Information - Step 01: Click to my account link
-[INFO] [2023-01-06 00:17:05,187] User-Customer Information - Step 02: Click to female radio button
-[INFO] [2023-01-06 00:17:05,387] User-Customer Information - Step 03: Send key to first name test box with value: First name
-[INFO] [2023-01-06 00:17:05,660] User-Customer Information - Step 04: Send key to last name test box with value: Last name
-[INFO] [2023-01-06 00:17:05,917] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
-[INFO] [2023-01-06 00:17:06,209] User-Customer Information - Step 06: Select item from day checkbox with value: 1
-[INFO] [2023-01-06 00:17:06,406] User-Customer Information - Step 07: Select item from month checkbox with value: January
-[INFO] [2023-01-06 00:17:06,589] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
-[INFO] [2023-01-06 00:17:06,789] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
-[INFO] [2023-01-06 00:17:07,091] User-Customer Information - Step 10: Click to save button
-[INFO] [2023-01-06 00:17:07,970] User-Customer Information - Step 11: Verify first name with value: First name
-[INFO] [2023-01-06 00:17:08,079] User-Customer Information - Step 12: Verify first name with value: Last name
-[INFO] [2023-01-06 00:17:08,157] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
-[INFO] [2023-01-06 00:17:08,233] User-Customer Information - Step 14: Verify first name with value: Automation FC
-[INFO] [2023-01-06 00:17:08,328] User-Customer Information - Step 15: Verify first name with value: 1
-[INFO] [2023-01-06 00:17:08,514] User-Customer Information - Step 16: Verify first name with value: January
-[INFO] [2023-01-06 00:17:08,682] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-26 21:46:27,027] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:46:27,248] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:46:27,454] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:46:28,911] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:46:29,032] PASSED
+[INFO] [2023-01-26 21:46:29,032] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:46:30,419] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:46:30,421] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:46:32,000] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 391632314'
+[INFO] [2023-01-26 21:46:32,561] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:46:32,974] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:46:33,251] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:46:33,801] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:46:34,023] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:46:34,297] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:46:35,623] Create New Post - Step 09: Verify title with value 'Title for testing 391632314'
+[INFO] [2023-01-26 21:46:35,712] PASSED
+[INFO] [2023-01-26 21:46:35,712] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:46:35,804] PASSED
+[INFO] [2023-01-26 21:46:35,805] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:46:37,698] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:46:39,003] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 391632314'
+[INFO] [2023-01-26 21:46:39,115] PASSED
+[INFO] [2023-01-26 21:46:39,222] TEST SUCCEEDED
+[INFO] [2023-01-26 21:46:39,230] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:46:39,230] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:46:39,446] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:46:40,642] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 391632314'
+[INFO] [2023-01-26 21:46:41,754] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:46:41,967] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:46:42,522] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:46:42,765] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:46:43,314] PASSED
+[INFO] [2023-01-26 21:46:43,315] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:46:44,121] Update Post - Step 09: Verify title with value 'Edited Title for testing 391632314'
+[INFO] [2023-01-26 21:46:44,196] PASSED
+[INFO] [2023-01-26 21:46:44,197] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:46:44,253] PASSED
+[INFO] [2023-01-26 21:46:44,254] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:46:45,626] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:46:46,922] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 391632314'
+[INFO] [2023-01-26 21:46:47,027] PASSED
+[INFO] [2023-01-26 21:46:47,032] TEST SUCCEEDED

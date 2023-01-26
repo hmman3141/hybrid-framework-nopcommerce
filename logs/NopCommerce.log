@@ -562,3 +562,1142 @@
 [INFO] [2023-01-06 00:17:08,328] User-Customer Information - Step 15: Verify first name with value: 1
 [INFO] [2023-01-06 00:17:08,514] User-Customer Information - Step 16: Verify first name with value: January
 [INFO] [2023-01-06 00:17:08,682] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-06 11:01:13,334] Login - Step 01: Click to login link
+[INFO] [2023-01-06 11:01:14,466] Login - Step 02: Login with information: 2120513095@test.com/password
+[INFO] [2023-01-06 11:01:15,591] Login - Step 03: Verify account is linked
+[INFO] [2023-01-06 11:01:15,761] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-06 11:01:16,356] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-06 11:01:16,498] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-06 11:01:16,698] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-06 11:01:16,884] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:01:17,079] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-06 11:01:17,217] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-06 11:01:17,347] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-06 11:01:17,469] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-06 11:01:17,641] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-06 11:01:18,423] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-06 11:01:18,493] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-06 11:01:18,558] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:01:18,618] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-06 11:01:18,681] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-06 11:01:18,796] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-06 11:01:18,902] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-06 11:01:19,831] OS name = window
+[INFO] [2023-01-06 11:01:19,832] Driver instance name = chromedriver: chrome on windows (888815cb004120397505f22b736d4453)
+[INFO] [2023-01-06 11:05:46,320] Login - Step 01: Click to login link
+[INFO] [2023-01-06 11:05:47,565] Login - Step 02: Login with information: -896311552@test.com/password
+[INFO] [2023-01-06 11:05:48,661] Login - Step 03: Verify account is linked
+[INFO] [2023-01-06 11:05:48,831] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-06 11:05:49,405] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-06 11:05:49,563] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-06 11:05:49,746] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-06 11:05:49,950] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:05:50,162] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-06 11:05:50,295] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-06 11:05:50,455] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-06 11:05:50,607] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-06 11:05:50,835] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-06 11:05:51,332] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-06 11:05:51,418] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-06 11:05:51,499] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:05:51,576] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-06 11:05:51,635] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-06 11:05:51,760] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-06 11:05:51,894] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-06 11:05:53,142] OS name = window
+[INFO] [2023-01-06 11:05:53,143] Driver instance name = chromedriver: chrome on windows (e2f40d78d552fc4047966ba995432780)
+[INFO] [2023-01-06 11:13:06,776] Login - Step 01: Click to login link
+[INFO] [2023-01-06 11:13:07,986] Login - Step 02: Login with information: -1385046323@test.com/password
+[INFO] [2023-01-06 11:13:09,175] Login - Step 03: Verify account is linked
+[INFO] [2023-01-06 11:13:09,296] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-06 11:13:09,896] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-06 11:13:10,049] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-06 11:13:10,249] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-06 11:13:10,459] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:13:10,676] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-06 11:13:10,830] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-06 11:13:10,980] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-06 11:13:11,118] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-06 11:13:11,288] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-06 11:13:11,785] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-06 11:13:11,860] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-06 11:13:11,921] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:13:11,984] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-06 11:13:12,046] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-06 11:13:12,161] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-06 11:13:12,270] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-06 11:13:13,160] OS name = window
+[INFO] [2023-01-06 11:13:13,160] Driver instance name = chromedriver: chrome on windows (ea4e0b5156227dd2e16d050497a56375)
+[INFO] [2023-01-06 11:20:10,664] Login - Step 01: Click to login link
+[INFO] [2023-01-06 11:20:11,834] Login - Step 02: Login with information: 1603462477@test.com/password
+[INFO] [2023-01-06 11:20:12,870] Login - Step 03: Verify account is linked
+[INFO] [2023-01-06 11:20:13,037] User-Customer Information - Step 01: Click to my account link
+[INFO] [2023-01-06 11:20:13,562] User-Customer Information - Step 02: Click to female radio button
+[INFO] [2023-01-06 11:20:13,702] User-Customer Information - Step 03: Send key to first name test box with value: First name
+[INFO] [2023-01-06 11:20:13,880] User-Customer Information - Step 04: Send key to last name test box with value: Last name
+[INFO] [2023-01-06 11:20:14,046] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:20:14,236] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-01-06 11:20:14,359] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-01-06 11:20:14,487] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-01-06 11:20:14,609] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-01-06 11:20:14,778] User-Customer Information - Step 10: Click to save button
+[INFO] [2023-01-06 11:20:15,258] User-Customer Information - Step 11: Verify first name with value: First name
+[INFO] [2023-01-06 11:20:15,336] User-Customer Information - Step 12: Verify first name with value: Last name
+[INFO] [2023-01-06 11:20:15,398] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-01-06 11:20:15,462] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-01-06 11:20:15,524] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-01-06 11:20:15,634] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-01-06 11:20:15,745] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-01-06 11:20:16,572] OS name = window
+[INFO] [2023-01-06 11:20:16,574] Driver instance name = chromedriver: chrome on windows (e5629d9976aec5c006b9be8fb022607b)
+[INFO] [2023-01-21 10:52:04,180] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-21 10:52:04,393] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-21 10:52:04,571] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-21 10:52:05,783] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-21 10:52:05,878] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-21 10:52:07,054] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-21 10:52:08,538] Create New Post - Step 02: Send key to add title with value 'Title for testing -1906443209'
+[INFO] [2023-01-21 10:52:09,517] Create New Post - Step 03: Click to add content button
+[INFO] [2023-01-21 10:52:09,741] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-21 10:52:10,051] Create New Post - Step 05: Send key to add content with value 'Content for testing'
+[INFO] [2023-01-21 10:52:10,551] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-21 10:52:10,741] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-21 10:52:11,011] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-21 10:52:12,214] Create New Post - Step 09: Verify title with value 'Title for testing -1906443209'
+[INFO] [2023-01-21 10:52:12,288] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-21 10:52:12,355] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-21 10:52:13,858] Create New Post - Step 12: Click to view posts item
+[INFO] [2023-01-21 10:52:14,836] Create New Post - Step 13: Verify title of recently added post
+[INFO] [2023-01-22 23:43:01,426] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-22 23:43:01,823] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-22 23:43:02,058] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-22 23:43:03,993] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-22 23:43:04,105] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-22 23:43:05,802] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-22 23:43:08,498] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 643128769'
+[INFO] [2023-01-22 23:43:10,025] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-22 23:43:10,584] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-22 23:43:10,954] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-22 23:43:11,594] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-22 23:43:11,839] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-22 23:43:12,186] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-22 23:43:13,775] Create New Post - Step 09: Verify title with value 'Title for testing 643128769'
+[INFO] [2023-01-22 23:43:13,864] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-22 23:43:13,952] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-22 23:43:15,913] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-22 23:43:17,657] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 643128769'
+[INFO] [2023-01-22 23:43:17,946] Update Post - Step 01: Click to edit button of recently post
+[INFO] [2023-01-22 23:43:19,392] Update Post - Step 02: Send to add title textbox with value 'Edited Title for testing 643128769'
+[INFO] [2023-01-22 23:43:20,453] Update Post - Step 03: Click to add new content button
+[INFO] [2023-01-22 23:43:21,025] Update Post - Step 04: Click to add image button for content block
+[INFO] [2023-01-22 23:43:21,399] Update Post - Step 05: Upload image to image input
+[INFO] [2023-01-22 23:47:35,082] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-22 23:47:35,356] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-22 23:47:35,587] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-22 23:47:37,059] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-22 23:47:37,174] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-22 23:47:38,738] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-22 23:47:40,762] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 89323225'
+[INFO] [2023-01-22 23:47:42,346] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-22 23:47:42,644] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-22 23:47:43,038] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-22 23:47:43,714] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-22 23:47:43,946] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-22 23:47:44,279] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-22 23:47:45,806] Create New Post - Step 09: Verify title with value 'Title for testing 89323225'
+[INFO] [2023-01-22 23:47:45,889] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-22 23:47:45,984] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-22 23:47:47,906] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-22 23:47:49,493] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 89323225'
+[INFO] [2023-01-22 23:47:49,782] Update Post - Step 01: Click to edit button of recently post
+[INFO] [2023-01-22 23:50:29,393] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-22 23:50:29,681] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-22 23:50:29,901] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-22 23:50:31,442] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-22 23:50:31,560] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-22 23:50:33,138] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-22 23:50:35,052] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 534585530'
+[INFO] [2023-01-22 23:50:36,304] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-22 23:50:36,926] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-22 23:50:37,341] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-22 23:50:38,008] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-22 23:50:38,263] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-22 23:50:38,603] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-22 23:50:40,181] Create New Post - Step 09: Verify title with value 'Title for testing 534585530'
+[INFO] [2023-01-22 23:50:40,290] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-22 23:50:40,378] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-22 23:50:42,265] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-22 23:50:43,949] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 534585530'
+[INFO] [2023-01-22 23:50:44,176] Update Post - Step 01: Click to edit button of recently post
+[INFO] [2023-01-22 23:50:50,201] Update Post - Step 02: Send to add title textbox with value 'Edited Title for testing 534585530'
+[INFO] [2023-01-22 23:50:51,814] Update Post - Step 03: Click to add new content button
+[INFO] [2023-01-22 23:50:52,094] Update Post - Step 04: Click to update button
+[INFO] [2023-01-22 23:55:54,251] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-22 23:55:54,456] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-22 23:55:54,646] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-22 23:55:55,904] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-22 23:55:56,008] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-22 23:55:57,586] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-22 23:55:59,519] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -384157411'
+[INFO] [2023-01-22 23:56:01,039] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-22 23:56:01,368] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-22 23:56:01,744] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-22 23:56:02,420] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-22 23:56:02,665] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-22 23:56:03,008] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-22 23:56:04,547] Create New Post - Step 09: Verify title with value 'Title for testing -384157411'
+[INFO] [2023-01-22 23:56:04,629] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-22 23:56:04,724] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-22 23:56:06,698] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-22 23:56:08,358] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -384157411'
+[INFO] [2023-01-22 23:56:08,612] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-22 23:56:08,854] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-22 23:56:10,426] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -384157411'
+[INFO] [2023-01-22 23:56:11,007] Update Post - Step 04: Click to update button
+[INFO] [2023-01-22 23:57:26,323] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-22 23:57:26,512] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-22 23:57:26,691] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-22 23:57:27,831] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-22 23:57:27,932] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-22 23:57:29,424] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-22 23:57:31,468] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -1686387162'
+[INFO] [2023-01-22 23:57:33,039] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-22 23:57:33,369] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-22 23:57:33,741] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-22 23:57:34,367] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-22 23:57:34,609] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-22 23:57:34,935] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-22 23:57:36,451] Create New Post - Step 09: Verify title with value 'Title for testing -1686387162'
+[INFO] [2023-01-22 23:57:36,552] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-22 23:57:36,630] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-22 23:57:38,554] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-22 23:57:40,302] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -1686387162'
+[INFO] [2023-01-22 23:57:40,562] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-22 23:57:40,784] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-22 23:57:42,074] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -1686387162'
+[INFO] [2023-01-22 23:57:43,515] Update Post - Step 04: Click to update button
+[INFO] [2023-01-23 00:01:23,071] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-23 00:01:23,347] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-23 00:01:23,590] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-23 00:01:25,043] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-23 00:01:25,145] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-23 00:01:26,642] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-23 00:01:28,681] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 1964403739'
+[INFO] [2023-01-23 00:01:30,230] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-23 00:01:30,535] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-23 00:01:30,932] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-23 00:01:31,582] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-23 00:01:31,832] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-23 00:01:32,196] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-23 00:01:33,743] Create New Post - Step 09: Verify title with value 'Title for testing 1964403739'
+[INFO] [2023-01-23 00:01:33,858] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-23 00:01:33,933] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-23 00:01:35,842] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-23 00:01:37,634] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 1964403739'
+[INFO] [2023-01-23 00:01:37,868] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-23 00:01:38,066] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-23 00:01:39,468] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 1964403739'
+[INFO] [2023-01-23 00:01:40,859] Update Post - Step 04: Click to update button
+[INFO] [2023-01-23 00:02:25,614] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-23 00:02:25,888] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-23 00:02:26,118] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-23 00:02:27,604] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-23 00:02:27,726] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-23 00:02:29,243] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-23 00:02:31,283] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -332945876'
+[INFO] [2023-01-23 00:02:32,758] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-23 00:02:33,049] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-23 00:02:33,437] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-23 00:02:34,073] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-23 00:02:34,317] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-23 00:02:34,654] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-23 00:02:36,201] Create New Post - Step 09: Verify title with value 'Title for testing -332945876'
+[INFO] [2023-01-23 00:02:36,303] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-23 00:02:36,383] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-23 00:02:38,363] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-23 00:02:40,046] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -332945876'
+[INFO] [2023-01-23 00:02:40,306] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-23 00:02:40,523] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-23 00:02:41,901] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -332945876'
+[INFO] [2023-01-23 00:02:43,420] Update Post - Step 04: Click to update button
+[INFO] [2023-01-23 00:02:43,667] Update Post - Step 05: Click to view posts icon
+[INFO] [2023-01-23 00:02:43,890] Update Post - Step 06: Hover mouse to title of recently post
+[INFO] [2023-01-23 00:04:49,011] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-23 00:04:49,277] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-23 00:04:49,480] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-23 00:04:50,993] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-23 00:04:51,103] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-23 00:04:52,716] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-23 00:04:54,713] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 456748977'
+[INFO] [2023-01-23 00:04:56,384] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-23 00:04:56,677] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-23 00:04:57,074] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-23 00:04:57,771] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-23 00:04:58,007] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-23 00:04:58,394] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-23 00:04:59,905] Create New Post - Step 09: Verify title with value 'Title for testing 456748977'
+[INFO] [2023-01-23 00:05:00,005] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-23 00:05:00,102] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-23 00:05:02,111] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-23 00:05:03,725] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 456748977'
+[INFO] [2023-01-23 00:05:04,011] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-23 00:05:04,241] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-23 00:05:05,645] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 456748977'
+[INFO] [2023-01-23 00:05:06,996] Update Post - Step 04: Click to update button
+[INFO] [2023-01-23 00:05:07,254] Update Post - Step 05: Click to view posts icon
+[INFO] [2023-01-23 00:05:07,483] Update Post - Step 06: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:17:40,898] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:17:41,077] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:17:41,252] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:17:42,549] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:17:42,620] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:17:43,885] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:17:45,672] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 121811685'
+[INFO] [2023-01-25 10:17:46,528] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:17:46,764] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:17:47,085] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:17:47,559] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:17:47,744] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:17:48,013] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:17:49,220] Create New Post - Step 09: Verify title with value 'Title for testing 121811685'
+[INFO] [2023-01-25 10:17:49,304] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:17:49,369] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:17:50,847] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:17:51,791] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 121811685'
+[INFO] [2023-01-25 10:17:51,989] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:17:52,154] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:17:53,383] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 121811685'
+[INFO] [2023-01-25 10:17:54,372] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:17:54,596] Update Post - Step 05: Click to view posts icon
+[INFO] [2023-01-25 10:17:54,772] Update Post - Step 06: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:24:05,500] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:24:05,699] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:24:05,882] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:24:07,147] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:24:07,253] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:24:08,451] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:24:09,878] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 304103672'
+[INFO] [2023-01-25 10:24:10,808] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:24:11,036] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:24:11,321] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:24:11,796] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:24:12,005] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:24:12,277] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:24:13,355] Create New Post - Step 09: Verify title with value 'Title for testing 304103672'
+[INFO] [2023-01-25 10:24:13,447] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:24:13,498] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:24:14,967] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:24:15,966] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 304103672'
+[INFO] [2023-01-25 10:24:16,202] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:24:16,237] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:24:23,414] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 304103672'
+[INFO] [2023-01-25 10:24:24,690] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:24:24,952] Update Post - Step 05: Click to view posts icon
+[INFO] [2023-01-25 10:24:25,120] Update Post - Step 06: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:25:08,379] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:25:08,574] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:25:08,753] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:25:09,892] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:25:09,963] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:25:11,048] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:25:12,470] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 452908797'
+[INFO] [2023-01-25 10:25:13,373] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:25:13,607] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:25:13,899] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:25:14,352] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:25:14,550] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:25:14,827] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:25:15,903] Create New Post - Step 09: Verify title with value 'Title for testing 452908797'
+[INFO] [2023-01-25 10:25:15,976] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:25:16,059] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:25:17,532] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:25:18,611] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 452908797'
+[INFO] [2023-01-25 10:25:18,825] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:25:19,027] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:25:20,175] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 452908797'
+[INFO] [2023-01-25 10:25:21,303] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:25:21,520] Update Post - Step 05: Click to view posts icon
+[INFO] [2023-01-25 10:25:21,724] Update Post - Step 06: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:26:03,321] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:26:03,508] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:26:03,709] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:26:04,876] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:26:04,979] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:26:06,101] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:26:07,555] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 174714778'
+[INFO] [2023-01-25 10:26:08,437] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:26:08,690] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:26:08,978] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:26:09,438] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:26:09,621] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:26:09,886] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:26:11,126] Create New Post - Step 09: Verify title with value 'Title for testing 174714778'
+[INFO] [2023-01-25 10:26:11,199] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:26:11,261] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:26:12,837] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:26:14,195] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 174714778'
+[INFO] [2023-01-25 10:26:14,411] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:26:14,632] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:26:15,785] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 174714778'
+[INFO] [2023-01-25 10:26:16,626] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:26:17,055] Update Post - Step 05: Click to view posts icon
+[INFO] [2023-01-25 10:26:17,272] Update Post - Step 06: Verify title of recently added post with value 'Edited Title for testing 174714778'
+[INFO] [2023-01-25 10:28:54,330] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:28:54,494] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:28:54,676] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:28:55,899] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:28:55,986] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:28:57,183] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:28:58,686] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 627900547'
+[INFO] [2023-01-25 10:28:59,552] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:28:59,757] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:29:00,057] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:29:00,518] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:29:00,696] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:29:00,953] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:29:02,064] Create New Post - Step 09: Verify title with value 'Title for testing 627900547'
+[INFO] [2023-01-25 10:29:02,141] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:29:02,237] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:29:03,645] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:29:04,648] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 627900547'
+[INFO] [2023-01-25 10:29:04,879] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:29:05,111] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:29:06,326] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 627900547'
+[INFO] [2023-01-25 10:29:07,504] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:30:07,860] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:30:08,036] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:30:08,202] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:30:09,391] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:30:09,472] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:30:10,540] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:30:12,038] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 947171060'
+[INFO] [2023-01-25 10:30:12,847] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:30:13,106] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:30:13,398] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:30:13,847] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:30:14,049] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:30:14,280] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:30:15,388] Create New Post - Step 09: Verify title with value 'Title for testing 947171060'
+[INFO] [2023-01-25 10:30:15,470] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:30:15,550] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:30:17,034] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:30:17,964] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 947171060'
+[INFO] [2023-01-25 10:30:18,151] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:30:18,327] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:30:19,553] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 947171060'
+[INFO] [2023-01-25 10:30:20,642] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:30:20,843] Update Post - Step 05: Click to view posts icon
+[INFO] [2023-01-25 10:30:21,002] Update Post - Step 06: Verify title of recently added post with value 'Edited Title for testing 947171060'
+[INFO] [2023-01-25 10:43:46,238] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:43:46,414] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:43:46,588] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:43:47,813] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:43:47,886] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:43:49,028] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:43:50,507] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 757012554'
+[INFO] [2023-01-25 10:43:51,401] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:43:51,645] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:43:51,940] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:43:52,390] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:43:52,559] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:43:52,806] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:43:53,906] Create New Post - Step 09: Verify title with value 'Title for testing 757012554'
+[INFO] [2023-01-25 10:43:53,972] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:43:54,037] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:43:55,514] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:43:56,519] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 757012554'
+[INFO] [2023-01-25 10:43:56,729] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:43:56,936] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:43:58,157] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 757012554'
+[INFO] [2023-01-25 10:43:59,299] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:43:59,533] Update Post - Step 06: Verify post successfully updated message with value 'Post updated.'
+[INFO] [2023-01-25 10:44:00,056] Step Failed
+[INFO] [2023-01-25 10:44:00,236] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:50:06,803] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-25 10:50:07,002] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-25 10:50:07,197] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-25 10:50:08,463] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-25 10:50:08,548] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-25 10:50:09,686] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-25 10:50:11,180] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -45232195'
+[INFO] [2023-01-25 10:50:12,341] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-25 10:50:12,612] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-25 10:50:12,971] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-25 10:50:13,545] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-25 10:50:13,781] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-25 10:50:14,095] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-25 10:50:15,449] Create New Post - Step 09: Verify title with value 'Title for testing -45232195'
+[INFO] [2023-01-25 10:50:15,524] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-25 10:50:15,601] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-25 10:50:17,298] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-25 10:50:18,617] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -45232195'
+[INFO] [2023-01-25 10:50:18,872] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-25 10:50:19,079] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-25 10:50:20,262] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -45232195'
+[INFO] [2023-01-25 10:50:21,172] Update Post - Step 04: Click to update button
+[INFO] [2023-01-25 10:50:21,649] Update Post - Step 06: Verify post successfully updated message displayed
+[INFO] [2023-01-25 10:50:22,155] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 18:55:46,674] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 18:55:46,937] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 18:55:47,152] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 18:55:51,769] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 18:55:51,869] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 18:55:53,934] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 18:55:57,608] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -1627915925'
+[INFO] [2023-01-26 18:55:58,705] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 18:55:59,144] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 18:55:59,535] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 18:56:00,222] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 18:56:00,678] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 18:56:01,032] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 18:56:02,402] Create New Post - Step 09: Verify title with value 'Title for testing -1627915925'
+[INFO] [2023-01-26 18:56:02,514] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 18:56:02,590] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 18:56:04,583] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 18:56:05,987] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -1627915925'
+[INFO] [2023-01-26 18:56:06,250] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 18:56:06,466] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 18:56:07,712] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -1627915925'
+[INFO] [2023-01-26 18:56:08,843] Update Post - Step 04: Click to update button
+[INFO] [2023-01-26 18:56:09,077] Update Post - Step 06: Verify post successfully updated message displayed
+[INFO] [2023-01-26 18:56:09,519] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:02:40,614] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:02:40,814] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:02:40,992] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:02:42,195] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:02:42,288] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:02:43,564] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:02:45,007] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 131481092'
+[INFO] [2023-01-26 19:02:45,553] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:02:45,939] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:02:46,192] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:02:46,566] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 19:02:46,772] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 19:02:47,049] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:02:48,357] Create New Post - Step 09: Verify title with value 'Title for testing 131481092'
+[INFO] [2023-01-26 19:02:48,434] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 19:02:48,507] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 19:02:50,190] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:02:51,466] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 131481092'
+[INFO] [2023-01-26 19:02:51,691] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:02:51,912] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 19:02:53,083] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 131481092'
+[INFO] [2023-01-26 19:02:53,885] Update Post - Step 04: Click to update button
+[INFO] [2023-01-26 19:02:54,217] Update Post - Step 06: Verify post successfully updated message displayed
+[INFO] [2023-01-26 19:02:54,778] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:02:55,526] Update Post - Step 06: Verify title of recently added post with value 'Edited Title for testing 131481092'
+[INFO] [2023-01-26 19:03:44,257] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:03:44,439] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:03:44,622] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:03:45,822] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:03:45,904] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:03:47,021] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:03:48,407] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 1794169349'
+[INFO] [2023-01-26 19:03:49,120] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:03:49,590] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:03:49,918] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:03:50,385] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 19:03:50,618] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 19:03:50,994] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:03:52,456] Create New Post - Step 09: Verify title with value 'Title for testing 1794169349'
+[INFO] [2023-01-26 19:03:52,537] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 19:03:52,616] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 19:03:54,361] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:03:55,562] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 1794169349'
+[INFO] [2023-01-26 19:03:55,800] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:03:56,026] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 19:03:57,264] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 1794169349'
+[INFO] [2023-01-26 19:03:57,987] Update Post - Step 04: Click to update button
+[INFO] [2023-01-26 19:03:58,376] Update Post - Step 06: Verify post successfully updated message displayed
+[INFO] [2023-01-26 19:03:58,888] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:03:59,621] Update Post - Step 06: Verify title of recently added post with value 'Edited Title for testing 1794169349'
+[INFO] [2023-01-26 19:19:25,009] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:19:25,204] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:19:25,385] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:19:26,611] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:19:26,689] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:19:27,889] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:19:29,299] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 2084476577'
+[INFO] [2023-01-26 19:19:29,939] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:19:30,291] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:19:30,558] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:19:30,959] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 19:19:31,154] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 19:19:31,422] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:19:32,621] Create New Post - Step 09: Verify title with value 'Title for testing 2084476577'
+[INFO] [2023-01-26 19:19:32,695] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 19:19:32,755] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 19:19:34,149] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:19:34,990] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 2084476577'
+[INFO] [2023-01-26 19:19:35,183] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:19:35,342] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 19:19:36,356] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 2084476577'
+[INFO] [2023-01-26 19:19:36,951] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 19:19:37,297] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:19:37,680] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 19:19:37,880] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 19:19:38,299] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:19:38,905] Update Post - Step 09: Verify title with value 'Edited Title for testing 2084476577'
+[INFO] [2023-01-26 19:19:38,959] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:19:39,020] Step Failed
+[INFO] [2023-01-26 19:19:39,152] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 19:19:40,027] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:19:41,097] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 2084476577'
+[INFO] [2023-01-26 19:27:54,992] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:27:55,188] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:27:55,342] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:27:56,572] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:27:56,658] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:27:57,805] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:27:59,175] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -510569245'
+[INFO] [2023-01-26 19:27:59,679] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:28:00,042] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:28:00,304] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:28:00,479] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:28:47,631] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:28:47,815] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:28:47,996] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:28:49,160] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:28:49,246] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:28:50,367] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:28:51,743] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -886902536'
+[INFO] [2023-01-26 19:28:52,253] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:28:52,601] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:28:52,831] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:28:52,962] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:30:47,682] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:30:47,855] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:30:48,019] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:30:49,221] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:30:49,309] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:30:50,459] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:30:51,823] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 178750148'
+[INFO] [2023-01-26 19:30:52,426] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:30:52,814] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:30:53,078] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:30:53,243] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:31:28,114] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:31:28,313] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:31:28,486] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:31:29,663] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:31:29,742] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:31:30,858] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:31:32,250] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 1796231488'
+[INFO] [2023-01-26 19:31:32,765] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:31:33,098] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:31:33,352] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:31:33,469] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:32:33,953] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:32:34,133] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:32:34,313] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:32:35,507] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:32:35,590] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:32:36,740] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:32:38,111] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 1661336208'
+[INFO] [2023-01-26 19:32:38,604] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:32:38,948] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:32:39,182] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:32:39,665] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 19:32:39,834] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 19:32:40,052] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:32:41,144] Create New Post - Step 09: Verify title with value 'Title for testing 1661336208'
+[INFO] [2023-01-26 19:32:41,227] Step Failed
+[INFO] [2023-01-26 19:32:41,346] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 19:32:41,413] Step Failed
+[INFO] [2023-01-26 19:32:41,521] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 19:32:43,039] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:32:43,966] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 1661336208'
+[INFO] [2023-01-26 19:32:44,080] Step Failed
+[INFO] [2023-01-26 19:32:44,282] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:32:44,453] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 19:32:45,439] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 1661336208'
+[INFO] [2023-01-26 19:32:46,009] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 19:32:46,368] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:32:46,818] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 19:32:46,997] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 19:32:47,413] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:32:48,081] Update Post - Step 09: Verify title with value 'Edited Title for testing 1661336208'
+[INFO] [2023-01-26 19:32:48,159] Step Failed
+[INFO] [2023-01-26 19:32:48,312] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:32:48,374] Step Failed
+[INFO] [2023-01-26 19:32:48,488] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 19:32:49,467] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:32:50,596] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 1661336208'
+[INFO] [2023-01-26 19:32:50,704] Step Failed
+[INFO] [2023-01-26 19:34:25,344] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:34:25,541] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:34:25,718] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:34:26,881] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:34:26,966] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:34:28,070] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:34:29,421] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 1730714322'
+[INFO] [2023-01-26 19:34:29,899] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:34:30,266] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:34:30,521] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:34:31,059] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 19:34:31,262] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 19:34:31,481] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:34:32,560] Create New Post - Step 09: Verify title with value 'Title for testing 1730714322'
+[INFO] [2023-01-26 19:34:32,632] Step Failed
+[INFO] [2023-01-26 19:34:32,749] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 19:34:32,810] Step Failed
+[INFO] [2023-01-26 19:34:32,918] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 19:34:34,298] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:34:35,110] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 1730714322'
+[INFO] [2023-01-26 19:34:35,209] Step Failed
+[INFO] [2023-01-26 19:34:35,414] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:34:35,599] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 19:34:36,599] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 1730714322'
+[INFO] [2023-01-26 19:34:37,165] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 19:34:37,533] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:34:38,010] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 19:34:38,191] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 19:34:38,621] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:34:39,274] Update Post - Step 09: Verify title with value 'Edited Title for testing 1730714322'
+[INFO] [2023-01-26 19:34:39,354] Step Failed
+[INFO] [2023-01-26 19:34:39,488] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:34:39,558] Step Failed
+[INFO] [2023-01-26 19:34:39,682] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 19:34:40,722] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:34:41,799] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 1730714322'
+[INFO] [2023-01-26 19:34:41,900] Step Failed
+[INFO] [2023-01-26 19:35:54,513] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:35:54,724] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:35:54,900] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:35:56,156] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:35:56,240] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:35:57,346] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:35:58,700] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -338202589'
+[INFO] [2023-01-26 19:35:59,184] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:35:59,556] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:35:59,803] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:35:59,978] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:39:58,008] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:39:58,182] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:39:58,359] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:39:59,585] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:39:59,667] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:40:00,870] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:40:02,243] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 776307135'
+[INFO] [2023-01-26 19:40:02,751] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:40:03,107] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:40:03,354] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:40:03,709] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 19:40:03,928] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 19:40:04,140] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:40:05,304] Create New Post - Step 09: Verify title with value 'Title for testing 776307135'
+[INFO] [2023-01-26 19:40:05,374] Step Failed
+[INFO] [2023-01-26 19:40:05,593] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 19:40:15,716] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:41:17,117] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 19:41:17,315] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 19:41:17,493] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 19:41:18,637] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 19:41:18,731] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 19:41:19,949] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 19:41:21,358] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -3087386'
+[INFO] [2023-01-26 19:41:21,856] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 19:41:22,208] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 19:41:22,476] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 19:41:22,903] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 19:41:23,094] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 19:41:23,391] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:41:24,842] Create New Post - Step 09: Verify title with value 'Title for testing -3087386'
+[INFO] [2023-01-26 19:41:24,921] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 19:41:25,000] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 19:41:26,602] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:41:27,812] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -3087386'
+[INFO] [2023-01-26 19:41:28,051] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 19:41:28,280] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 19:41:29,396] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -3087386'
+[INFO] [2023-01-26 19:41:30,218] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 19:41:30,584] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:41:31,142] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 19:41:31,374] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 19:41:31,813] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 19:41:32,528] Update Post - Step 09: Verify title with value 'Edited Title for testing -3087386'
+[INFO] [2023-01-26 19:41:32,619] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 19:41:32,675] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 19:41:33,738] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 19:41:34,905] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -3087386'
+[INFO] [2023-01-26 21:07:02,888] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:07:03,066] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:07:03,232] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:07:04,501] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:07:04,583] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:07:05,820] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:07:05,821] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:07:07,267] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 2114078176'
+[INFO] [2023-01-26 21:07:07,778] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:07:08,132] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:07:08,378] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:07:08,823] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:07:09,020] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:07:09,270] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:07:10,479] Create New Post - Step 09: Verify title with value 'Title for testing 2114078176'
+[INFO] [2023-01-26 21:07:10,560] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:07:10,635] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:07:12,210] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:07:13,099] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 2114078176'
+[INFO] [2023-01-26 21:07:13,290] TC_01_CreateNewPost test is succeed.
+[INFO] [2023-01-26 21:07:13,296] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:07:13,297] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:07:13,498] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:07:14,517] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 2114078176'
+[INFO] [2023-01-26 21:07:15,064] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:07:15,387] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:07:15,927] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:07:16,125] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:07:16,587] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:07:17,309] Update Post - Step 09: Verify title with value 'Edited Title for testing 2114078176'
+[INFO] [2023-01-26 21:07:17,379] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:07:17,437] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:07:18,507] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:07:19,646] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 2114078176'
+[INFO] [2023-01-26 21:07:19,738] TC_02_EditPost test is succeed.
+[INFO] [2023-01-26 21:07:19,930] I am in onFinish method Run on Chrome
+[INFO] [2023-01-26 21:15:36,090] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:15:36,260] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:15:36,445] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:15:37,769] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:15:37,859] Succeeded
+[INFO] [2023-01-26 21:15:37,859] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:15:39,110] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:15:39,111] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:15:40,504] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -541670811'
+[INFO] [2023-01-26 21:15:41,007] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:15:41,430] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:15:41,745] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:15:42,331] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:15:42,542] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:15:42,887] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:15:44,156] Create New Post - Step 09: Verify title with value 'Title for testing -541670811'
+[INFO] [2023-01-26 21:15:44,238] Succeeded
+[INFO] [2023-01-26 21:15:44,239] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:15:44,320] Succeeded
+[INFO] [2023-01-26 21:15:44,321] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:15:45,989] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:15:46,934] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -541670811'
+[INFO] [2023-01-26 21:15:47,031] Succeeded
+[INFO] [2023-01-26 21:15:47,109] TC_01_CreateNewPost test is succeed.
+[INFO] [2023-01-26 21:15:47,115] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:15:47,116] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:15:47,277] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:15:48,340] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -541670811'
+[INFO] [2023-01-26 21:15:48,863] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:15:49,162] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:15:49,670] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:15:49,887] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:15:50,387] Succeeded
+[INFO] [2023-01-26 21:15:50,387] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:15:51,088] Update Post - Step 09: Verify title with value 'Edited Title for testing -541670811'
+[INFO] [2023-01-26 21:15:51,149] Succeeded
+[INFO] [2023-01-26 21:15:51,150] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:15:51,211] Succeeded
+[INFO] [2023-01-26 21:15:51,211] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:15:52,251] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:15:53,545] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -541670811'
+[INFO] [2023-01-26 21:15:53,682] Succeeded
+[INFO] [2023-01-26 21:15:53,688] TC_02_EditPost test is succeed.
+[INFO] [2023-01-26 21:15:53,872] I am in onFinish method Run on Chrome
+[INFO] [2023-01-26 21:22:13,520] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:22:13,717] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:22:13,895] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:22:15,237] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:22:15,324] Step succeeded
+[INFO] [2023-01-26 21:22:15,324] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:22:16,531] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:22:16,533] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:22:18,040] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -1739675368'
+[INFO] [2023-01-26 21:22:18,583] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:22:18,948] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:22:19,199] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:22:19,629] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:22:19,854] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:22:20,128] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:22:21,293] Create New Post - Step 09: Verify title with value 'Title for testing -1739675368'
+[INFO] [2023-01-26 21:22:21,360] Step succeeded
+[INFO] [2023-01-26 21:22:21,360] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:22:21,427] Step succeeded
+[INFO] [2023-01-26 21:22:21,427] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:22:22,973] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:22:23,806] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -1739675368'
+[INFO] [2023-01-26 21:22:23,914] Step succeeded
+[INFO] [2023-01-26 21:22:23,992] Test passed
+[INFO] [2023-01-26 21:22:23,997] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:22:23,997] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:22:24,174] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:22:25,225] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -1739675368'
+[INFO] [2023-01-26 21:22:25,791] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:22:26,097] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:22:26,555] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:22:26,749] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:22:27,227] Step succeeded
+[INFO] [2023-01-26 21:22:27,227] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:22:27,931] Update Post - Step 09: Verify title with value 'Edited Title for testing -1739675368'
+[INFO] [2023-01-26 21:22:28,006] Step succeeded
+[INFO] [2023-01-26 21:22:28,007] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:22:28,064] Step succeeded
+[INFO] [2023-01-26 21:22:28,064] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:22:29,035] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:22:29,878] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -1739675368'
+[INFO] [2023-01-26 21:22:29,973] Step succeeded
+[INFO] [2023-01-26 21:22:29,978] Test passed
+[INFO] [2023-01-26 21:28:22,195] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:28:22,362] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:28:22,505] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:28:23,848] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:28:23,937] PASSED
+[INFO] [2023-01-26 21:28:23,938] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:28:25,079] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:28:25,080] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:28:26,521] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -913715263'
+[INFO] [2023-01-26 21:28:26,998] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:28:27,374] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:28:27,636] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:28:28,054] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:28:28,267] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:28:28,526] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:28:29,643] Create New Post - Step 09: Verify title with value 'Title for testing -913715263'
+[INFO] [2023-01-26 21:28:29,714] PASSED
+[INFO] [2023-01-26 21:28:29,714] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:28:29,777] PASSED
+[INFO] [2023-01-26 21:28:29,778] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:28:31,285] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:28:32,137] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -913715263'
+[INFO] [2023-01-26 21:28:32,241] PASSED
+[INFO] [2023-01-26 21:28:32,313] SUCCEEDED
+[INFO] [2023-01-26 21:28:32,317] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:28:32,319] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:28:32,486] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:28:33,613] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -913715263'
+[INFO] [2023-01-26 21:28:34,117] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:28:34,447] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:28:34,923] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:28:35,142] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:28:35,617] PASSED
+[INFO] [2023-01-26 21:28:35,617] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:28:36,281] Update Post - Step 09: Verify title with value 'Edited Title for testing -913715263'
+[INFO] [2023-01-26 21:28:36,338] PASSED
+[INFO] [2023-01-26 21:28:36,339] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:28:36,400] PASSED
+[INFO] [2023-01-26 21:28:36,400] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:28:37,387] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:28:38,208] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -913715263'
+[INFO] [2023-01-26 21:28:38,294] PASSED
+[INFO] [2023-01-26 21:28:38,300] SUCCEEDED
+[INFO] [2023-01-26 21:30:44,752] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:30:44,924] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:30:45,103] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:30:46,427] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:30:46,524] PASSED
+[INFO] [2023-01-26 21:30:46,524] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:30:47,680] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:30:47,681] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:30:49,158] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -833300757'
+[INFO] [2023-01-26 21:30:49,668] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:30:50,024] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:30:50,284] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:30:50,702] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:30:50,902] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:30:51,156] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:30:52,444] Create New Post - Step 09: Verify title with value 'Title for testing -833300757'
+[INFO] [2023-01-26 21:30:52,533] PASSED
+[INFO] [2023-01-26 21:30:52,534] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:30:52,607] PASSED
+[INFO] [2023-01-26 21:30:52,608] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:30:54,161] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:30:55,027] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -833300757'
+[INFO] [2023-01-26 21:30:55,143] PASSED
+[INFO] [2023-01-26 21:30:55,211] TEST SUCCEEDED
+[INFO] [2023-01-26 21:30:55,216] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:30:55,216] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:30:55,381] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:30:56,499] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -833300757'
+[INFO] [2023-01-26 21:30:57,063] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:30:57,354] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:30:57,819] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:30:58,022] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:30:58,442] PASSED
+[INFO] [2023-01-26 21:30:58,442] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:30:59,178] Update Post - Step 09: Verify title with value 'Edited Title for testing -833300757'
+[INFO] [2023-01-26 21:30:59,238] PASSED
+[INFO] [2023-01-26 21:30:59,239] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:30:59,301] PASSED
+[INFO] [2023-01-26 21:30:59,302] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:31:00,381] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:31:01,424] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -833300757'
+[INFO] [2023-01-26 21:31:01,513] PASSED
+[INFO] [2023-01-26 21:31:01,519] TEST SUCCEEDED
+[INFO] [2023-01-26 21:33:20,339] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:33:20,509] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:33:20,663] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:33:22,025] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:33:22,106] PASSED
+[INFO] [2023-01-26 21:33:22,107] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:33:23,326] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:33:23,327] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:33:24,802] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -962404658'
+[INFO] [2023-01-26 21:33:25,285] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:33:25,654] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:33:25,942] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:33:26,359] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:33:26,566] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:33:26,823] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:33:28,028] Create New Post - Step 09: Verify title with value 'Title for testing -962404658'
+[INFO] [2023-01-26 21:33:28,103] PASSED
+[INFO] [2023-01-26 21:33:28,103] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:33:28,178] PASSED
+[INFO] [2023-01-26 21:33:28,178] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:33:29,690] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:33:30,557] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -962404658'
+[INFO] [2023-01-26 21:33:30,676] PASSED
+[INFO] [2023-01-26 21:33:30,750] TEST SUCCEEDED
+[INFO] [2023-01-26 21:33:30,755] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:33:30,756] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:33:30,954] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:33:32,118] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -962404658'
+[INFO] [2023-01-26 21:33:32,671] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:33:32,952] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:33:33,398] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:33:33,597] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:33:34,025] PASSED
+[INFO] [2023-01-26 21:33:34,025] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:33:34,679] Update Post - Step 09: Verify title with value 'Edited Title for testing -962404658'
+[INFO] [2023-01-26 21:33:34,750] PASSED
+[INFO] [2023-01-26 21:33:34,750] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:33:34,813] PASSED
+[INFO] [2023-01-26 21:33:34,814] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:33:35,943] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:33:37,202] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -962404658'
+[INFO] [2023-01-26 21:33:37,310] PASSED
+[INFO] [2023-01-26 21:33:37,318] TEST SUCCEEDED
+[INFO] [2023-01-26 21:40:04,905] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:40:05,082] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:40:05,264] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:40:06,841] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:40:06,927] PASSED
+[INFO] [2023-01-26 21:40:06,928] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:40:08,284] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:40:08,285] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:40:09,872] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -41011558'
+[INFO] [2023-01-26 21:40:10,408] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:40:10,797] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:40:11,042] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:40:11,466] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:40:11,679] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:40:11,952] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:40:13,300] Create New Post - Step 09: Verify title with value 'Title for testing -41011558'
+[INFO] [2023-01-26 21:40:13,377] PASSED
+[INFO] [2023-01-26 21:40:13,378] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:40:13,438] PASSED
+[INFO] [2023-01-26 21:40:13,439] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:40:15,228] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:40:16,260] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -41011558'
+[INFO] [2023-01-26 21:40:16,387] PASSED
+[INFO] [2023-01-26 21:40:16,455] TEST SUCCEEDED
+[INFO] [2023-01-26 21:40:16,460] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:40:16,460] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:40:16,628] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:40:17,869] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -41011558'
+[INFO] [2023-01-26 21:40:18,406] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:40:18,700] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:40:19,179] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:40:19,361] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:40:19,902] PASSED
+[INFO] [2023-01-26 21:40:19,902] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:40:20,669] Update Post - Step 09: Verify title with value 'Edited Title for testing -41011558'
+[INFO] [2023-01-26 21:40:20,740] PASSED
+[INFO] [2023-01-26 21:40:20,740] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:40:20,813] PASSED
+[INFO] [2023-01-26 21:40:20,813] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:40:21,942] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:40:22,971] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -41011558'
+[INFO] [2023-01-26 21:40:23,080] PASSED
+[INFO] [2023-01-26 21:40:23,085] TEST SUCCEEDED
+[INFO] [2023-01-26 21:42:48,731] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:42:48,909] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:42:49,088] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:42:50,385] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:42:50,475] PASSED
+[INFO] [2023-01-26 21:42:50,475] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:42:51,642] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:42:51,643] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:42:53,075] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -1403541378'
+[INFO] [2023-01-26 21:42:53,595] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:42:53,938] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:42:54,197] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:42:54,612] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:42:54,813] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:42:55,094] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:42:56,323] Create New Post - Step 09: Verify title with value 'Title for testing -1403541378'
+[INFO] [2023-01-26 21:42:56,400] PASSED
+[INFO] [2023-01-26 21:42:56,400] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:42:56,482] PASSED
+[INFO] [2023-01-26 21:42:56,483] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:42:57,974] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:42:58,829] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -1403541378'
+[INFO] [2023-01-26 21:42:58,952] PASSED
+[INFO] [2023-01-26 21:42:59,020] TEST SUCCEEDED
+[INFO] [2023-01-26 21:42:59,025] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:42:59,026] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:42:59,217] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:43:00,367] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -1403541378'
+[INFO] [2023-01-26 21:43:01,117] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:43:01,461] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:43:02,021] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:43:02,224] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:43:02,718] PASSED
+[INFO] [2023-01-26 21:43:02,719] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:43:03,432] Update Post - Step 09: Verify title with value 'Edited Title for testing -1403541378'
+[INFO] [2023-01-26 21:43:03,492] PASSED
+[INFO] [2023-01-26 21:43:03,492] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:43:03,552] PASSED
+[INFO] [2023-01-26 21:43:03,552] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:43:04,658] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:43:05,811] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -1403541378'
+[INFO] [2023-01-26 21:43:05,916] PASSED
+[INFO] [2023-01-26 21:43:05,921] TEST SUCCEEDED
+[INFO] [2023-01-26 21:46:27,027] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-01-26 21:46:27,248] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-01-26 21:46:27,454] Pre-condition - Step 03: Click to login button
+[INFO] [2023-01-26 21:46:28,911] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-01-26 21:46:29,032] PASSED
+[INFO] [2023-01-26 21:46:29,032] Pre-condition - Step 05: Click to Post sidebar menu
+[INFO] [2023-01-26 21:46:30,419] TC_01_CreateNewPost test is starting.
+[INFO] [2023-01-26 21:46:30,421] Create New Post - Step 01: Click to add new post button
+[INFO] [2023-01-26 21:46:32,000] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 391632314'
+[INFO] [2023-01-26 21:46:32,561] Create New Post - Step 03: Click to new add content button
+[INFO] [2023-01-26 21:46:32,974] Create New Post - Step 04: Click to add paragraph button for content block
+[INFO] [2023-01-26 21:46:33,251] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-01-26 21:46:33,801] Create New Post - Step 06: Click to publish button
+[INFO] [2023-01-26 21:46:34,023] Create New Post - Step 07: Re-Click to publish button
+[INFO] [2023-01-26 21:46:34,297] Create New Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:46:35,623] Create New Post - Step 09: Verify title with value 'Title for testing 391632314'
+[INFO] [2023-01-26 21:46:35,712] PASSED
+[INFO] [2023-01-26 21:46:35,712] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-01-26 21:46:35,804] PASSED
+[INFO] [2023-01-26 21:46:35,805] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-01-26 21:46:37,698] Create New Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:46:39,003] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 391632314'
+[INFO] [2023-01-26 21:46:39,115] PASSED
+[INFO] [2023-01-26 21:46:39,222] TEST SUCCEEDED
+[INFO] [2023-01-26 21:46:39,230] TC_02_EditPost test is starting.
+[INFO] [2023-01-26 21:46:39,230] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-01-26 21:46:39,446] Update Post - Step 02: Click to edit button of recently post
+[INFO] [2023-01-26 21:46:40,642] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 391632314'
+[INFO] [2023-01-26 21:46:41,754] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-01-26 21:46:41,967] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:46:42,522] Update Post - Step 06: Click to update button
+[INFO] [2023-01-26 21:46:42,765] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-01-26 21:46:43,314] PASSED
+[INFO] [2023-01-26 21:46:43,315] Update Post - Step 08: Click view post button
+[INFO] [2023-01-26 21:46:44,121] Update Post - Step 09: Verify title with value 'Edited Title for testing 391632314'
+[INFO] [2023-01-26 21:46:44,196] PASSED
+[INFO] [2023-01-26 21:46:44,197] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-01-26 21:46:44,253] PASSED
+[INFO] [2023-01-26 21:46:44,254] Update Post - Step 11: Back to Search post page
+[INFO] [2023-01-26 21:46:45,626] Update Post - Step 12: Click to view posts icon
+[INFO] [2023-01-26 21:46:46,922] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 391632314'
+[INFO] [2023-01-26 21:46:47,027] PASSED
+[INFO] [2023-01-26 21:46:47,032] TEST SUCCEEDED
