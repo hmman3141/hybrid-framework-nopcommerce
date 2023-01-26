@@ -1,14 +1,11 @@
 package commons;
 
-import static reportConfig.ExtentTestManager.getTest;
-import static reportConfig.TestListener.getBase64Screenshot;
+import static reportConfig.TestListener.log4J;
 
 import java.io.IOException;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,21 +14,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import com.aventstack.extentreports.Status;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;;
 
 public class BaseTest {
 	private WebDriver driver;
-	protected final Log log;
 
 	private String cocCocPath = "C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe";
 	private String cocCocDriverVersion = "106.0.5249.61";
 	private String firefoxDriverVersion = "0.31.0";
-
-	public BaseTest() {
-		log = LogFactory.getLog(getClass());
-	}
 
 	public WebDriver getInstanceDriver() {
 		return this.driver;
@@ -65,6 +55,35 @@ public class BaseTest {
 		return driver;
 	}
 
+	protected WebDriver getBrowserDriver(String browserName, String url) {
+		switch (browserName) {
+		case "firefox":
+			WebDriverManager.firefoxdriver().driverVersion(firefoxDriverVersion).setup();
+			driver = new FirefoxDriver();
+			break;
+		case "chrome":
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			break;
+		case "coccoc":
+			WebDriverManager.chromedriver().driverVersion(cocCocDriverVersion).setup();
+			ChromeOptions option = new ChromeOptions();
+			option.setBinary(cocCocPath);
+			driver = new ChromeDriver(option);
+			break;
+		case "edge":
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+		default:
+			throw new RuntimeException("Invalid browser name");
+		}
+
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.get(url);
+		return driver;
+	}
+
 	protected int getRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt();
@@ -74,10 +93,10 @@ public class BaseTest {
 		String cmd = null;
 		try {
 			String osName = GlobalConstants.OS_NAME;
-			Info("OS name = " + osName);
+			log4J.Info("OS name = " + osName);
 
 			String driverInstanceName = driver.toString().toLowerCase();
-			Info("Driver instance name = " + driverInstanceName);
+			log4J.Info("Driver instance name = " + driverInstanceName);
 
 			String browserDriverName = null;
 
@@ -106,7 +125,7 @@ public class BaseTest {
 				driver.quit();
 			}
 		} catch (Exception e) {
-			log.info(e.getMessage());
+			log4J.Info(e.getMessage());
 		} finally {
 			try {
 				Process process = Runtime.getRuntime().exec(cmd);
@@ -123,13 +142,12 @@ public class BaseTest {
 		boolean pass = true;
 		try {
 			Assert.assertTrue(condition);
-			System.out.println(" -------------------------- PASSED -------------------------- ");
+			log4J.Pass();
 		} catch (Throwable e) {
 			pass = false;
-			System.out.println(" -------------------------- FAILED -------------------------- ");
 			FailureVerification.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
-			Fail();
+			log4J.Fail(driver);
 		}
 		return pass;
 	}
@@ -142,13 +160,12 @@ public class BaseTest {
 		boolean pass = true;
 		try {
 			Assert.assertFalse(condition);
-			System.out.println(" -------------------------- PASSED -------------------------- ");
+			log4J.Pass();
 		} catch (Throwable e) {
 			pass = false;
-			System.out.println(" -------------------------- FAILED -------------------------- ");
 			FailureVerification.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
-			Fail();
+			log4J.Fail(driver);
 		}
 		return pass;
 	}
@@ -161,29 +178,17 @@ public class BaseTest {
 		boolean pass = true;
 		try {
 			Assert.assertEquals(actual, expected);
-			System.out.println(" -------------------------- PASSED -------------------------- ");
+			log4J.Pass();
 		} catch (Throwable e) {
 			pass = false;
-			System.out.println(" -------------------------- PASSED -------------------------- ");
 			FailureVerification.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
-			Fail();
+			log4J.Fail(driver);
 		}
 		return pass;
 	}
 
 	protected boolean verifyEquals(Object actual, Object expected) {
 		return checkEquals(actual, expected);
-	}
-
-	protected void Info(String message) {
-		log.info(message);
-		getTest().log(Status.INFO, message);
-	}
-
-	private void Fail() {
-		String base64Screenshot = getBase64Screenshot(driver);
-		getTest().log(Status.FAIL, "Step Failed",
-				getTest().addScreenCaptureFromBase64String(base64Screenshot).getModel().getMedia().get(0));
 	}
 }

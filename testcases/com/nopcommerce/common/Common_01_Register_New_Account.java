@@ -11,6 +11,8 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import reportConfig.TestListener;
 
+import static reportConfig.TestListener.log4J;
+
 public class Common_01_Register_New_Account extends BaseTest {
 	private WebDriver driver;
 	private String userFirstName, userLastName;
@@ -33,26 +35,26 @@ public class Common_01_Register_New_Account extends BaseTest {
 		
 		TestListener.startTest("Pre-condition - Create account", "Create new account");
 		
-		Info("Register - Step 01: Click to register link");
+		log4J.Info("Register - Step 01: Click to register link");
 		userRegisterPageObject = userHomePage.clickToRegisterLink();
 
-		Info("Register - Step 02: Enter to first name textbox with value '" + userFirstName + "'");
+		log4J.Info("Register - Step 02: Enter to first name textbox with value '" + userFirstName + "'");
 		userRegisterPageObject.sendKeyToFirstNameTextbox(userFirstName);
-		Info("Register - Step 03: Enter to last name textbox with value '" + userLastName + "'");
+		log4J.Info("Register - Step 03: Enter to last name textbox with value '" + userLastName + "'");
 		userRegisterPageObject.sendKeyToLastNameTextbox(userLastName);
-		Info("Register - Step 04: Enter to password textbox with value '" + userPassword + "'");
+		log4J.Info("Register - Step 04: Enter to password textbox with value '" + userPassword + "'");
 		userRegisterPageObject.sendKeyToPasswordTextbox(userPassword);
-		Info("Register - Step 05: Enter to confirm password textbox with value '" + userPassword + "'");
+		log4J.Info("Register - Step 05: Enter to confirm password textbox with value '" + userPassword + "'");
 		userRegisterPageObject.sendKeyToConfirmPasswordTextbox(userPassword);
-		Info("Register - Step 06: Enter to email textbox with value '" + userEmail + "'");
+		log4J.Info("Register - Step 06: Enter to email textbox with value '" + userEmail + "'");
 		userRegisterPageObject.sendKeyToEmailTextbox(userEmail);
-		Info("Register - Step 07: Click to register button");
+		log4J.Info("Register - Step 07: Click to register button");
 		userRegisterPageObject.clickToRegisterButton();
 
-		Info("Register - Step 08: Verify successfully register message");
+		log4J.Info("Register - Step 08: Verify successfully register message");
 		verifyEquals(userRegisterPageObject.getRegisterSuccessMessage(), "Your registration completed");
 
-		Info("Register - Step 09: Click to log in link");
+		log4J.Info("Register - Step 09: Click to log in link");
 		userHomePage.clickToLoginLink();
 		
 		TestListener.endTest();
