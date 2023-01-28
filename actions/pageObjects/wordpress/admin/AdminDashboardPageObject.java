@@ -16,9 +16,9 @@ public class AdminDashboardPageObject extends BasePage_Wordpress {
 		return getElementText(driver, AdminDashboardPageUI.WELCOME_PANEL);
 	}
 	
-	public AdminPostSearchPageObject clickToPostsSidebarMenu() {
+	public AdminPostSearchPageObject clickOnPostsSidebarMenu() {
 		waitForElementVisibile(driver, AdminDashboardPageUI.POSTS_SIDEBAR_MENU);
-		clickToElement(driver, AdminDashboardPageUI.POSTS_SIDEBAR_MENU);
-		return PageGeneratorManager.getAdminPostSearchPageObject(driver);
+		clickOnElement(driver, AdminDashboardPageUI.POSTS_SIDEBAR_MENU);
+		return AdminPageGeneratorManager.getAdminPostSearchPageObject(driver);
 	}
 }

@@ -73,21 +73,21 @@ public class User_05_My_Account_01 extends BaseTest {
 		reviewTitle = "Title";
 		reviewText = "Text for review";
 
-		userRegisterPage = userHomePage.clickToRegisterLink();
+		userRegisterPage = userHomePage.clickOnRegisterLink();
 
 		userRegisterPage.sendKeyToFirstNameTextbox(createdFirstName);
 		userRegisterPage.sendKeyToLastNameTextbox(createdLastName);
 		userRegisterPage.sendKeyToPasswordTextbox(password);
 		userRegisterPage.sendKeyToConfirmPasswordTextbox(password);
 		userRegisterPage.sendKeyToEmailTextbox(createdEmail);
-		userRegisterPage.clickToRegisterButton();
+		userRegisterPage.clickOnRegisterButton();
 
 		System.out.println(createdEmail + "/" + password);
 
 		Assert.assertEquals(userRegisterPage.getRegisterSuccessMessage(), "Your registration completed");
-		userRegisterPage.clickToLogoutButton();
+		userRegisterPage.clickOnLogoutButton();
 
-		userLoginPage = userHomePage.clickToLoginLink();
+		userLoginPage = userHomePage.clickOnLoginLink();
 		userHomePage = userLoginPage.loginAsUser(createdEmail, password);
 
 		Assert.assertTrue(userHomePage.isAccountLink());
@@ -95,10 +95,10 @@ public class User_05_My_Account_01 extends BaseTest {
 
 	@Test
 	public void TC_01_Customer_Information() {
-		userCustomerInfoPage = userHomePage.clickToMyAccountLink();
+		userCustomerInfoPage = userHomePage.clickOnMyAccountLink();
 		Assert.assertTrue(userCustomerInfoPage.isCustomerInfoDisplay());
 
-		userCustomerInfoPage.clickToFemaleRadioButton();
+		userCustomerInfoPage.clickOnFemaleRadioButton();
 		userCustomerInfoPage.sendKeyToFirstNameTextBoxInput(firstName);
 		userCustomerInfoPage.sendKeyToLastNameTextBoxInput(lastName);
 		userCustomerInfoPage.sendKeyToEmailTextBoxInput(email);
@@ -106,7 +106,7 @@ public class User_05_My_Account_01 extends BaseTest {
 		userCustomerInfoPage.selectItemFromMonthCheckbox(monthOfBirth);
 		userCustomerInfoPage.selectItemFromYearCheckbox(yearOfBirth);
 		userCustomerInfoPage.sendKeyToCompanyTextBoxInput(company);
-		userCustomerInfoPage.clickToSaveButton();
+		userCustomerInfoPage.clickOnSaveButton();
 
 		Assert.assertEquals(userCustomerInfoPage.getTextFromFirstNameTextBoxInput(), firstName);
 		Assert.assertEquals(userCustomerInfoPage.getTextFromLastNameTextBoxInput(), lastName);
@@ -119,12 +119,12 @@ public class User_05_My_Account_01 extends BaseTest {
 
 	@Test
 	public void TC_02_Addresses() {
-		userCustomerInfoPage = userHomePage.clickToMyAccountLink();
+		userCustomerInfoPage = userHomePage.clickOnMyAccountLink();
 		Assert.assertTrue(userCustomerInfoPage.isCustomerInfoDisplay());
 
 		userAddressesPage = (UserAddressesPageObject) userCustomerInfoPage.openMyAccountPageByName(driver,
 				UserCustomerInfoSidebar.ADDRESSES);
-		userAddressesPage.clickToAddNewButton();
+		userAddressesPage.clickOnAddNewButton();
 		userAddressesPage.sendKeyToFirstNameTextbox(firstName);
 		userAddressesPage.sendKeyToLastNameTextbox(lastName);
 		userAddressesPage.sendKeyToEmailTextbox(email);
@@ -137,7 +137,7 @@ public class User_05_My_Account_01 extends BaseTest {
 		userAddressesPage.sendKeyToPostalCodeTextbox(postalCode);
 		userAddressesPage.sendKeyToPhoneNumberTextbox(phone);
 		userAddressesPage.sendKeyToFaxNumberTextbox(fax);
-		userAddressesPage.clickToSaveButton();
+		userAddressesPage.clickOnSaveButton();
 
 		Assert.assertEquals(userAddressesPage.getTextFromNameText(fullName), fullName);
 		Assert.assertEquals(userAddressesPage.getTextFromEmailText(fullName), newAddressEmail);
@@ -152,7 +152,7 @@ public class User_05_My_Account_01 extends BaseTest {
 
 	@Test
 	public void TC_03_ChangePassword() {
-		userCustomerInfoPage = userHomePage.clickToMyAccountLink();
+		userCustomerInfoPage = userHomePage.clickOnMyAccountLink();
 		Assert.assertTrue(userCustomerInfoPage.isCustomerInfoDisplay());
 
 		userChangePasswordPage = (UserChangePasswordPageObject) userCustomerInfoPage.openMyAccountPageByName(driver,
@@ -160,21 +160,21 @@ public class User_05_My_Account_01 extends BaseTest {
 		userChangePasswordPage.sendKeyToOldPasswordTextbox(password);
 		userChangePasswordPage.sendKeyToNewPasswordTextbox(newPassword);
 		userChangePasswordPage.sendKeyToConfirmNewPasswordTextbox(newPassword);
-		userChangePasswordPage.clickToChangePasswordButton();
-		userChangePasswordPage.clickToCloseSuccessfulPasswordChangeButton();
+		userChangePasswordPage.clickOnChangePasswordButton();
+		userChangePasswordPage.clickOnCloseSuccessfulPasswordChangeButton();
 
-		userHomePage = userChangePasswordPage.clickToLogoutAtUserPage(driver);
-		userLoginPage = userHomePage.clickToLoginLink();
+		userHomePage = userChangePasswordPage.clickOnLogoutAtUserPage(driver);
+		userLoginPage = userHomePage.clickOnLoginLink();
 		userLoginPage.sendKeyToEmailTextbox(email);
 		userLoginPage.sendKeyToPasswordTextbox(password);
-		userLoginPage.clickToLoginButton();
+		userLoginPage.clickOnLoginButton();
 
 		Assert.assertEquals(userLoginPage.getErrorMessageByNonExistentEmail(),
 				"Login was unsuccessful. Please correct the errors and try again.\n"
 						+ "The credentials provided are incorrect");
 		userLoginPage.sendKeyToEmailTextbox(email);
 		userLoginPage.sendKeyToPasswordTextbox(newPassword);
-		userLoginPage.clickToLoginButton();
+		userLoginPage.clickOnLoginButton();
 
 		Assert.assertTrue(userChangePasswordPage.isAccountLink(driver));
 	}
@@ -183,14 +183,14 @@ public class User_05_My_Account_01 extends BaseTest {
 	public void TC_04_MyProductReview() {
 		userHomePage.hoverMouseToComputersDropdown();
 		userDesktopsPage = userHomePage.hoverMouseToDesktopsLinkInComputersDropdownAndClick();
-		userProductInformationPage = userDesktopsPage.clickToProductBuildYourOwnComputer();
-		userProductReviewPage = userProductInformationPage.clickToLinkAddYourReview();
+		userProductInformationPage = userDesktopsPage.clickOnProductBuildYourOwnComputer();
+		userProductReviewPage = userProductInformationPage.clickOnLinkAddYourReview();
 		userProductReviewPage.sendKeyToReviewTitleTextbox(reviewTitle);
 		userProductReviewPage.sendKeyToReviewTextTextbox(reviewText);
-		userProductReviewPage.clickToRatingPoint1RadioButton();
-		userProductReviewPage.clickToSubmitReviewButton();
+		userProductReviewPage.clickOnRatingPoint1RadioButton();
+		userProductReviewPage.clickOnSubmitReviewButton();
 		
-		userCustomerInfoPage = userHomePage.clickToMyAccountLink();
+		userCustomerInfoPage = userHomePage.clickOnMyAccountLink();
 		userMyProductReviewPage = (UserMyProductReviewPageObject) userCustomerInfoPage.openMyAccountPageByName(driver, UserCustomerInfoSidebar.MY_PRODUCT_REVIEW);
 		
 		Assert.assertEquals(userMyProductReviewPage.getTextFromRecentReviewTitle(), reviewTitle);

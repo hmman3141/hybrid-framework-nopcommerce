@@ -14,14 +14,14 @@ public class UserRegisterPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void clickToRegisterButton() {
+	public void clickOnRegisterButton() {
 		waitForElementClickable(driver, UserRegisterPageUI.REGISTER_BUTTON);
-		clickToElement(driver, UserRegisterPageUI.REGISTER_BUTTON);
+		clickOnElement(driver, UserRegisterPageUI.REGISTER_BUTTON);
 	}
 
-	public void clickToLogoutButton() {
+	public void clickOnLogoutButton() {
 		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_USER);
-		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
+		clickOnElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
 	}
 
 	public String getErrorMessageAtFirstNameInput() {

@@ -32,30 +32,30 @@ public class User_02_Login_03_Page_Generator_Manager extends BaseTest {
 
 	@Test
 	public void TC_01_LoginWithEmptyData() {
-		loginPageObject = homePageObject.clickToLoginLink();
+		loginPageObject = homePageObject.clickOnLoginLink();
 
-		loginPageObject.clickToLoginButton();
+		loginPageObject.clickOnLoginButton();
 
 		Assert.assertEquals(loginPageObject.getErrorMessageAtEmailInput(), "Please enter your email");
 	}
 
 	@Test
 	public void TC_02_LoginWithInvalidEmail() {
-		loginPageObject = homePageObject.clickToLoginLink();
+		loginPageObject = homePageObject.clickOnLoginLink();
 
 		loginPageObject.sendKeyToEmailTextbox(invalidEmail);
-		loginPageObject.clickToLoginButton();
+		loginPageObject.clickOnLoginButton();
 
 		Assert.assertEquals(loginPageObject.getErrorMessageAtEmailInput(), "Wrong email");
 	}
 
 	@Test
 	public void TC_03_LoginWithNonExistentEmail() {
-		loginPageObject = homePageObject.clickToLoginLink();
+		loginPageObject = homePageObject.clickOnLoginLink();
 
 		loginPageObject.sendKeyToEmailTextbox(email);
 		loginPageObject.sendKeyToPasswordTextbox(password);
-		loginPageObject.clickToLoginButton();
+		loginPageObject.clickOnLoginButton();
 
 		Assert.assertEquals(loginPageObject.getErrorMessageByNonExistentEmail(),
 				"Login was unsuccessful. Please correct the errors and try again.\n" + "No customer account found");
@@ -63,10 +63,10 @@ public class User_02_Login_03_Page_Generator_Manager extends BaseTest {
 
 	@Test
 	public void TC_04_LoginWithBlankPassword() {
-		loginPageObject = homePageObject.clickToLoginLink();
+		loginPageObject = homePageObject.clickOnLoginLink();
 
 		loginPageObject.sendKeyToEmailTextbox(email);
-		loginPageObject.clickToLoginButton();
+		loginPageObject.clickOnLoginButton();
 
 		Assert.assertEquals(loginPageObject.getErrorMessageByNonExistentEmail(),
 				"Login was unsuccessful. Please correct the errors and try again.\n" + "No customer account found");

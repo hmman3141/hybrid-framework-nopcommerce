@@ -18,14 +18,14 @@ public class UserCustomerInfoPageObject extends BasePage {
 		return isElementDisplayed(driver, UserCustomerInfoPageUI.CUSTOMER_INFO_HEADER);
 	}
 	
-	public void clickToFemaleRadioButton() {
+	public void clickOnFemaleRadioButton() {
 		waitForElementVisibile(driver, UserCustomerInfoPageUI.FEMALE_RADIO);
-		clickToElement(driver, UserCustomerInfoPageUI.FEMALE_RADIO);
+		clickOnElement(driver, UserCustomerInfoPageUI.FEMALE_RADIO);
 	}
 	
-	public void clickToSaveButton() {
+	public void clickOnSaveButton() {
 		waitForElementVisibile(driver, UserCustomerInfoPageUI.SAVE_CUSTOMER_INFO_BUTTON);
-		clickToElement(driver, UserCustomerInfoPageUI.SAVE_CUSTOMER_INFO_BUTTON);
+		clickOnElement(driver, UserCustomerInfoPageUI.SAVE_CUSTOMER_INFO_BUTTON);
 	}
 	
 	public void sendKeyToFirstNameTextBoxInput(String key) {

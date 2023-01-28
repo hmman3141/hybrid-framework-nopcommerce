@@ -23,29 +23,29 @@ public class AdminPostAddEditPageObject extends BasePage_Wordpress {
 		sendKeyToElement(driver, AdminPostAddEditPageUI.ADD_PARAGRAPH_CONTENT_FOR_CONTENT_BLOCK, key);
 	}
 
-	public void clickToBlockButtonOfAddContent() {
+	public void clickOnBlockButtonOfAddContent() {
 		waitForElementClickable(driver, AdminPostAddEditPageUI.ADD_CONTENT_BLOCK_BUTTON);
-		clickToElement(driver, AdminPostAddEditPageUI.ADD_CONTENT_BLOCK_BUTTON);
+		clickOnElement(driver, AdminPostAddEditPageUI.ADD_CONTENT_BLOCK_BUTTON);
 	}
 
-	public void clickToAddParagraphButtonForContentBlock() {
+	public void clickOnAddParagraphButtonForContentBlock() {
 		waitForElementClickable(driver, AdminPostAddEditPageUI.ADD_PARAGRAPH_BUTTON_FOR_CONTENT_BLOCK);
-		clickToElement(driver, AdminPostAddEditPageUI.ADD_PARAGRAPH_BUTTON_FOR_CONTENT_BLOCK);
+		clickOnElement(driver, AdminPostAddEditPageUI.ADD_PARAGRAPH_BUTTON_FOR_CONTENT_BLOCK);
 	}
 
-	public void clickToPublishButton() {
+	public void clickOnPublishButton() {
 		waitForElementClickable(driver, AdminPostAddEditPageUI.PUBLISH_BUTTON);
-		clickToElement(driver, AdminPostAddEditPageUI.PUBLISH_BUTTON);
+		clickOnElement(driver, AdminPostAddEditPageUI.PUBLISH_BUTTON);
 	}
 
-	public void clickToUpdateButton() {
+	public void clickOnUpdateButton() {
 		waitForElementClickable(driver, AdminPostAddEditPageUI.UPDATE_BUTTON);
-		clickToElement(driver, AdminPostAddEditPageUI.UPDATE_BUTTON);
+		clickOnElement(driver, AdminPostAddEditPageUI.UPDATE_BUTTON);
 	}
 
-	public void clickToPostPublishButton() {
+	public void clickOnPostPublishButton() {
 		waitForElementClickable(driver, AdminPostAddEditPageUI.POST_PUBLISH_BUTTON);
-		clickToElement(driver, AdminPostAddEditPageUI.POST_PUBLISH_BUTTON);
+		clickOnElement(driver, AdminPostAddEditPageUI.POST_PUBLISH_BUTTON);
 	}
 
 	public void hoverAndClickMouseToContent(int number) {
@@ -53,22 +53,22 @@ public class AdminPostAddEditPageObject extends BasePage_Wordpress {
 		hoverMouseToElementAndClick(driver, AdminPostAddEditPageUI.DYNAMIC_CONTENTS_BY_ORDINAL, num);
 	}
 
-	public AdminPostViewPageObject clickToViewPostLink() {
+	public AdminPostViewPageObject clickOnViewPostLink() {
 		waitForElementVisibile(driver, AdminPostAddEditPageUI.VIEW_POST_LINK);
-		clickToElement(driver, AdminPostAddEditPageUI.VIEW_POST_LINK);
-		return PageGeneratorManager.getAdminPostViewPageObject(driver);
+		clickOnElement(driver, AdminPostAddEditPageUI.VIEW_POST_LINK);
+		return AdminPageGeneratorManager.getAdminPostViewPageObject(driver);
 	}
 
-	public AdminPostViewPageObject clickToViewUpdatedPostLink() {
+	public AdminPostViewPageObject clickOnViewUpdatedPostLink() {
 		waitForElementVisibile(driver, AdminPostAddEditPageUI.VIEW_UPDATED_POST_LINK);
-		clickToElement(driver, AdminPostAddEditPageUI.VIEW_UPDATED_POST_LINK);
-		return PageGeneratorManager.getAdminPostViewPageObject(driver);
+		clickOnElement(driver, AdminPostAddEditPageUI.VIEW_UPDATED_POST_LINK);
+		return AdminPageGeneratorManager.getAdminPostViewPageObject(driver);
 	}
 
-	public AdminPostSearchPageObject clickToViewAllPostsLink() {
+	public AdminPostSearchPageObject clickOnViewAllPostsLink() {
 		waitForElementVisibile(driver, AdminPostAddEditPageUI.VIEW_ALL_POSTS_LINK);
-		clickToElement(driver, AdminPostAddEditPageUI.VIEW_ALL_POSTS_LINK);
-		return PageGeneratorManager.getAdminPostSearchPageObject(driver);
+		clickOnElement(driver, AdminPostAddEditPageUI.VIEW_ALL_POSTS_LINK);
+		return AdminPageGeneratorManager.getAdminPostSearchPageObject(driver);
 	}
 
 	public boolean isPostSuccessfullyUpdatedMessageDisplayed() {

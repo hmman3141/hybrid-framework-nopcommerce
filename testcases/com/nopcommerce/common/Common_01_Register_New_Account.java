@@ -35,8 +35,8 @@ public class Common_01_Register_New_Account extends BaseTest {
 		
 		TestListener.startTest("Pre-condition - Create account", "Create new account");
 		
-		log4J.Info("Register - Step 01: Click to register link");
-		userRegisterPageObject = userHomePage.clickToRegisterLink();
+		log4J.Info("Register - Step 01: Click on register link");
+		userRegisterPageObject = userHomePage.clickOnRegisterLink();
 
 		log4J.Info("Register - Step 02: Enter to first name textbox with value '" + userFirstName + "'");
 		userRegisterPageObject.sendKeyToFirstNameTextbox(userFirstName);
@@ -48,14 +48,14 @@ public class Common_01_Register_New_Account extends BaseTest {
 		userRegisterPageObject.sendKeyToConfirmPasswordTextbox(userPassword);
 		log4J.Info("Register - Step 06: Enter to email textbox with value '" + userEmail + "'");
 		userRegisterPageObject.sendKeyToEmailTextbox(userEmail);
-		log4J.Info("Register - Step 07: Click to register button");
-		userRegisterPageObject.clickToRegisterButton();
+		log4J.Info("Register - Step 07: Click on register button");
+		userRegisterPageObject.clickOnRegisterButton();
 
 		log4J.Info("Register - Step 08: Verify successfully register message");
 		verifyEquals(userRegisterPageObject.getRegisterSuccessMessage(), "Your registration completed");
 
-		log4J.Info("Register - Step 09: Click to log in link");
-		userHomePage.clickToLoginLink();
+		log4J.Info("Register - Step 09: Click on log in link");
+		userHomePage.clickOnLoginLink();
 		
 		TestListener.endTest();
 		

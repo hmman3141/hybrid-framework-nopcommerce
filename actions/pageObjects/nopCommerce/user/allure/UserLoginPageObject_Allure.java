@@ -14,9 +14,9 @@ public class UserLoginPageObject_Allure extends BasePage {
 		this.driver = driver;
 	}
 
-	public void clickToLoginButton() {
+	public void clickOnLoginButton() {
 		waitForElementVisibile(driver, UserLoginPageUI.LOGIN_BUTTON);
-		clickToElement(driver, UserLoginPageUI.LOGIN_BUTTON);
+		clickOnElement(driver, UserLoginPageUI.LOGIN_BUTTON);
 	}
 
 	public String getErrorMessageAtEmailInput() {
@@ -43,7 +43,7 @@ public class UserLoginPageObject_Allure extends BasePage {
 	public UserHomePageObject_Allure loginAsUser(String email, String password) {
 		sendKeyToEmailTextbox(email);
 		sendKeyToPasswordTextbox(password);
-		clickToLoginButton();
+		clickOnLoginButton();
 		return PageGeneratorManager_Allure.getUserHomePage(driver);
 	}
 }

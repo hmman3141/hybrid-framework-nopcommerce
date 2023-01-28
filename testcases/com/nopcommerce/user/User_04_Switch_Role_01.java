@@ -43,30 +43,30 @@ public class User_04_Switch_Role_01 extends BaseTest {
 
 	@Test
 	public void Role_01_User() {
-		userRegisterPageObject = userHomePage.clickToRegisterLink();
+		userRegisterPageObject = userHomePage.clickOnRegisterLink();
 
 		userRegisterPageObject.sendKeyToFirstNameTextbox(userFirstName);
 		userRegisterPageObject.sendKeyToLastNameTextbox(userLastName);
 		userRegisterPageObject.sendKeyToPasswordTextbox(userPassword);
 		userRegisterPageObject.sendKeyToConfirmPasswordTextbox(userPassword);
 		userRegisterPageObject.sendKeyToEmailTextbox(userEmail);
-		userRegisterPageObject.clickToRegisterButton();
+		userRegisterPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(userRegisterPageObject.getRegisterSuccessMessage(), "Your registration completed");
-		userRegisterPageObject.clickToLogoutButton();
+		userRegisterPageObject.clickOnLogoutButton();
 
-		userLoginPage = userHomePage.clickToLoginLink();
+		userLoginPage = userHomePage.clickOnLoginLink();
 		userHomePage = userLoginPage.loginAsUser(userEmail, userPassword);
 
 		Assert.assertTrue(userHomePage.isAccountLink());
 
-		userHomePage = userHomePage.clickToLogoutAtUserPage(driver);
+		userHomePage = userHomePage.clickOnLogoutAtUserPage(driver);
 		userHomePage.openURL(driver, GlobalConstants.ADMIN_PAGE_URL);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
 
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
 		Assert.assertTrue(adminDashboardPage.isDashboardHeaderDisplayed());
-		adminLoginPage = adminDashboardPage.clickToLogoutAtAdminPage(driver);
+		adminLoginPage = adminDashboardPage.clickOnLogoutAtAdminPage(driver);
 	}
 
 	@Test
@@ -77,9 +77,9 @@ public class User_04_Switch_Role_01 extends BaseTest {
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
 		Assert.assertTrue(adminDashboardPage.isDashboardHeaderDisplayed());
 		
-		adminLoginPage = adminDashboardPage.clickToLogoutAtAdminPage(driver);
+		adminLoginPage = adminDashboardPage.clickOnLogoutAtAdminPage(driver);
 		adminLoginPage.openURL(driver, GlobalConstants.PORTAL_PAGE_URL);
-		userLoginPage = userHomePage.clickToLoginLink();
+		userLoginPage = userHomePage.clickOnLoginLink();
 		userHomePage = userLoginPage.loginAsUser(userEmail, userPassword);
 
 		Assert.assertTrue(userHomePage.isAccountLink());

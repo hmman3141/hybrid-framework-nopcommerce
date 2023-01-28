@@ -2,7 +2,6 @@ package commons.wordpress;
 
 import java.io.File;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -10,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -142,12 +142,12 @@ public class BasePage_Wordpress {
 		return driver.findElements(getByLocator(getDynamicXpath(xpathLocator, dynamicVariables)));
 	}
 
-	protected void clickToElement(WebDriver driver, String locator) {
+	protected void clickOnElement(WebDriver driver, String locator) {
 		waitForElementClickable(driver, locator);
 		getWebElement(driver, locator).click();
 	}
 
-	protected void clickToElements(WebDriver driver, String locator) {
+	protected void clickOnElements(WebDriver driver, String locator) {
 		waitForAllElementsPresence(driver, locator);
 		for (WebElement element : getWebElements(driver, locator)) {
 			waitForElementClickable(driver, locator);
@@ -155,7 +155,7 @@ public class BasePage_Wordpress {
 		}
 	}
 
-	protected void clickToElement(WebDriver driver, String xpathLocator, String... dynamicVariables) {
+	protected void clickOnElement(WebDriver driver, String xpathLocator, String... dynamicVariables) {
 		waitForElementClickable(driver, xpathLocator, dynamicVariables);
 		getWebElement(driver, xpathLocator, dynamicVariables).click();
 	}
@@ -176,7 +176,7 @@ public class BasePage_Wordpress {
 
 	protected void pressKeysToDeleteMessage(WebDriver driver, String locator) {
 		WebElement element = getWebElement(driver, locator);
-		element.sendKeys(Keys.chord(Keys.CONTROL,"a",Keys.DELETE));
+		element.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
 	}
 
 	protected void pressKeysToDeleteMessage(WebDriver driver, String locator, String... dynamicVariables) {
@@ -313,6 +313,7 @@ public class BasePage_Wordpress {
 		try {
 			return getWebElement(driver, locator).isDisplayed();
 		} catch (NoSuchElementException e) {
+			overrideGlobalImplicitTime(driver, GlobalConstants.LONG_TIMEOUT);
 			return false;
 		}
 	}
@@ -389,7 +390,7 @@ public class BasePage_Wordpress {
 		jsExecutor.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 	}
 
-	protected void clickToElementByJS(WebDriver driver, String locator) {
+	protected void clickOnElementByJS(WebDriver driver, String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].click()", getWebElement(driver, locator));
 	}

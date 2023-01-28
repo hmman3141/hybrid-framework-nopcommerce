@@ -45,33 +45,33 @@ public class User_03_Switch_Page_02_Dynamic_Locator extends BaseTest {
 
 	@Test
 	public void TC_01_Register() {
-		registerPageObject = homePageObject.clickToRegisterLink();
+		registerPageObject = homePageObject.clickOnRegisterLink();
 
 		registerPageObject.sendKeyToFirstNameTextbox(firstName);
 		registerPageObject.sendKeyToLastNameTextbox(lastName);
 		registerPageObject.sendKeyToPasswordTextbox(password);
 		registerPageObject.sendKeyToConfirmPasswordTextbox(password);
 		registerPageObject.sendKeyToEmailTextbox(email);
-		registerPageObject.clickToRegisterButton();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getRegisterSuccessMessage(), "Your registration completed");
-		registerPageObject.clickToLogoutButton();
+		registerPageObject.clickOnLogoutButton();
 	}
 
 	@Test
 	public void TC_02_Login() {
-		loginPageObject = homePageObject.clickToLoginLink();
+		loginPageObject = homePageObject.clickOnLoginLink();
 
 		loginPageObject.sendKeyToEmailTextbox(email);
 		loginPageObject.sendKeyToPasswordTextbox(password);
-		loginPageObject.clickToLoginButton();
+		loginPageObject.clickOnLoginButton();
 
 		Assert.assertTrue(homePageObject.isAccountLink());
 	}
 
 	@Test
 	public void TC_03_MyAccount() {
-		customerInfoPageObject = homePageObject.clickToMyAccountLink();
+		customerInfoPageObject = homePageObject.clickOnMyAccountLink();
 		addressesPageObject = (UserAddressesPageObject) customerInfoPageObject.openMyAccountPageByName(driver,
 				UserCustomerInfoSidebar.ADDRESSES);
 		rewardPointsPageObject = (UserRewardPointsPageObject) addressesPageObject.openMyAccountPageByName(driver,

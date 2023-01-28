@@ -2,13 +2,13 @@ package commons;
 
 import java.io.File;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -152,12 +152,12 @@ public class BasePage {
 		return driver.findElements(getByLocator(getDynamicXpath(xpathLocator, dynamicVariables)));
 	}
 
-	public void clickToElement(WebDriver driver, String locator) {
+	public void clickOnElement(WebDriver driver, String locator) {
 		waitForElementClickable(driver, locator);
 		getWebElement(driver, locator).click();
 	}
 
-	public void clickToElements(WebDriver driver, String locator) {
+	public void clickOnElements(WebDriver driver, String locator) {
 		waitForAllElementsPresence(driver, locator);
 		for (WebElement element : getWebElements(driver, locator)) {
 			waitForElementClickable(driver, locator);
@@ -165,7 +165,7 @@ public class BasePage {
 		}
 	}
 
-	protected void clickToElement(WebDriver driver, String xpathLocator, String... dynamicVariables) {
+	protected void clickOnElement(WebDriver driver, String xpathLocator, String... dynamicVariables) {
 		waitForElementClickable(driver, xpathLocator, dynamicVariables);
 		getWebElement(driver, xpathLocator, dynamicVariables).click();
 	}
@@ -383,7 +383,7 @@ public class BasePage {
 		jsExecutor.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 	}
 
-	protected void clickToElementByJS(WebDriver driver, String locator) {
+	protected void clickOnElementByJS(WebDriver driver, String locator) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].click()", getWebElement(driver, locator));
 	}
@@ -444,39 +444,39 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(locator)));
 	}
 
-	public UserAddressesPageObject clickToAddressesLink(WebDriver driver) {
+	public UserAddressesPageObject clickOnAddressesLink(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.ADDRESSES_LINK);
-		clickToElement(driver, BasePageUI.ADDRESSES_LINK);
+		clickOnElement(driver, BasePageUI.ADDRESSES_LINK);
 		return PageGeneratorManager.getUserAddressesPage(driver);
 	}
 
-	public UserRewardPointsPageObject clickToRewardPointsLink(WebDriver driver) {
+	public UserRewardPointsPageObject clickOnRewardPointsLink(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.REWARD_POINTS_LINK);
-		clickToElement(driver, BasePageUI.REWARD_POINTS_LINK);
+		clickOnElement(driver, BasePageUI.REWARD_POINTS_LINK);
 		return PageGeneratorManager.getUserRewardPointsPage(driver);
 	}
 
-	public UserMyProductReviewPageObject clickToMyProductReviewLink(WebDriver driver) {
+	public UserMyProductReviewPageObject clickOnMyProductReviewLink(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
-		clickToElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
+		clickOnElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
 		return PageGeneratorManager.getUserMyProductReviewPage(driver);
 	}
 
-	public UserHomePageObject clickToLogoutAtUserPage(WebDriver driver) {
+	public UserHomePageObject clickOnLogoutAtUserPage(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.LOGOUT_LINK_AT_USER);
-		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
+		clickOnElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
 		return PageGeneratorManager.getUserHomePage(driver);
 	}
 
-	public AdminLoginPageObject clickToLogoutAtAdminPage(WebDriver driver) {
+	public AdminLoginPageObject clickOnLogoutAtAdminPage(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
-		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
+		clickOnElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		return PageGeneratorManager.getAdminLoginPage(driver);
 	}
 
 	public BasePage openMyAccountPageByName(WebDriver driver, String name) {
 		waitForElementVisibile(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT, name);
-		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT, name);
+		clickOnElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT, name);
 		switch (name) {
 		case UserCustomerInfoSidebar.ADDRESSES:
 			return PageGeneratorManager.getUserAddressesPage(driver);

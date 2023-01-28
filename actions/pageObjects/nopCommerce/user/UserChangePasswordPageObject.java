@@ -13,14 +13,14 @@ public class UserChangePasswordPageObject extends BasePage {
 		this.driver = driver;
 	}
 	
-	public void clickToChangePasswordButton() {
+	public void clickOnChangePasswordButton() {
 		waitForElementClickable(driver, UserChangePasswordPageUI.CHANGE_PASSWORD_BUTTON);
-		clickToElement(driver, UserChangePasswordPageUI.CHANGE_PASSWORD_BUTTON);
+		clickOnElement(driver, UserChangePasswordPageUI.CHANGE_PASSWORD_BUTTON);
 	}
 	
-	public void clickToCloseSuccessfulPasswordChangeButton() {
+	public void clickOnCloseSuccessfulPasswordChangeButton() {
 		waitForElementClickable(driver, UserChangePasswordPageUI.CLOSE_PASSWORD_SUCCESSFUL_CHANGE_NOTIFICATION);
-		clickToElement(driver, UserChangePasswordPageUI.CLOSE_PASSWORD_SUCCESSFUL_CHANGE_NOTIFICATION);
+		clickOnElement(driver, UserChangePasswordPageUI.CLOSE_PASSWORD_SUCCESSFUL_CHANGE_NOTIFICATION);
 	}
 
 	public void sendKeyToOldPasswordTextbox(String key) {

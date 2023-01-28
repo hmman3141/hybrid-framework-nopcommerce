@@ -17,8 +17,8 @@ public class HomePageObject extends BasePage {
 		return isElementDisplayed(driver, pageUIs.jQuery.uploadFiles.HomePageUI.DYNAMIC_FILE_NAME, fileName);
 	}
 
-	public void clickToMultipleStartButtons() {
-		clickToElements(driver, pageUIs.jQuery.uploadFiles.HomePageUI.MULTIPLE_BUTTON_START_UPLOAD_FILE);
+	public void clickOnMultipleStartButtons() {
+		clickOnElements(driver, pageUIs.jQuery.uploadFiles.HomePageUI.MULTIPLE_BUTTON_START_UPLOAD_FILE);
 	}
 
 	public void sendFilesToElement() {

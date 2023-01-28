@@ -27,9 +27,9 @@ public class UserLoginPageObject_BaseFactory extends BaseFactory {
 	@FindBy(xpath = "//div[contains(@class,'message-error')]")
 	private WebElement emailNonexistentErrorMessage;
 
-	public void clickToLoginButton() {
+	public void clickOnLoginButton() {
 		waitForElementVisibile(driver, loginButton);
-		clickToElement(driver, loginButton);
+		clickOnElement(driver, loginButton);
 	}
 
 	public String getErrorMessageAtEmailInput() {

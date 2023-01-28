@@ -26,7 +26,7 @@ public class Upload_File_02_Listener_Handle_Failed_TC extends BaseTest {
 	@Test
 	public void TC_01() {
 		homePage.sendFilesToElement();
-		homePage.clickToMultipleStartButtons();
+		homePage.clickOnMultipleStartButtons();
 		for (String file : files) {
 			verifyFalse(homePage.isFileLoadedByName(file));
 		}

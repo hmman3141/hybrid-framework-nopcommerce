@@ -22,9 +22,9 @@ public class AdminLoginPageObject extends BasePage_Wordpress {
 		sendKeyToElement(driver, AdminLoginPageUI.PASSWORD_TEXTBOX, key);
 	}
 	
-	public AdminDashboardPageObject clickToLoginButton() {
+	public AdminDashboardPageObject clickOnLoginButton() {
 		waitForElementVisibile(driver, AdminLoginPageUI.LOGIN_BUTTON);
-		clickToElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
-		return PageGeneratorManager.getAdminDashboardPageObject(driver);
+		clickOnElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
+		return AdminPageGeneratorManager.getAdminDashboardPageObject(driver);
 	}
 }

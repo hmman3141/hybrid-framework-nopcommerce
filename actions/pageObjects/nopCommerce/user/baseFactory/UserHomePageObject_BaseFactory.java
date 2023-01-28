@@ -24,14 +24,14 @@ public class UserHomePageObject_BaseFactory extends BaseFactory {
 	@FindBy(xpath = "//a[@class='ico-account']")
 	private WebElement accountLink;
 	
-	public void clickToRegisterLink() {
+	public void clickOnRegisterLink() {
 		waitForElementClickable(driver, registerLink);
-		clickToElement(driver, registerLink);
+		clickOnElement(driver, registerLink);
 	}
 
-	public void clickToLoginLink() {
+	public void clickOnLoginLink() {
 		waitForElementVisibile(driver, loginLink);
-		clickToElement(driver, loginLink);
+		clickOnElement(driver, loginLink);
 	}
 
 	public boolean isAccountLink() {

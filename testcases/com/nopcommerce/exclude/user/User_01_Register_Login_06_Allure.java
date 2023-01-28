@@ -40,23 +40,23 @@ public class User_01_Register_Login_06_Allure extends BaseTest {
 	@Severity(SeverityLevel.NORMAL)
 	@Description(value = "Register and login")
 	public void TC_01_Register_Login() {
-		userRegisterPageObject = userHomePage.clickToRegisterLink();
+		userRegisterPageObject = userHomePage.clickOnRegisterLink();
 
 		userRegisterPageObject.sendKeyToFirstNameTextbox(userFirstName);
 		userRegisterPageObject.sendKeyToLastNameTextbox(userLastName);
 		userRegisterPageObject.sendKeyToPasswordTextbox(userPassword);
 		userRegisterPageObject.sendKeyToConfirmPasswordTextbox(userPassword);
 		userRegisterPageObject.sendKeyToEmailTextbox(userEmail);
-		userRegisterPageObject.clickToRegisterButton();
+		userRegisterPageObject.clickOnRegisterButton();
 
 		verifyEquals(userRegisterPageObject.getRegisterSuccessMessage(), "Your registration completed");
 
-		userLoginPage = userHomePage.clickToLoginLink();
+		userLoginPage = userHomePage.clickOnLoginLink();
 		userHomePage = userLoginPage.loginAsUser(userEmail, userPassword);
 
 		verifyTrue(userHomePage.isAccountLink());
 
-		userHomePage = userHomePage.clickToLogoutAtUserPage_Allure(driver);
+		userHomePage = userHomePage.clickOnLogoutAtUserPage_Allure(driver);
 	}
 
 	@AfterClass

@@ -25,21 +25,21 @@ public class UserHomePageObject extends BasePage {
 		return PageGeneratorManager.getUserDesktopsPage(driver);
 	}
 
-	public UserRegisterPageObject clickToRegisterLink() {
+	public UserRegisterPageObject clickOnRegisterLink() {
 		waitForElementClickable(driver, UserHomePageUI.REGISTER_LINK);
-		clickToElement(driver, UserHomePageUI.REGISTER_LINK);
+		clickOnElement(driver, UserHomePageUI.REGISTER_LINK);
 		return new UserRegisterPageObject(driver);
 	}
 	
-	public UserLoginPageObject clickToLoginLink() {
+	public UserLoginPageObject clickOnLoginLink() {
 		waitForElementVisibile(driver, UserHomePageUI.LOGIN_LINK);
-		clickToElement(driver, UserHomePageUI.LOGIN_LINK);
+		clickOnElement(driver, UserHomePageUI.LOGIN_LINK);
 		return new UserLoginPageObject(driver);
 	}
 	
-	public UserCustomerInfoPageObject clickToMyAccountLink() {
+	public UserCustomerInfoPageObject clickOnMyAccountLink() {
 		waitForElementVisibile(driver, UserHomePageUI.ACCOUNT_LINK);
-		clickToElement(driver, UserHomePageUI.ACCOUNT_LINK);
+		clickOnElement(driver, UserHomePageUI.ACCOUNT_LINK);
 		return new UserCustomerInfoPageObject(driver);
 	}
 	

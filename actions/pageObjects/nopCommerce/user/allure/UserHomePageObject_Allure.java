@@ -15,24 +15,24 @@ public class UserHomePageObject_Allure extends BasePage {
 		this.driver = driver;
 	}
 
-	@Step(value = "Click to register link on bar")
-	public UserRegisterPageObject_Allure clickToRegisterLink() {
+	@Step(value = "Click on register link on bar")
+	public UserRegisterPageObject_Allure clickOnRegisterLink() {
 		waitForElementClickable(driver, UserHomePageUI.REGISTER_LINK);
-		clickToElement(driver, UserHomePageUI.REGISTER_LINK);
+		clickOnElement(driver, UserHomePageUI.REGISTER_LINK);
 		return new UserRegisterPageObject_Allure(driver);
 	}
 	
-	@Step(value = "Click to login link on bar")
-	public UserLoginPageObject_Allure clickToLoginLink() {
+	@Step(value = "Click on login link on bar")
+	public UserLoginPageObject_Allure clickOnLoginLink() {
 		waitForElementVisibile(driver, UserHomePageUI.LOGIN_LINK);
-		clickToElement(driver, UserHomePageUI.LOGIN_LINK);
+		clickOnElement(driver, UserHomePageUI.LOGIN_LINK);
 		return new UserLoginPageObject_Allure(driver);
 	}
 
-	@Step(value = "Click to logout link on bar")
-	public UserHomePageObject_Allure clickToLogoutAtUserPage_Allure(WebDriver driver) {
+	@Step(value = "Click on logout link on bar")
+	public UserHomePageObject_Allure clickOnLogoutAtUserPage_Allure(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.LOGOUT_LINK_AT_USER);
-		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
+		clickOnElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
 		return PageGeneratorManager_Allure.getUserHomePage(driver);
 	}
 	

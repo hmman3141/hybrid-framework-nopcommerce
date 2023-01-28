@@ -28,8 +28,8 @@ public class User_01_Register_05_Multiple_Browsers extends BaseTest {
 
 	@Test
 	public void TC_01_RegisterWithEmptyData() {
-		homePageObject.clickToRegisterLink();
-		registerPageObject.clickToRegisterButton();
+		homePageObject.clickOnRegisterLink();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtFirstNameInput(), "First name is required.");
 		Assert.assertEquals(registerPageObject.getErrorMessageAtLastNameInput(), "Last name is required.");

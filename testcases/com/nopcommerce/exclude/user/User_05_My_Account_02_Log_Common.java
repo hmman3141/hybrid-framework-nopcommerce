@@ -44,8 +44,8 @@ public class User_05_My_Account_02_Log_Common extends BaseTest {
 		
 		TestListener.startTest("Pre-condition - Login", "Login to the website");
 
-		log4J.Info("Login - Step 01: Click to login link");
-		userLoginPage = userHomePage.clickToLoginLink();
+		log4J.Info("Login - Step 01: Click on login link");
+		userLoginPage = userHomePage.clickOnLoginLink();
 		log4J.Info("Login - Step 02: Login with information: " + userEmail + "/" + userPassword);
 		userHomePage = userLoginPage.loginAsUser(userEmail, userPassword);
 
@@ -57,12 +57,12 @@ public class User_05_My_Account_02_Log_Common extends BaseTest {
 
 	@Test
 	public void TC_01_Customer_Information() {
-		log4J.Info("User-Customer Information - Step 01: Click to my account link");
-		userCustomerInfoPage = userHomePage.clickToMyAccountLink();
+		log4J.Info("User-Customer Information - Step 01: Click on my account link");
+		userCustomerInfoPage = userHomePage.clickOnMyAccountLink();
 		verifyTrue(userCustomerInfoPage.isCustomerInfoDisplay());
 
-		log4J.Info("User-Customer Information - Step 02: Click to female radio button");
-		userCustomerInfoPage.clickToFemaleRadioButton();
+		log4J.Info("User-Customer Information - Step 02: Click on female radio button");
+		userCustomerInfoPage.clickOnFemaleRadioButton();
 		log4J.Info("User-Customer Information - Step 03: Send key to first name test box with value: " + firstName);
 		userCustomerInfoPage.sendKeyToFirstNameTextBoxInput(firstName);
 		log4J.Info("User-Customer Information - Step 04: Send key to last name test box with value: " + lastName);
@@ -77,8 +77,8 @@ public class User_05_My_Account_02_Log_Common extends BaseTest {
 		userCustomerInfoPage.selectItemFromYearCheckbox(yearOfBirth);
 		log4J.Info("User-Customer Information - Step 09: Send key to company test box with value: " + company);
 		userCustomerInfoPage.sendKeyToCompanyTextBoxInput(company);
-		log4J.Info("User-Customer Information - Step 10: Click to save button");
-		userCustomerInfoPage.clickToSaveButton();
+		log4J.Info("User-Customer Information - Step 10: Click on save button");
+		userCustomerInfoPage.clickOnSaveButton();
 
 		log4J.Info("User-Customer Information - Step 11: Verify first name with value: " + firstName);
 		verifyEquals(userCustomerInfoPage.getTextFromFirstNameTextBoxInput(), firstName);

@@ -23,9 +23,9 @@ public class AdminLoginPageObject extends BasePage {
 		sendKeyToElement(driver, AdminLoginPageUI.PASSWORD_TEXTBOX, string);
 	}
 	
-	public void clickToLoginButton() {
+	public void clickOnLoginButton() {
 		waitForElementVisibile(driver, AdminLoginPageUI.LOGIN_BUTTON);
-		clickToElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
+		clickOnElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
 	}
 	
 	public String getErrorMessageAtEmailInput() {
@@ -41,7 +41,7 @@ public class AdminLoginPageObject extends BasePage {
 	public AdminDashboardPageObject loginAsAdmin(String adminEmail, String adminPassword) {
 		sendKeyToEmailTextbox(adminEmail);
 		sendKeyToPasswordTextbox(adminPassword);
-		clickToLoginButton();
+		clickOnLoginButton();
 		return PageGeneratorManager.getAdminDashboardPage(driver);
 	}
 }

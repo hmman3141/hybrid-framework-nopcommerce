@@ -46,8 +46,8 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_01_RegisterWithEmptyData() {
-		homePageObject.clickToRegisterLink();
-		registerPageObject.clickToRegisterButton();
+		homePageObject.clickOnRegisterLink();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtFirstNameInput(), "First name is required.");
 		Assert.assertEquals(registerPageObject.getErrorMessageAtLastNameInput(), "Last name is required.");
@@ -58,49 +58,49 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_02_RegisterWithInvalidEmail() {
-		homePageObject.clickToRegisterLink();
+		homePageObject.clickOnRegisterLink();
 
 		registerPageObject.sendKeyToEmailTextbox(invalidEmail);
-		registerPageObject.clickToRegisterButton();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtEmailInput(), "Wrong email");
 	}
 
 	@Test
 	public void TC_03_SuccessfullyRegister() {
-		homePageObject.clickToRegisterLink();
+		homePageObject.clickOnRegisterLink();
 
 		registerPageObject.sendKeyToFirstNameTextbox(firstName);
 		registerPageObject.sendKeyToLastNameTextbox(lastName);
 		registerPageObject.sendKeyToPasswordTextbox(password);
 		registerPageObject.sendKeyToConfirmPasswordTextbox(confirmPassword);
 		registerPageObject.sendKeyToEmailTextbox(email);
-		registerPageObject.clickToRegisterButton();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getRegisterSuccessMessage(), "Your registration completed");
-		registerPageObject.clickToLogoutButton();
+		registerPageObject.clickOnLogoutButton();
 	}
 
 	@Test
 	public void TC_04_RegisterWithExistedEmail() {
-		homePageObject.clickToRegisterLink();
+		homePageObject.clickOnRegisterLink();
 
 		registerPageObject.sendKeyToFirstNameTextbox(firstName);
 		registerPageObject.sendKeyToLastNameTextbox(lastName);
 		registerPageObject.sendKeyToPasswordTextbox(password);
 		registerPageObject.sendKeyToConfirmPasswordTextbox(confirmPassword);
 		registerPageObject.sendKeyToEmailTextbox(email);
-		registerPageObject.clickToRegisterButton();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getRegisterDuplicatedMessage(), "The specified email already exists");
 	}
 
 	@Test
 	public void TC_05_RegisterWithInvalidPassword() {
-		homePageObject.clickToRegisterLink();
+		homePageObject.clickOnRegisterLink();
 
 		registerPageObject.sendKeyToPasswordTextbox(invalidPassword);
-		registerPageObject.clickToRegisterButton();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtPasswordNameInput(),
 				"Password must meet the following rules:\n" + "must have at least 6 characters");
@@ -108,11 +108,11 @@ public class User_01_Register_04_Page_Object {
 
 	@Test
 	public void TC_06_RegisterWithInvalidConfirmPassword() {
-		homePageObject.clickToRegisterLink();
+		homePageObject.clickOnRegisterLink();
 
 		registerPageObject.sendKeyToPasswordTextbox(password);
 		registerPageObject.sendKeyToConfirmPasswordTextbox(invalidConfirmPassword);
-		registerPageObject.clickToRegisterButton();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getErrorMessageAtConfirmPasswordInput(),
 				"The password and confirmation password do not match.");

@@ -44,8 +44,8 @@ public class User_04_Switch_Role_02_Log_ReportNG extends BaseTest {
 
 	@Test
 	public void Role_01_User() {
-		log4J.Info("Role User - Step 01: Click to register link");
-		userRegisterPageObject = userHomePage.clickToRegisterLink();
+		log4J.Info("Role User - Step 01: Click on register link");
+		userRegisterPageObject = userHomePage.clickOnRegisterLink();
 
 		log4J.Info("Role User - Step 02: Enter to first name textbox with value '" + userFirstName + "'");
 		userRegisterPageObject.sendKeyToFirstNameTextbox(userFirstName);
@@ -57,22 +57,22 @@ public class User_04_Switch_Role_02_Log_ReportNG extends BaseTest {
 		userRegisterPageObject.sendKeyToConfirmPasswordTextbox(userPassword);
 		log4J.Info("Role User - Step 06: Enter to email textbox with value '" + userEmail + "'");
 		userRegisterPageObject.sendKeyToEmailTextbox(userEmail);
-		log4J.Info("Role User - Step 07: Click to register button");
-		userRegisterPageObject.clickToRegisterButton();
+		log4J.Info("Role User - Step 07: Click on register button");
+		userRegisterPageObject.clickOnRegisterButton();
 
 		log4J.Info("Role User - Step 08: Verify successfully register message");
 		verifyEquals(userRegisterPageObject.getRegisterSuccessMessage(), "Your registration completed");
 
-		log4J.Info("Role User - Step 09: Click to log in link");
-		userLoginPage = userHomePage.clickToLoginLink();
+		log4J.Info("Role User - Step 09: Click on log in link");
+		userLoginPage = userHomePage.clickOnLoginLink();
 		log4J.Info("Role User - Step 10: Log in with giving log4J.Information: " + userEmail + " / " + userPassword);
 		userHomePage = userLoginPage.loginAsUser(userEmail, userPassword);
 
 		log4J.Info("Role User - Step 11: Verify account is link");
 		verifyTrue(userHomePage.isAccountLink());
 
-		log4J.Info("Role User - Step 12: Click to log out link");
-		userHomePage = userHomePage.clickToLogoutAtUserPage(driver);
+		log4J.Info("Role User - Step 12: Click on log out link");
+		userHomePage = userHomePage.clickOnLogoutAtUserPage(driver);
 		log4J.Info("Role User - Step 13: Open admin URL");
 		userHomePage.openURL(driver, GlobalConstants.ADMIN_PAGE_URL);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
@@ -82,8 +82,8 @@ public class User_04_Switch_Role_02_Log_ReportNG extends BaseTest {
 		
 		log4J.Info("Role User - Step 15: Verify dashboard header is displayed");
 		verifyTrue(adminDashboardPage.isDashboardHeaderDisplayed());
-		log4J.Info("Role User - Step 16: Click to log out link");
-		adminLoginPage = adminDashboardPage.clickToLogoutAtAdminPage(driver);
+		log4J.Info("Role User - Step 16: Click on log out link");
+		adminLoginPage = adminDashboardPage.clickOnLogoutAtAdminPage(driver);
 	}
 
 	@AfterClass

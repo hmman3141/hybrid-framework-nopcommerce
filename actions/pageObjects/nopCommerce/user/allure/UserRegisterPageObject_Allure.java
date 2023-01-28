@@ -14,10 +14,10 @@ public class UserRegisterPageObject_Allure extends BasePage {
 		this.driver = driver;
 	}
 
-	@Step(value = "Click to register button")
-	public void clickToRegisterButton() {
+	@Step(value = "Click on register button")
+	public void clickOnRegisterButton() {
 		waitForElementClickable(driver, UserRegisterPageUI.REGISTER_BUTTON);
-		clickToElement(driver, UserRegisterPageUI.REGISTER_BUTTON);
+		clickOnElement(driver, UserRegisterPageUI.REGISTER_BUTTON);
 	}
 
 	@Step(value = "Verify register success message")

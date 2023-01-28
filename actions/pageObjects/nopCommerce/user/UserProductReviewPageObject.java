@@ -23,13 +23,13 @@ public class UserProductReviewPageObject extends BasePage {
 		sendKeyToElement(driver, UserProductReviewPageUI.REVIEW_TEXT_TEXTBOX, key);
 	}
 	
-	public void clickToRatingPoint1RadioButton() {
+	public void clickOnRatingPoint1RadioButton() {
 		waitForElementVisibile(driver, UserProductReviewPageUI.REVIEW_RATING_POINT_1);
-		clickToElement(driver, UserProductReviewPageUI.REVIEW_RATING_POINT_1);
+		clickOnElement(driver, UserProductReviewPageUI.REVIEW_RATING_POINT_1);
 	}
 	
-	public void clickToSubmitReviewButton() {
+	public void clickOnSubmitReviewButton() {
 		waitForElementVisibile(driver, UserProductReviewPageUI.SUBMIT_REVIEW_BUTTON);
-		clickToElement(driver, UserProductReviewPageUI.SUBMIT_REVIEW_BUTTON);
+		clickOnElement(driver, UserProductReviewPageUI.SUBMIT_REVIEW_BUTTON);
 	}
 }

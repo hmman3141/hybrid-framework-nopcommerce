@@ -15,7 +15,7 @@ public class HomePageObject extends BasePage {
 	public void clickPaginationByNumber(int pageNumber) {
 		String number = String.valueOf(pageNumber);
 		waitForElementClickable(driver, HomePageUI.DYNAMIC_PAGINATION_BY_NUMBER, number);
-		clickToElement(driver, HomePageUI.DYNAMIC_PAGINATION_BY_NUMBER, number);
+		clickOnElement(driver, HomePageUI.DYNAMIC_PAGINATION_BY_NUMBER, number);
 	}
 
 	public void sendKeyToTextbox(String textBoxName, String key) {
@@ -35,9 +35,9 @@ public class HomePageObject extends BasePage {
 		selectValueFromDefaultCheckbox(driver, HomePageUI.DYNAMIC_INPUT_APPENDGRID, row, columnName);
 	}
 	
-	public void clickToButtonAppendGrid(int rowNumber, String buttonTitle) {
+	public void clickOnButtonAppendGrid(int rowNumber, String buttonTitle) {
 		String row = String.valueOf(rowNumber);
 		waitForElementVisibile(driver, HomePageUI.DYNAMIC_ACTION_BUTTON_APPENDGRID, row, buttonTitle);
-		clickToElement(driver, HomePageUI.DYNAMIC_ACTION_BUTTON_APPENDGRID, row, buttonTitle);
+		clickOnElement(driver, HomePageUI.DYNAMIC_ACTION_BUTTON_APPENDGRID, row, buttonTitle);
 	}
 }

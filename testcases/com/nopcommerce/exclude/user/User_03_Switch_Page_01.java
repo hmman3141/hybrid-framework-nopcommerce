@@ -44,37 +44,37 @@ public class User_03_Switch_Page_01 extends BaseTest {
 
 	@Test
 	public void TC_01_Register() {
-		registerPageObject = homePageObject.clickToRegisterLink();
+		registerPageObject = homePageObject.clickOnRegisterLink();
 		
 		registerPageObject.sendKeyToFirstNameTextbox(firstName);
 		registerPageObject.sendKeyToLastNameTextbox(lastName);
 		registerPageObject.sendKeyToPasswordTextbox(password);
 		registerPageObject.sendKeyToConfirmPasswordTextbox(password);
 		registerPageObject.sendKeyToEmailTextbox(email);
-		registerPageObject.clickToRegisterButton();
+		registerPageObject.clickOnRegisterButton();
 
 		Assert.assertEquals(registerPageObject.getRegisterSuccessMessage(), "Your registration completed");
-		registerPageObject.clickToLogoutButton();
+		registerPageObject.clickOnLogoutButton();
 	}
 
 	@Test
 	public void TC_02_Login() {
-		loginPageObject = homePageObject.clickToLoginLink();
+		loginPageObject = homePageObject.clickOnLoginLink();
 
 		loginPageObject.sendKeyToEmailTextbox(email);
 		loginPageObject.sendKeyToPasswordTextbox(password);
-		loginPageObject.clickToLoginButton();
+		loginPageObject.clickOnLoginButton();
 
 		Assert.assertTrue(homePageObject.isAccountLink());
 	}
 
 	@Test
 	public void TC_03_MyAccount() {
-		customerInfoPageObject = homePageObject.clickToMyAccountLink();
-		addressesPageObject = customerInfoPageObject.clickToAddressesLink(driver);
-		rewardPointsPageObject = addressesPageObject.clickToRewardPointsLink(driver);
-		myProductReviewPageObject = rewardPointsPageObject.clickToMyProductReviewLink(driver);
-		addressesPageObject = myProductReviewPageObject.clickToAddressesLink(driver);
+		customerInfoPageObject = homePageObject.clickOnMyAccountLink();
+		addressesPageObject = customerInfoPageObject.clickOnAddressesLink(driver);
+		rewardPointsPageObject = addressesPageObject.clickOnRewardPointsLink(driver);
+		myProductReviewPageObject = rewardPointsPageObject.clickOnMyProductReviewLink(driver);
+		addressesPageObject = myProductReviewPageObject.clickOnAddressesLink(driver);
 	}
 
 	@AfterClass

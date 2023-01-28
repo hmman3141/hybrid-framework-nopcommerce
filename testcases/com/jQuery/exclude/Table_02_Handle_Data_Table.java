@@ -26,15 +26,15 @@ public class Table_02_Handle_Data_Table extends BaseTest {
 	public void TC_01() {
 		homePage.sendKeyToTextboxAppendGrid(1, "Album", "Abc");
 		homePage.sendKeyToTextboxAppendGrid(1, "Artist", "Abcde");
-		homePage.clickToButtonAppendGrid(1, "Insert Row Above");
-		homePage.clickToButtonAppendGrid(1, "Move Down");
+		homePage.clickOnButtonAppendGrid(1, "Insert Row Above");
+		homePage.clickOnButtonAppendGrid(1, "Move Down");
 		homePage.sendKeyToTextboxAppendGrid(2, "Album", "Def");
 		homePage.sendKeyToTextboxAppendGrid(2, "Artist", "Defghi");
 		homePage.sendKeyToTextboxAppendGrid(2, "Price", "300");
-		homePage.clickToButtonAppendGrid(2, "Insert Row Above");
-		homePage.clickToButtonAppendGrid(2, "Insert Row Above");
+		homePage.clickOnButtonAppendGrid(2, "Insert Row Above");
+		homePage.clickOnButtonAppendGrid(2, "Insert Row Above");
 		homePage.sendKeyToTextboxAppendGrid(3, "Album", "Def");
-		homePage.clickToButtonAppendGrid(2, "Move Down");
+		homePage.clickOnButtonAppendGrid(2, "Move Down");
 	}
 
 	@AfterClass

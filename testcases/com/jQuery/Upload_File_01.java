@@ -28,7 +28,7 @@ public class Upload_File_01 extends BaseTest {
 	@Test
 	public void TC_01() {
 		homePage.sendFilesToElement();
-		homePage.clickToMultipleStartButtons();
+		homePage.clickOnMultipleStartButtons();
 		for (String file : files) {
 			assertTrue(homePage.isFileLoadedByName(file));
 		}

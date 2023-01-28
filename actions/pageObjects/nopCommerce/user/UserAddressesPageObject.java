@@ -13,14 +13,14 @@ public class UserAddressesPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void clickToAddNewButton() {
+	public void clickOnAddNewButton() {
 		waitForElementClickable(driver, UserAddressesPageUI.ADD_NEW_BUTTON);
-		clickToElement(driver, UserAddressesPageUI.ADD_NEW_BUTTON);
+		clickOnElement(driver, UserAddressesPageUI.ADD_NEW_BUTTON);
 	}
 
-	public void clickToSaveButton() {
+	public void clickOnSaveButton() {
 		waitForElementClickable(driver, UserAddressesPageUI.SAVE_BUTTON);
-		clickToElement(driver, UserAddressesPageUI.SAVE_BUTTON);
+		clickOnElement(driver, UserAddressesPageUI.SAVE_BUTTON);
 	}
 
 	public void sendKeyToFirstNameTextbox(String key) {

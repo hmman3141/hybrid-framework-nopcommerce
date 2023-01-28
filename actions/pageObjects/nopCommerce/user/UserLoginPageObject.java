@@ -13,9 +13,9 @@ public class UserLoginPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void clickToLoginButton() {
+	public void clickOnLoginButton() {
 		waitForElementVisibile(driver, UserLoginPageUI.LOGIN_BUTTON);
-		clickToElement(driver, UserLoginPageUI.LOGIN_BUTTON);
+		clickOnElement(driver, UserLoginPageUI.LOGIN_BUTTON);
 	}
 
 	public String getErrorMessageAtEmailInput() {
@@ -41,7 +41,7 @@ public class UserLoginPageObject extends BasePage {
 	public UserHomePageObject loginAsUser(String email, String password) {
 		sendKeyToEmailTextbox(email);
 		sendKeyToPasswordTextbox(password);
-		clickToLoginButton();
+		clickOnLoginButton();
 		return PageGeneratorManager.getUserHomePage(driver);
 	}
 }
