@@ -2,6 +2,7 @@ package commons;
 
 import static reportConfig.TestListener.log4J;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -11,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.testng.Assert;
 import org.testng.Reporter;
 
@@ -27,21 +30,56 @@ public class BaseTest {
 		return this.driver;
 	}
 
+	private String getPath(String... variables) {
+		return String.join(File.separator, variables);
+	}
+
 	protected WebDriver getBrowserDriver(String browserName) {
 		switch (browserName) {
 		case "firefox":
+			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,
+					getPath(GlobalConstants.PROJECT_PATH, "browserLogs", "firefoxLogs.txt"));
+			FirefoxProfile firefoxProfile = new FirefoxProfile();
+			File firefoxExtension = new File(
+					getPath(GlobalConstants.PROJECT_PATH, "browserExtension", "to_google_translate-4.2.0.xpi"));
+			firefoxProfile.addExtension(firefoxExtension);
+			FirefoxOptions firefoxOption = new FirefoxOptions();
+			firefoxOption.setProfile(firefoxProfile);
 			WebDriverManager.firefoxdriver().driverVersion(firefoxDriverVersion).setup();
-			driver = new FirefoxDriver();
+			driver = new FirefoxDriver(firefoxOption);
+			break;
+		case "headless_firefox":
+			FirefoxOptions headlessFirefoxOption = new FirefoxOptions();
+			headlessFirefoxOption.addArguments("-headless");
+			headlessFirefoxOption.addArguments("window-size=1920x1980");
+			WebDriverManager.firefoxdriver().driverVersion(firefoxDriverVersion).setup();
+			driver = new FirefoxDriver(headlessFirefoxOption);
 			break;
 		case "chrome":
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.logfile",
+					getPath(GlobalConstants.PROJECT_PATH, "browserLogs", "chromeLogs.txt"));
+			System.setProperty("webdriver.chrome.verboseLogging", "true");
+			File extensionFile = new File(
+					getPath(GlobalConstants.PROJECT_PATH, "browserExtension", "extension_2_0_12_0.crx"));
+			ChromeOptions chromeOption = new ChromeOptions();
+			chromeOption.addExtensions(extensionFile);
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(chromeOption);
+			break;
+		case "headless_chrome":
+			ChromeOptions headlessChromeOption = new ChromeOptions();
+			headlessChromeOption.addArguments("-headless");
+			headlessChromeOption.addArguments("window-size=1920x1080");
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver(headlessChromeOption);
 			break;
 		case "coccoc":
 			WebDriverManager.chromedriver().driverVersion(cocCocDriverVersion).setup();
-			ChromeOptions option = new ChromeOptions();
-			option.setBinary(cocCocPath);
-			driver = new ChromeDriver(option);
+			ChromeOptions cocCocOption = new ChromeOptions();
+			cocCocOption.setBinary(cocCocPath);
+			driver = new ChromeDriver(cocCocOption);
 			break;
 		case "edge":
 			WebDriverManager.edgedriver().setup();
@@ -58,12 +96,43 @@ public class BaseTest {
 	protected WebDriver getBrowserDriver(String browserName, String url) {
 		switch (browserName) {
 		case "firefox":
+			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,
+					getPath(GlobalConstants.PROJECT_PATH, "browserLogs", "firefoxLogs.txt"));
+			FirefoxProfile firefoxProfile = new FirefoxProfile();
+			File firefoxExtension = new File(
+					getPath(GlobalConstants.PROJECT_PATH, "browserExtension", "to_google_translate-4.2.0.xpi"));
+			firefoxProfile.addExtension(firefoxExtension);
+			FirefoxOptions firefoxOption = new FirefoxOptions();
+			firefoxOption.setProfile(firefoxProfile);
 			WebDriverManager.firefoxdriver().driverVersion(firefoxDriverVersion).setup();
-			driver = new FirefoxDriver();
+			driver = new FirefoxDriver(firefoxOption);
+			break;
+		case "headless_firefox":
+			FirefoxOptions headlessFirefoxOption = new FirefoxOptions();
+			headlessFirefoxOption.addArguments("-headless");
+			headlessFirefoxOption.addArguments("window-size=1920x1980");
+			WebDriverManager.firefoxdriver().driverVersion(firefoxDriverVersion).setup();
+			driver = new FirefoxDriver(headlessFirefoxOption);
 			break;
 		case "chrome":
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.logfile",
+					getPath(GlobalConstants.PROJECT_PATH, "browserLogs", "chromeLogs.txt"));
+			System.setProperty("webdriver.chrome.verboseLogging", "true");
+			File extensionFile = new File(
+					getPath(GlobalConstants.PROJECT_PATH, "browserExtension", "extension_2_0_12_0.crx"));
+			ChromeOptions chromeOption = new ChromeOptions();
+			chromeOption.addExtensions(extensionFile);
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(chromeOption);
+			break;
+		case "headless_chrome":
+			ChromeOptions headlessChromeOption = new ChromeOptions();
+			headlessChromeOption.addArguments("-headless");
+			headlessChromeOption.addArguments("window-size=1920x1080");
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver(headlessChromeOption);
 			break;
 		case "coccoc":
 			WebDriverManager.chromedriver().driverVersion(cocCocDriverVersion).setup();

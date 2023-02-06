@@ -2210,3 +2210,504 @@
 [INFO] [2023-01-28 14:48:26,467] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
 [INFO] [2023-01-28 14:48:31,515] PASSED
 [INFO] [2023-01-28 14:48:31,518] TEST SUCCEEDED
+[INFO] [2023-02-01 13:05:23,886] TEST SKIPPED
+[INFO] [2023-02-01 13:05:24,135] TEST FAILED
+[INFO] [2023-02-01 13:06:15,738] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-02-01 13:06:16,022] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-02-01 13:06:16,265] Pre-condition - Step 03: Click on login button
+[INFO] [2023-02-01 13:06:18,671] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-02-01 13:06:18,777] PASSED
+[INFO] [2023-02-01 13:06:18,778] Pre-condition - Step 05: Click on Post sidebar menu
+[INFO] [2023-02-01 13:06:20,883] TC_01_CreateNewPost test is starting.
+[INFO] [2023-02-01 13:06:20,884] Create New Post - Step 01: Click on add new post button
+[INFO] [2023-02-01 13:06:25,014] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:25,782] Create New Post - Step 03: Click on new add content button
+[INFO] [2023-02-01 13:06:26,089] Create New Post - Step 04: Click on add paragraph button for content block
+[INFO] [2023-02-01 13:06:26,420] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-02-01 13:06:27,062] Create New Post - Step 06: Click on publish button
+[INFO] [2023-02-01 13:06:27,326] Create New Post - Step 07: Re-Click on publish button
+[INFO] [2023-02-01 13:06:27,708] Create New Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:06:29,526] Create New Post - Step 09: Verify title with value 'Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:29,623] PASSED
+[INFO] [2023-02-01 13:06:29,624] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-02-01 13:06:29,702] PASSED
+[INFO] [2023-02-01 13:06:29,702] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-02-01 13:06:31,882] Create New Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:06:33,000] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:33,125] PASSED
+[INFO] [2023-02-01 13:06:33,126] Create New Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:06:33,698] Create New Post - Step 15: Verify displayed post by post title with value 'Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:33,765] PASSED
+[INFO] [2023-02-01 13:06:33,765] Create New Post - Step 16: Verify displayed post by post content with value 'Content for testing'
+[INFO] [2023-02-01 13:06:33,842] PASSED
+[INFO] [2023-02-01 13:06:33,940] TEST SUCCEEDED
+[INFO] [2023-02-01 13:06:33,946] TC_02_EditPost test is starting.
+[INFO] [2023-02-01 13:06:33,947] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:06:34,595] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:06:35,438] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-02-01 13:06:35,651] Update Post - Step 02: Click on edit button of recently post
+[INFO] [2023-02-01 13:06:36,955] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:37,724] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-02-01 13:06:38,101] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:06:38,720] Update Post - Step 06: Click on update button
+[INFO] [2023-02-01 13:06:38,956] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-02-01 13:06:39,434] PASSED
+[INFO] [2023-02-01 13:06:39,434] Update Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:06:40,190] Update Post - Step 09: Verify title with value 'Edited Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:40,277] PASSED
+[INFO] [2023-02-01 13:06:40,278] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:06:40,339] PASSED
+[INFO] [2023-02-01 13:06:40,339] Update Post - Step 11: Back to Search post page
+[INFO] [2023-02-01 13:06:41,566] Update Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:06:42,755] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:42,895] PASSED
+[INFO] [2023-02-01 13:06:42,896] Update Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:06:43,429] Update Post - Step 15: Verify displayed post by post title with value 'Edited Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:43,498] PASSED
+[INFO] [2023-02-01 13:06:43,498] Update Post - Step 16: Verify displayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:06:43,559] PASSED
+[INFO] [2023-02-01 13:06:43,568] TEST SUCCEEDED
+[INFO] [2023-02-01 13:06:43,573] TC_03_DeletePost test is starting.
+[INFO] [2023-02-01 13:06:43,574] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:06:44,116] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:06:44,790] Delete Post - Step 01: Click on select all posts button
+[INFO] [2023-02-01 13:06:44,995] Delete Post - Step 02: Select 'Move to Trash' in bulk actions dropdown
+[INFO] [2023-02-01 13:06:45,197] Delete Post - Step 03: Click on apply buttons to active action
+[INFO] [2023-02-01 13:06:46,214] Delete Post - Step 04: Click on trash link
+[INFO] [2023-02-01 13:06:46,854] Delete Post - Step 05: Click on empty trash
+[INFO] [2023-02-01 13:06:47,910] Delete Post - Step 06: Verify table message with value 'No posts found in Trash.'
+[INFO] [2023-02-01 13:06:48,037] PASSED
+[INFO] [2023-02-01 13:06:48,037] Delete Post - Step 07: Open user URL
+[INFO] [2023-02-01 13:06:48,539] Delete Post - Step 08: Verify undisplayed post by post title with value 'Edited Title for testing -1348095064'
+[INFO] [2023-02-01 13:06:53,619] PASSED
+[INFO] [2023-02-01 13:06:53,620] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:06:58,649] PASSED
+[INFO] [2023-02-01 13:06:58,652] TEST SUCCEEDED
+[INFO] [2023-02-01 13:07:22,128] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-02-01 13:07:22,315] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-02-01 13:07:22,509] Pre-condition - Step 03: Click on login button
+[INFO] [2023-02-01 13:07:23,822] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-02-01 13:07:23,913] PASSED
+[INFO] [2023-02-01 13:07:23,913] Pre-condition - Step 05: Click on Post sidebar menu
+[INFO] [2023-02-01 13:07:25,322] TC_01_CreateNewPost test is starting.
+[INFO] [2023-02-01 13:07:25,323] Create New Post - Step 01: Click on add new post button
+[INFO] [2023-02-01 13:07:27,006] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:27,850] Create New Post - Step 03: Click on new add content button
+[INFO] [2023-02-01 13:07:28,328] Create New Post - Step 04: Click on add paragraph button for content block
+[INFO] [2023-02-01 13:07:28,673] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-02-01 13:07:29,240] Create New Post - Step 06: Click on publish button
+[INFO] [2023-02-01 13:07:29,472] Create New Post - Step 07: Re-Click on publish button
+[INFO] [2023-02-01 13:07:29,799] Create New Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:07:31,319] Create New Post - Step 09: Verify title with value 'Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:31,403] PASSED
+[INFO] [2023-02-01 13:07:31,404] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-02-01 13:07:31,477] PASSED
+[INFO] [2023-02-01 13:07:31,478] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-02-01 13:07:33,178] Create New Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:07:34,336] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:34,457] PASSED
+[INFO] [2023-02-01 13:07:34,457] Create New Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:07:35,009] Create New Post - Step 15: Verify displayed post by post title with value 'Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:35,070] PASSED
+[INFO] [2023-02-01 13:07:35,070] Create New Post - Step 16: Verify displayed post by post content with value 'Content for testing'
+[INFO] [2023-02-01 13:07:35,135] PASSED
+[INFO] [2023-02-01 13:07:35,212] TEST SUCCEEDED
+[INFO] [2023-02-01 13:07:35,221] TC_02_EditPost test is starting.
+[INFO] [2023-02-01 13:07:35,221] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:07:35,781] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:07:36,495] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-02-01 13:07:36,732] Update Post - Step 02: Click on edit button of recently post
+[INFO] [2023-02-01 13:07:38,004] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:38,839] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-02-01 13:07:39,234] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:07:39,796] Update Post - Step 06: Click on update button
+[INFO] [2023-02-01 13:07:40,035] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-02-01 13:07:40,536] PASSED
+[INFO] [2023-02-01 13:07:40,536] Update Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:07:41,301] Update Post - Step 09: Verify title with value 'Edited Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:41,387] PASSED
+[INFO] [2023-02-01 13:07:41,387] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:07:41,443] PASSED
+[INFO] [2023-02-01 13:07:41,444] Update Post - Step 11: Back to Search post page
+[INFO] [2023-02-01 13:07:42,563] Update Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:07:43,749] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:43,870] PASSED
+[INFO] [2023-02-01 13:07:43,870] Update Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:07:44,406] Update Post - Step 15: Verify displayed post by post title with value 'Edited Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:44,480] PASSED
+[INFO] [2023-02-01 13:07:44,480] Update Post - Step 16: Verify displayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:07:44,540] PASSED
+[INFO] [2023-02-01 13:07:44,545] TEST SUCCEEDED
+[INFO] [2023-02-01 13:07:44,552] TC_03_DeletePost test is starting.
+[INFO] [2023-02-01 13:07:44,552] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:07:45,082] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:07:45,792] Delete Post - Step 01: Click on select all posts button
+[INFO] [2023-02-01 13:07:46,005] Delete Post - Step 02: Select 'Move to Trash' in bulk actions dropdown
+[INFO] [2023-02-01 13:07:46,198] Delete Post - Step 03: Click on apply buttons to active action
+[INFO] [2023-02-01 13:07:47,250] Delete Post - Step 04: Click on trash link
+[INFO] [2023-02-01 13:07:47,860] Delete Post - Step 05: Click on empty trash
+[INFO] [2023-02-01 13:07:48,910] Delete Post - Step 06: Verify table message with value 'No posts found in Trash.'
+[INFO] [2023-02-01 13:07:49,046] PASSED
+[INFO] [2023-02-01 13:07:49,047] Delete Post - Step 07: Open user URL
+[INFO] [2023-02-01 13:07:49,557] Delete Post - Step 08: Verify undisplayed post by post title with value 'Edited Title for testing 2121486517'
+[INFO] [2023-02-01 13:07:54,661] PASSED
+[INFO] [2023-02-01 13:07:54,662] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:07:59,708] PASSED
+[INFO] [2023-02-01 13:07:59,710] TEST SUCCEEDED
+[INFO] [2023-02-01 13:09:45,164] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-02-01 13:09:45,384] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-02-01 13:09:45,565] Pre-condition - Step 03: Click on login button
+[INFO] [2023-02-01 13:09:46,807] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-02-01 13:09:46,884] PASSED
+[INFO] [2023-02-01 13:09:46,885] Pre-condition - Step 05: Click on Post sidebar menu
+[INFO] [2023-02-01 13:09:48,253] TC_01_CreateNewPost test is starting.
+[INFO] [2023-02-01 13:09:48,254] Create New Post - Step 01: Click on add new post button
+[INFO] [2023-02-01 13:09:50,058] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -461646031'
+[INFO] [2023-02-01 13:09:50,823] Create New Post - Step 03: Click on new add content button
+[INFO] [2023-02-01 13:09:51,299] Create New Post - Step 04: Click on add paragraph button for content block
+[INFO] [2023-02-01 13:09:51,600] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-02-01 13:09:52,184] Create New Post - Step 06: Click on publish button
+[INFO] [2023-02-01 13:09:52,408] Create New Post - Step 07: Re-Click on publish button
+[INFO] [2023-02-01 13:09:52,733] Create New Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:09:54,215] Create New Post - Step 09: Verify title with value 'Title for testing -461646031'
+[INFO] [2023-02-01 13:09:54,298] PASSED
+[INFO] [2023-02-01 13:09:54,298] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-02-01 13:09:54,374] PASSED
+[INFO] [2023-02-01 13:09:54,374] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-02-01 13:09:56,183] Create New Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:09:57,409] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -461646031'
+[INFO] [2023-02-01 13:09:57,546] PASSED
+[INFO] [2023-02-01 13:09:57,546] Create New Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:09:58,097] Create New Post - Step 15: Verify displayed post by post title with value 'Title for testing -461646031'
+[INFO] [2023-02-01 13:09:58,159] PASSED
+[INFO] [2023-02-01 13:09:58,159] Create New Post - Step 16: Verify displayed post by post content with value 'Content for testing'
+[INFO] [2023-02-01 13:09:58,221] PASSED
+[INFO] [2023-02-01 13:09:58,315] TEST SUCCEEDED
+[INFO] [2023-02-01 13:09:58,321] TC_02_EditPost test is starting.
+[INFO] [2023-02-01 13:09:58,321] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:09:58,897] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:09:59,585] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-02-01 13:09:59,814] Update Post - Step 02: Click on edit button of recently post
+[INFO] [2023-02-01 13:10:01,117] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -461646031'
+[INFO] [2023-02-01 13:10:01,887] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-02-01 13:10:02,274] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:10:02,848] Update Post - Step 06: Click on update button
+[INFO] [2023-02-01 13:10:03,078] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-02-01 13:10:03,541] PASSED
+[INFO] [2023-02-01 13:10:03,542] Update Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:10:04,356] Update Post - Step 09: Verify title with value 'Edited Title for testing -461646031'
+[INFO] [2023-02-01 13:10:04,442] PASSED
+[INFO] [2023-02-01 13:10:04,442] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:10:04,521] PASSED
+[INFO] [2023-02-01 13:10:04,522] Update Post - Step 11: Back to Search post page
+[INFO] [2023-02-01 13:10:05,629] Update Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:10:06,848] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -461646031'
+[INFO] [2023-02-01 13:10:06,941] PASSED
+[INFO] [2023-02-01 13:10:06,942] Update Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:10:07,480] Update Post - Step 15: Verify displayed post by post title with value 'Edited Title for testing -461646031'
+[INFO] [2023-02-01 13:10:07,552] PASSED
+[INFO] [2023-02-01 13:10:07,553] Update Post - Step 16: Verify displayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:10:07,615] PASSED
+[INFO] [2023-02-01 13:10:07,622] TEST SUCCEEDED
+[INFO] [2023-02-01 13:10:07,626] TC_03_DeletePost test is starting.
+[INFO] [2023-02-01 13:10:07,628] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:10:08,209] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:10:08,906] Delete Post - Step 01: Click on select all posts button
+[INFO] [2023-02-01 13:10:09,082] Delete Post - Step 02: Select 'Move to Trash' in bulk actions dropdown
+[INFO] [2023-02-01 13:10:09,303] Delete Post - Step 03: Click on apply buttons to active action
+[INFO] [2023-02-01 13:10:10,492] Delete Post - Step 04: Click on trash link
+[INFO] [2023-02-01 13:10:11,150] Delete Post - Step 05: Click on empty trash
+[INFO] [2023-02-01 13:10:12,226] Delete Post - Step 06: Verify table message with value 'No posts found in Trash.'
+[INFO] [2023-02-01 13:10:12,345] PASSED
+[INFO] [2023-02-01 13:10:12,345] Delete Post - Step 07: Open user URL
+[INFO] [2023-02-01 13:10:12,881] Delete Post - Step 08: Verify undisplayed post by post title with value 'Edited Title for testing -461646031'
+[INFO] [2023-02-01 13:10:17,938] PASSED
+[INFO] [2023-02-01 13:10:17,938] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:10:22,963] PASSED
+[INFO] [2023-02-01 13:10:22,967] TEST SUCCEEDED
+[INFO] [2023-02-01 13:14:24,183] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-02-01 13:14:24,399] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-02-01 13:14:24,584] Pre-condition - Step 03: Click on login button
+[INFO] [2023-02-01 13:14:25,813] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-02-01 13:14:25,890] PASSED
+[INFO] [2023-02-01 13:14:25,891] Pre-condition - Step 05: Click on Post sidebar menu
+[INFO] [2023-02-01 13:14:27,093] TC_01_CreateNewPost test is starting.
+[INFO] [2023-02-01 13:14:27,094] Create New Post - Step 01: Click on add new post button
+[INFO] [2023-02-01 13:14:28,614] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:29,346] Create New Post - Step 03: Click on new add content button
+[INFO] [2023-02-01 13:14:29,903] Create New Post - Step 04: Click on add paragraph button for content block
+[INFO] [2023-02-01 13:14:30,214] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-02-01 13:14:30,784] Create New Post - Step 06: Click on publish button
+[INFO] [2023-02-01 13:14:31,016] Create New Post - Step 07: Re-Click on publish button
+[INFO] [2023-02-01 13:14:31,361] Create New Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:14:32,863] Create New Post - Step 09: Verify title with value 'Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:32,942] PASSED
+[INFO] [2023-02-01 13:14:32,942] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-02-01 13:14:33,016] PASSED
+[INFO] [2023-02-01 13:14:33,016] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-02-01 13:14:34,851] Create New Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:14:36,077] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:36,212] PASSED
+[INFO] [2023-02-01 13:14:36,213] Create New Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:14:36,778] Create New Post - Step 15: Verify displayed post by post title with value 'Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:36,854] PASSED
+[INFO] [2023-02-01 13:14:36,854] Create New Post - Step 16: Verify displayed post by post content with value 'Content for testing'
+[INFO] [2023-02-01 13:14:36,913] PASSED
+[INFO] [2023-02-01 13:14:37,007] TEST SUCCEEDED
+[INFO] [2023-02-01 13:14:37,013] TC_02_EditPost test is starting.
+[INFO] [2023-02-01 13:14:37,013] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:14:37,617] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:14:38,359] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-02-01 13:14:38,573] Update Post - Step 02: Click on edit button of recently post
+[INFO] [2023-02-01 13:14:39,928] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:40,713] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-02-01 13:14:41,145] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:14:41,762] Update Post - Step 06: Click on update button
+[INFO] [2023-02-01 13:14:42,008] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-02-01 13:14:42,494] PASSED
+[INFO] [2023-02-01 13:14:42,494] Update Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:14:43,245] Update Post - Step 09: Verify title with value 'Edited Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:43,330] PASSED
+[INFO] [2023-02-01 13:14:43,331] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:14:43,395] PASSED
+[INFO] [2023-02-01 13:14:43,395] Update Post - Step 11: Back to Search post page
+[INFO] [2023-02-01 13:14:44,619] Update Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:14:45,760] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:45,883] PASSED
+[INFO] [2023-02-01 13:14:45,883] Update Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:14:46,444] Update Post - Step 15: Verify displayed post by post title with value 'Edited Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:46,510] PASSED
+[INFO] [2023-02-01 13:14:46,511] Update Post - Step 16: Verify displayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:14:46,586] PASSED
+[INFO] [2023-02-01 13:14:46,592] TEST SUCCEEDED
+[INFO] [2023-02-01 13:14:46,596] TC_03_DeletePost test is starting.
+[INFO] [2023-02-01 13:14:46,597] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:14:47,147] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:14:47,858] Delete Post - Step 01: Click on select all posts button
+[INFO] [2023-02-01 13:14:48,050] Delete Post - Step 02: Select 'Move to Trash' in bulk actions dropdown
+[INFO] [2023-02-01 13:14:48,268] Delete Post - Step 03: Click on apply buttons to active action
+[INFO] [2023-02-01 13:14:49,305] Delete Post - Step 04: Click on trash link
+[INFO] [2023-02-01 13:14:49,945] Delete Post - Step 05: Click on empty trash
+[INFO] [2023-02-01 13:14:51,022] Delete Post - Step 06: Verify table message with value 'No posts found in Trash.'
+[INFO] [2023-02-01 13:14:51,152] PASSED
+[INFO] [2023-02-01 13:14:51,153] Delete Post - Step 07: Open user URL
+[INFO] [2023-02-01 13:14:51,685] Delete Post - Step 08: Verify undisplayed post by post title with value 'Edited Title for testing -1182071240'
+[INFO] [2023-02-01 13:14:56,742] PASSED
+[INFO] [2023-02-01 13:14:56,742] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:15:01,767] PASSED
+[INFO] [2023-02-01 13:15:01,771] TEST SUCCEEDED
+[INFO] [2023-02-01 13:17:14,535] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-02-01 13:17:14,714] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-02-01 13:17:14,898] Pre-condition - Step 03: Click on login button
+[INFO] [2023-02-01 13:17:16,147] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-02-01 13:17:16,215] PASSED
+[INFO] [2023-02-01 13:17:16,216] Pre-condition - Step 05: Click on Post sidebar menu
+[INFO] [2023-02-01 13:17:17,465] TC_01_CreateNewPost test is starting.
+[INFO] [2023-02-01 13:17:17,466] Create New Post - Step 01: Click on add new post button
+[INFO] [2023-02-01 13:17:19,259] Create New Post - Step 02: Send to add title textbox with value 'Title for testing 776407139'
+[INFO] [2023-02-01 13:17:19,997] Create New Post - Step 03: Click on new add content button
+[INFO] [2023-02-01 13:17:20,535] Create New Post - Step 04: Click on add paragraph button for content block
+[INFO] [2023-02-01 13:17:20,878] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-02-01 13:17:21,479] Create New Post - Step 06: Click on publish button
+[INFO] [2023-02-01 13:17:21,704] Create New Post - Step 07: Re-Click on publish button
+[INFO] [2023-02-01 13:17:22,070] Create New Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:17:23,669] Create New Post - Step 09: Verify title with value 'Title for testing 776407139'
+[INFO] [2023-02-01 13:17:23,762] PASSED
+[INFO] [2023-02-01 13:17:23,762] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-02-01 13:17:23,865] PASSED
+[INFO] [2023-02-01 13:17:23,866] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-02-01 13:17:25,631] Create New Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:17:26,776] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing 776407139'
+[INFO] [2023-02-01 13:17:26,906] PASSED
+[INFO] [2023-02-01 13:17:26,907] Create New Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:17:27,511] Create New Post - Step 15: Verify displayed post by post title with value 'Title for testing 776407139'
+[INFO] [2023-02-01 13:17:27,585] PASSED
+[INFO] [2023-02-01 13:17:27,585] Create New Post - Step 16: Verify displayed post by post content with value 'Content for testing'
+[INFO] [2023-02-01 13:17:27,648] PASSED
+[INFO] [2023-02-01 13:17:27,744] TEST SUCCEEDED
+[INFO] [2023-02-01 13:17:27,750] TC_02_EditPost test is starting.
+[INFO] [2023-02-01 13:17:27,750] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:17:28,448] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:17:29,294] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-02-01 13:17:29,509] Update Post - Step 02: Click on edit button of recently post
+[INFO] [2023-02-01 13:17:30,891] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing 776407139'
+[INFO] [2023-02-01 13:17:31,938] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-02-01 13:17:32,146] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:17:32,687] Update Post - Step 06: Click on update button
+[INFO] [2023-02-01 13:17:32,927] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-02-01 13:17:33,385] PASSED
+[INFO] [2023-02-01 13:17:33,385] Update Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:17:34,134] Update Post - Step 09: Verify title with value 'Edited Title for testing 776407139'
+[INFO] [2023-02-01 13:17:34,201] PASSED
+[INFO] [2023-02-01 13:17:34,201] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:17:34,263] PASSED
+[INFO] [2023-02-01 13:17:34,264] Update Post - Step 11: Back to Search post page
+[INFO] [2023-02-01 13:17:35,468] Update Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:17:36,516] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing 776407139'
+[INFO] [2023-02-01 13:17:36,627] PASSED
+[INFO] [2023-02-01 13:17:36,628] Update Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:17:37,143] Update Post - Step 15: Verify displayed post by post title with value 'Edited Title for testing 776407139'
+[INFO] [2023-02-01 13:17:37,235] PASSED
+[INFO] [2023-02-01 13:17:37,236] Update Post - Step 16: Verify displayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:17:37,299] PASSED
+[INFO] [2023-02-01 13:17:37,305] TEST SUCCEEDED
+[INFO] [2023-02-01 13:17:37,310] TC_03_DeletePost test is starting.
+[INFO] [2023-02-01 13:17:37,310] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:17:37,873] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:17:38,578] Delete Post - Step 01: Click on select all posts button
+[INFO] [2023-02-01 13:17:38,752] Delete Post - Step 02: Select 'Move to Trash' in bulk actions dropdown
+[INFO] [2023-02-01 13:17:38,912] Delete Post - Step 03: Click on apply buttons to active action
+[INFO] [2023-02-01 13:17:39,955] Delete Post - Step 04: Click on trash link
+[INFO] [2023-02-01 13:17:40,593] Delete Post - Step 05: Click on empty trash
+[INFO] [2023-02-01 13:17:41,651] Delete Post - Step 06: Verify table message with value 'No posts found in Trash.'
+[INFO] [2023-02-01 13:17:41,764] PASSED
+[INFO] [2023-02-01 13:17:41,764] Delete Post - Step 07: Open user URL
+[INFO] [2023-02-01 13:17:42,278] Delete Post - Step 08: Verify undisplayed post by post title with value 'Edited Title for testing 776407139'
+[INFO] [2023-02-01 13:17:47,337] PASSED
+[INFO] [2023-02-01 13:17:47,338] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:17:52,430] PASSED
+[INFO] [2023-02-01 13:17:52,432] TEST SUCCEEDED
+[INFO] [2023-02-01 13:39:57,157] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-02-01 13:39:57,364] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-02-01 13:39:57,556] Pre-condition - Step 03: Click on login button
+[INFO] [2023-02-01 13:39:58,825] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-02-01 13:39:58,890] PASSED
+[INFO] [2023-02-01 13:39:58,890] Pre-condition - Step 05: Click on Post sidebar menu
+[INFO] [2023-02-01 13:40:00,054] TC_01_CreateNewPost test is starting.
+[INFO] [2023-02-01 13:40:00,055] Create New Post - Step 01: Click on add new post button
+[INFO] [2023-02-01 13:40:01,551] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -579227187'
+[INFO] [2023-02-01 13:40:02,261] Create New Post - Step 03: Click on new add content button
+[INFO] [2023-02-01 13:40:02,474] Create New Post - Step 04: Click on add paragraph button for content block
+[INFO] [2023-02-01 13:40:02,700] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-02-01 13:40:03,163] Create New Post - Step 06: Click on publish button
+[INFO] [2023-02-01 13:40:03,339] Create New Post - Step 07: Re-Click on publish button
+[INFO] [2023-02-01 13:40:03,664] Create New Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:40:04,774] Create New Post - Step 09: Verify title with value 'Title for testing -579227187'
+[INFO] [2023-02-01 13:40:04,860] PASSED
+[INFO] [2023-02-01 13:40:04,861] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-02-01 13:40:04,916] PASSED
+[INFO] [2023-02-01 13:40:04,916] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-02-01 13:40:06,372] Create New Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:40:07,149] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -579227187'
+[INFO] [2023-02-01 13:40:07,260] PASSED
+[INFO] [2023-02-01 13:40:07,260] Create New Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:40:07,680] Create New Post - Step 15: Verify displayed post by post title with value 'Title for testing -579227187'
+[INFO] [2023-02-01 13:40:07,752] PASSED
+[INFO] [2023-02-01 13:40:07,752] Create New Post - Step 16: Verify displayed post by post content with value 'Content for testing'
+[INFO] [2023-02-01 13:40:07,812] PASSED
+[INFO] [2023-02-01 13:40:07,907] TEST SUCCEEDED
+[INFO] [2023-02-01 13:40:07,912] TC_02_EditPost test is starting.
+[INFO] [2023-02-01 13:40:07,913] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:40:08,393] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:40:08,967] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-02-01 13:40:09,176] Update Post - Step 02: Click on edit button of recently post
+[INFO] [2023-02-01 13:40:10,383] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -579227187'
+[INFO] [2023-02-01 13:40:10,963] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-02-01 13:40:11,293] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:40:11,780] Update Post - Step 06: Click on update button
+[INFO] [2023-02-01 13:40:11,985] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-02-01 13:40:12,452] PASSED
+[INFO] [2023-02-01 13:40:12,453] Update Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:40:13,105] Update Post - Step 09: Verify title with value 'Edited Title for testing -579227187'
+[INFO] [2023-02-01 13:40:13,196] PASSED
+[INFO] [2023-02-01 13:40:13,196] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:40:13,251] PASSED
+[INFO] [2023-02-01 13:40:13,251] Update Post - Step 11: Back to Search post page
+[INFO] [2023-02-01 13:40:14,431] Update Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:40:15,369] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -579227187'
+[INFO] [2023-02-01 13:40:15,463] PASSED
+[INFO] [2023-02-01 13:40:15,464] Update Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:40:15,939] Update Post - Step 15: Verify displayed post by post title with value 'Edited Title for testing -579227187'
+[INFO] [2023-02-01 13:40:16,013] PASSED
+[INFO] [2023-02-01 13:40:16,013] Update Post - Step 16: Verify displayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:40:16,073] PASSED
+[INFO] [2023-02-01 13:40:16,080] TEST SUCCEEDED
+[INFO] [2023-02-01 13:40:16,085] TC_03_DeletePost test is starting.
+[INFO] [2023-02-01 13:40:16,085] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:40:16,714] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:40:17,347] Delete Post - Step 01: Click on select all posts button
+[INFO] [2023-02-01 13:40:17,523] Delete Post - Step 02: Select 'Move to Trash' in bulk actions dropdown
+[INFO] [2023-02-01 13:40:17,697] Delete Post - Step 03: Click on apply buttons to active action
+[INFO] [2023-02-01 13:40:18,636] Delete Post - Step 04: Click on trash link
+[INFO] [2023-02-01 13:40:19,230] Delete Post - Step 05: Click on empty trash
+[INFO] [2023-02-01 13:40:20,187] Delete Post - Step 06: Verify table message with value 'No posts found in Trash.'
+[INFO] [2023-02-01 13:40:20,296] PASSED
+[INFO] [2023-02-01 13:40:20,297] Delete Post - Step 07: Open user URL
+[INFO] [2023-02-01 13:40:20,753] Delete Post - Step 08: Verify undisplayed post by post title with value 'Edited Title for testing -579227187'
+[INFO] [2023-02-01 13:40:25,801] PASSED
+[INFO] [2023-02-01 13:40:25,801] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:40:30,880] PASSED
+[INFO] [2023-02-01 13:40:30,883] TEST SUCCEEDED
+[INFO] [2023-02-01 13:44:05,701] TEST SKIPPED
+[INFO] [2023-02-01 13:44:05,854] TEST FAILED
+[INFO] [2023-02-01 13:44:55,468] Pre-condition - Step 01: Send to Username textbox with value 'automationfc'
+[INFO] [2023-02-01 13:44:55,651] Pre-condition - Step 02: Send to Password textbox with value 'automationfc'
+[INFO] [2023-02-01 13:44:55,834] Pre-condition - Step 03: Click on login button
+[INFO] [2023-02-01 13:44:57,079] Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'
+[INFO] [2023-02-01 13:44:57,161] PASSED
+[INFO] [2023-02-01 13:44:57,163] Pre-condition - Step 05: Click on Post sidebar menu
+[INFO] [2023-02-01 13:44:58,370] TC_01_CreateNewPost test is starting.
+[INFO] [2023-02-01 13:44:58,371] Create New Post - Step 01: Click on add new post button
+[INFO] [2023-02-01 13:44:59,843] Create New Post - Step 02: Send to add title textbox with value 'Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:00,393] Create New Post - Step 03: Click on new add content button
+[INFO] [2023-02-01 13:45:00,794] Create New Post - Step 04: Click on add paragraph button for content block
+[INFO] [2023-02-01 13:45:01,056] Create New Post - Step 05: Send to add content textbox with value 'Content for testing'
+[INFO] [2023-02-01 13:45:01,522] Create New Post - Step 06: Click on publish button
+[INFO] [2023-02-01 13:45:01,728] Create New Post - Step 07: Re-Click on publish button
+[INFO] [2023-02-01 13:45:02,037] Create New Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:45:03,215] Create New Post - Step 09: Verify title with value 'Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:03,306] PASSED
+[INFO] [2023-02-01 13:45:03,307] Create New Post - Step 10: Verify content with value 'Content for testing'
+[INFO] [2023-02-01 13:45:03,382] PASSED
+[INFO] [2023-02-01 13:45:03,383] Create New Post - Step 11: Back to Add new post page
+[INFO] [2023-02-01 13:45:04,942] Create New Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:45:05,732] Create New Post - Step 13: Verify title of recently added post with value 'Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:05,846] PASSED
+[INFO] [2023-02-01 13:45:05,847] Create New Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:45:06,266] Create New Post - Step 15: Verify displayed post by post title with value 'Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:06,342] PASSED
+[INFO] [2023-02-01 13:45:06,342] Create New Post - Step 16: Verify displayed post by post content with value 'Content for testing'
+[INFO] [2023-02-01 13:45:06,403] PASSED
+[INFO] [2023-02-01 13:45:06,483] TEST SUCCEEDED
+[INFO] [2023-02-01 13:45:06,489] TC_02_EditPost test is starting.
+[INFO] [2023-02-01 13:45:06,489] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:45:06,999] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:45:07,652] Update Post - Step 01: Hover mouse to title of recently post
+[INFO] [2023-02-01 13:45:07,871] Update Post - Step 02: Click on edit button of recently post
+[INFO] [2023-02-01 13:45:09,152] Update Post - Step 03: Send to add title textbox with value 'Edited Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:09,774] Update Post - Step 04: Hover and click mouse to first content
+[INFO] [2023-02-01 13:45:10,121] Update Post - Step 05: Send to add content textbox with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:45:10,635] Update Post - Step 06: Click on update button
+[INFO] [2023-02-01 13:45:10,867] Update Post - Step 07: Verify post successfully updated message displayed
+[INFO] [2023-02-01 13:45:11,303] PASSED
+[INFO] [2023-02-01 13:45:11,303] Update Post - Step 08: Click view post button
+[INFO] [2023-02-01 13:45:12,041] Update Post - Step 09: Verify title with value 'Edited Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:12,142] PASSED
+[INFO] [2023-02-01 13:45:12,142] Update Post - Step 10: Verify content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:45:12,235] PASSED
+[INFO] [2023-02-01 13:45:12,236] Update Post - Step 11: Back to Search post page
+[INFO] [2023-02-01 13:45:13,457] Update Post - Step 12: Click on view posts icon
+[INFO] [2023-02-01 13:45:14,520] Update Post - Step 13: Verify title of recently edited post with value 'Edited Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:14,643] PASSED
+[INFO] [2023-02-01 13:45:14,644] Update Post - Step 14: Open user URL
+[INFO] [2023-02-01 13:45:15,187] Update Post - Step 15: Verify displayed post by post title with value 'Edited Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:15,253] PASSED
+[INFO] [2023-02-01 13:45:15,254] Update Post - Step 16: Verify displayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:45:15,317] PASSED
+[INFO] [2023-02-01 13:45:15,324] TEST SUCCEEDED
+[INFO] [2023-02-01 13:45:15,328] TC_03_DeletePost test is starting.
+[INFO] [2023-02-01 13:45:15,329] Pre-condition - Step 01: Open admin URL
+[INFO] [2023-02-01 13:45:15,843] Pre-condition - Step 02: Click on Post sidebar menu
+[INFO] [2023-02-01 13:45:16,436] Delete Post - Step 01: Click on select all posts button
+[INFO] [2023-02-01 13:45:16,642] Delete Post - Step 02: Select 'Move to Trash' in bulk actions dropdown
+[INFO] [2023-02-01 13:45:16,815] Delete Post - Step 03: Click on apply buttons to active action
+[INFO] [2023-02-01 13:45:17,787] Delete Post - Step 04: Click on trash link
+[INFO] [2023-02-01 13:45:18,397] Delete Post - Step 05: Click on empty trash
+[INFO] [2023-02-01 13:45:19,385] Delete Post - Step 06: Verify table message with value 'No posts found in Trash.'
+[INFO] [2023-02-01 13:45:19,492] PASSED
+[INFO] [2023-02-01 13:45:19,492] Delete Post - Step 07: Open user URL
+[INFO] [2023-02-01 13:45:19,961] Delete Post - Step 08: Verify undisplayed post by post title with value 'Edited Title for testing -1344595452'
+[INFO] [2023-02-01 13:45:25,053] PASSED
+[INFO] [2023-02-01 13:45:25,053] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
+[INFO] [2023-02-01 13:45:30,147] PASSED
+[INFO] [2023-02-01 13:45:30,150] TEST SUCCEEDED
