@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.wordpress.data.UserData;
+
 import commons.BaseTest;
 import pageObjects.wordpress.admin.AdminDashboardPageObject;
 import pageObjects.wordpress.admin.AdminLoginPageObject;
@@ -24,7 +26,8 @@ import static reportConfig.TestListener.log4J;
 
 public class Post_01_Create_Read_Update_Delete extends BaseTest {
 	private WebDriver driver;
-	private String username, password, title, content, editedTitle, editedContent, noPostMessage;
+	private String title, content, editedTitle, editedContent, noPostMessage;
+	private UserData userData;
 	private AdminLoginPageObject adminLoginPage;
 	private AdminDashboardPageObject adminDashboardPage;
 	private AdminPostSearchPageObject adminPostSearchPage;
@@ -38,8 +41,7 @@ public class Post_01_Create_Read_Update_Delete extends BaseTest {
 		driver = getBrowserDriver(browserName, BasePageUI.ADMIN_URL);
 		adminLoginPage = AdminPageGeneratorManager.getAdminLoginPageObject(driver);
 
-		username = "automationfc";
-		password = "automationfc";
+		userData = UserData.getUserData("userData.json");
 		title = "Title for testing " + getRandomNumber();
 		content = "Content for testing";
 		editedTitle = "Edited " + title;
@@ -47,10 +49,10 @@ public class Post_01_Create_Read_Update_Delete extends BaseTest {
 		noPostMessage = "No posts found in Trash.";
 
 		startTest("Pre-condition", "Login");
-		log4J.Info("Pre-condition - Step 01: Send to Username textbox with value '" + username + "'");
-		adminLoginPage.sendKeyToUsernameTextbox(username);
-		log4J.Info("Pre-condition - Step 02: Send to Password textbox with value '" + password + "'");
-		adminLoginPage.sendKeyToPasswordTextbox(password);
+		log4J.Info("Pre-condition - Step 01: Send to Username textbox with value '" + userData.getUsername() + "'");
+		adminLoginPage.sendKeyToUsernameTextbox(userData.getUsername());
+		log4J.Info("Pre-condition - Step 02: Send to Password textbox with value '" + userData.getPassword() + "'");
+		adminLoginPage.sendKeyToPasswordTextbox(userData.getPassword());
 		log4J.Info("Pre-condition - Step 03: Click on login button");
 		adminDashboardPage = adminLoginPage.clickOnLoginButton();
 		log4J.Info("Pre-condition - Step 04: Verify dashboard panel text with value 'Welcome to WordPress!'");

@@ -30,7 +30,7 @@ public class BaseTest {
 		return this.driver;
 	}
 
-	private String getPath(String... variables) {
+	public static String getPath(String... variables) {
 		return String.join(File.separator, variables);
 	}
 
