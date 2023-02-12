@@ -3,6 +3,7 @@ package com.wordpress.post;
 import static reportConfig.TestListener.endTest;
 import static reportConfig.TestListener.startTest;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -20,12 +21,13 @@ import pageObjects.wordpress.admin.AdminPostViewPageObject;
 import pageObjects.wordpress.user.UserDashboardPageObject;
 import pageObjects.wordpress.user.UserPageGeneratorManager;
 import pageObjects.wordpress.admin.AdminPageGeneratorManager;
-import pageUIs.wordpress.admin.BasePageUI;
+import utilities.Environment;
 
 import static reportConfig.TestListener.log4J;
 
 public class Post_01_Create_Read_Update_Delete extends BaseTest {
 	private WebDriver driver;
+	private Environment env;
 	private String title, content, editedTitle, editedContent, noPostMessage;
 	private UserData userData;
 	private AdminLoginPageObject adminLoginPage;
@@ -35,10 +37,12 @@ public class Post_01_Create_Read_Update_Delete extends BaseTest {
 	private AdminPostViewPageObject adminPostViewPage;
 	private UserDashboardPageObject userDashboardPage;
 
-	@Parameters("Browser")
+	@Parameters({ "Browser", "Environment" })
 	@BeforeClass()
-	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName, BasePageUI.ADMIN_URL);
+	public void beforeClass(String browserName, String envName) {
+		ConfigFactory.setProperty("env", envName);
+		env = ConfigFactory.create(Environment.class);
+		driver = getBrowserDriver(browserName, env.getAppUrl());
 		adminLoginPage = AdminPageGeneratorManager.getAdminLoginPageObject(driver);
 
 		userData = UserData.getUserData("userData.json");

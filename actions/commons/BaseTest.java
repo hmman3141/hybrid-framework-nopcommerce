@@ -94,6 +94,7 @@ public class BaseTest {
 	}
 
 	protected WebDriver getBrowserDriver(String browserName, String url) {
+		System.out.println(url);
 		switch (browserName) {
 		case "firefox":
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");

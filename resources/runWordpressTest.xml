@@ -8,6 +8,7 @@
 	</listeners>
 
 	<test name="Run on Chrome">
+		<parameter name="Environment" value="dev"></parameter>
 		<parameter name="Browser" value="chrome" />
 		<packages>
 			<package name="com.wordpress.post"></package>
