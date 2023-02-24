@@ -2,8 +2,6 @@ package commons.driver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -11,6 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import commons.GlobalConstants;
+import commons.browser.ChromeDriverManager;
 
 public class SaucelabFactory {
 	private String buildId;
@@ -23,8 +22,8 @@ public class SaucelabFactory {
 		this.id = id;
 	}
 
-	public WebDriver getBrowserDriver(String browserName,String url) {
-		DesiredCapabilities capabilities = new DesiredCapabilities();
+	public WebDriver getBrowserDriver(String browserName, String url) {
+		DesiredCapabilities capabilities = null;
 		WebDriver driver = null;
 		URL serverUrl = null;
 
@@ -37,18 +36,7 @@ public class SaucelabFactory {
 
 		switch (browserName) {
 		case "chrome":
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.logfile",
-					String.format(GlobalConstants.PROJECT_PATH, "browserLogs", "chromeLogs.txt"));
-			System.setProperty("webdriver.chrome.verboseLogging", "true");
-
-			capabilities = DesiredCapabilities.chrome();
-			capabilities.setCapability("platformName", "Windows 10");
-			capabilities.setCapability("browserVersion", "latest");
-			Map<String, Object> sauceOptions = new HashMap<>();
-			sauceOptions.put("build", buildId);
-			sauceOptions.put("name", "Chrome test");
-			capabilities.setCapability("sauce:options", sauceOptions);
+			capabilities = new ChromeDriverManager().getSaucelabDesiredCapabilities(buildId);
 			break;
 		default:
 			throw new RuntimeException("Invalid browser name");
