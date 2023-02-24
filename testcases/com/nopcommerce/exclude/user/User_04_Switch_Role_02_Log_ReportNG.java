@@ -1,5 +1,7 @@
 package com.nopcommerce.exclude.user;
 
+import static reportConfig.TestListener.log4J;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -15,8 +17,6 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
-import static reportConfig.TestListener.log4J;
-
 public class User_04_Switch_Role_02_Log_ReportNG extends BaseTest {
 	private WebDriver driver;
 	private String userEmail, userFirstName, userLastName, userPassword, adminEmail, adminPassword;
@@ -31,7 +31,7 @@ public class User_04_Switch_Role_02_Log_ReportNG extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		userEmail = getRandomNumber() + "@test.com";
 		userPassword = "password";
@@ -75,7 +75,7 @@ public class User_04_Switch_Role_02_Log_ReportNG extends BaseTest {
 		userHomePage = userHomePage.clickOnLogoutAtUserPage(driver);
 		log4J.Info("Role User - Step 13: Open admin URL");
 		userHomePage.openURL(driver, GlobalConstants.ADMIN_PAGE_URL);
-		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
+		adminLoginPage = PageGeneratorManager.getPageGenerator().getAdminLoginPage(driver);
 
 		log4J.Info("Role User - Step 14: Login with admin log4J.Information: " + adminEmail + " / " + adminPassword);
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);

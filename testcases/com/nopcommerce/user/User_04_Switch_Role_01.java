@@ -30,7 +30,7 @@ public class User_04_Switch_Role_01 extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		userEmail = getRandomNumber() + "@test.com";
 		userPassword = "password";
@@ -62,7 +62,7 @@ public class User_04_Switch_Role_01 extends BaseTest {
 
 		userHomePage = userHomePage.clickOnLogoutAtUserPage(driver);
 		userHomePage.openURL(driver, GlobalConstants.ADMIN_PAGE_URL);
-		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
+		adminLoginPage = PageGeneratorManager.getPageGenerator().getAdminLoginPage(driver);
 
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
 		Assert.assertTrue(adminDashboardPage.isDashboardHeaderDisplayed());
@@ -72,7 +72,7 @@ public class User_04_Switch_Role_01 extends BaseTest {
 	@Test
 	public void Role_02_Admin() {
 		userHomePage.openURL(driver, GlobalConstants.ADMIN_PAGE_URL);
-		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
+		adminLoginPage = PageGeneratorManager.getPageGenerator().getAdminLoginPage(driver);
 
 		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmail, adminPassword);
 		Assert.assertTrue(adminDashboardPage.isDashboardHeaderDisplayed());

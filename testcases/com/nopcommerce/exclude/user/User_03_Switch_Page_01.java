@@ -9,12 +9,12 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.GlobalConstants;
+import pageObjects.nopCommerce.user.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserAddressesPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
-import pageObjects.nopCommerce.user.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointsPageObject;
 
@@ -34,7 +34,7 @@ public class User_03_Switch_Page_01 extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		homePageObject = PageGeneratorManager.getUserHomePage(driver);
+		homePageObject = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 		
 		email = getRandomNumber() + "@test.com";
 		password = "password";

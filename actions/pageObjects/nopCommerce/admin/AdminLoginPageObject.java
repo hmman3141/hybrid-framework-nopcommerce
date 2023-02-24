@@ -42,6 +42,6 @@ public class AdminLoginPageObject extends BasePage {
 		sendKeyToEmailTextbox(adminEmail);
 		sendKeyToPasswordTextbox(adminPassword);
 		clickOnLoginButton();
-		return PageGeneratorManager.getAdminDashboardPage(driver);
+		return PageGeneratorManager.getPageGenerator().getAdminDashboardPage(driver);
 	}
 }

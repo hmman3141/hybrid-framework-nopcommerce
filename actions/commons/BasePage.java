@@ -447,31 +447,31 @@ public class BasePage {
 	public UserAddressesPageObject clickOnAddressesLink(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.ADDRESSES_LINK);
 		clickOnElement(driver, BasePageUI.ADDRESSES_LINK);
-		return PageGeneratorManager.getUserAddressesPage(driver);
+		return PageGeneratorManager.getPageGenerator().getUserAddressesPage(driver);
 	}
 
 	public UserRewardPointsPageObject clickOnRewardPointsLink(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.REWARD_POINTS_LINK);
 		clickOnElement(driver, BasePageUI.REWARD_POINTS_LINK);
-		return PageGeneratorManager.getUserRewardPointsPage(driver);
+		return PageGeneratorManager.getPageGenerator().getUserRewardPointsPage(driver);
 	}
 
 	public UserMyProductReviewPageObject clickOnMyProductReviewLink(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
 		clickOnElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
-		return PageGeneratorManager.getUserMyProductReviewPage(driver);
+		return PageGeneratorManager.getPageGenerator().getUserMyProductReviewPage(driver);
 	}
 
 	public UserHomePageObject clickOnLogoutAtUserPage(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.LOGOUT_LINK_AT_USER);
 		clickOnElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
-		return PageGeneratorManager.getUserHomePage(driver);
+		return PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 	}
 
 	public AdminLoginPageObject clickOnLogoutAtAdminPage(WebDriver driver) {
 		waitForElementVisibile(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		clickOnElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
-		return PageGeneratorManager.getAdminLoginPage(driver);
+		return PageGeneratorManager.getPageGenerator().getAdminLoginPage(driver);
 	}
 
 	public BasePage openMyAccountPageByName(WebDriver driver, String name) {
@@ -479,13 +479,13 @@ public class BasePage {
 		clickOnElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT, name);
 		switch (name) {
 		case UserCustomerInfoSidebar.ADDRESSES:
-			return PageGeneratorManager.getUserAddressesPage(driver);
+			return PageGeneratorManager.getPageGenerator().getUserAddressesPage(driver);
 		case UserCustomerInfoSidebar.REWARD_POINTS:
-			return PageGeneratorManager.getUserRewardPointsPage(driver);
+			return PageGeneratorManager.getPageGenerator().getUserRewardPointsPage(driver);
 		case UserCustomerInfoSidebar.MY_PRODUCT_REVIEW:
-			return PageGeneratorManager.getUserMyProductReviewPage(driver);
+			return PageGeneratorManager.getPageGenerator().getUserMyProductReviewPage(driver);
 		case UserCustomerInfoSidebar.CHANGE_PASSWORD:
-			return PageGeneratorManager.getUserChangePasswordPage(driver);
+			return PageGeneratorManager.getPageGenerator().getUserChangePasswordPage(driver);
 		default:
 			throw new RuntimeException("Unavailable name");
 		}

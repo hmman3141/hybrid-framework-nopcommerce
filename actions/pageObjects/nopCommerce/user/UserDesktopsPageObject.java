@@ -16,6 +16,6 @@ public class UserDesktopsPageObject extends BasePage {
 	public UserProductInformationPageObject clickOnProductBuildYourOwnComputer() {
 		waitForElementVisibile(driver, UserDesktopsPageUI.BUILD_YOUR_OWN_PRODUCT_LINK);
 		clickOnElement(driver, UserDesktopsPageUI.BUILD_YOUR_OWN_PRODUCT_LINK);
-		return PageGeneratorManager.getUserProductInformationPage(driver);
+		return PageGeneratorManager.getPageGenerator().getUserProductInformationPage(driver);
 	}
 }

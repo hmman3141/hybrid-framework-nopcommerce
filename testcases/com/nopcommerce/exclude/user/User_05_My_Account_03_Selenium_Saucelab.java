@@ -32,7 +32,7 @@ public class User_05_My_Account_03_Selenium_Saucelab extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = new SaucelabFactory(GlobalConstants.SAUCELAB_BUILDID, GlobalConstants.SAUCELAB_EMAIL,
 				GlobalConstants.SAUCELAB_ID).getBrowserDriver(browserName, GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		createdEmail = getRandomNumber() + "@test.com";
 		createdFirstName = "First name";

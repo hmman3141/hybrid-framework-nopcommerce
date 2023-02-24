@@ -35,7 +35,7 @@ public class User_03_Switch_Page_02_Dynamic_Locator extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		homePageObject = PageGeneratorManager.getUserHomePage(driver);
+		homePageObject = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		email = getRandomNumber() + "@test.com";
 		password = "password";

@@ -32,7 +32,7 @@ public class User_05_My_Account_03_Selenium_Grid extends BaseTest {
 	public void beforeClass(String browserName, String osName, String ipAddress, String portNumber) {
 		driver = new GridFactory(osName, ipAddress, portNumber).getBrowserDriver(browserName,
 				GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		createdEmail = getRandomNumber() + "@test.com";
 		createdFirstName = "First name";

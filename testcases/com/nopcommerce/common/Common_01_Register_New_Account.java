@@ -1,5 +1,7 @@
 package com.nopcommerce.common;
 
+import static reportConfig.TestListener.log4J;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -10,8 +12,6 @@ import pageObjects.nopCommerce.user.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import reportConfig.TestListener;
-
-import static reportConfig.TestListener.log4J;
 
 public class Common_01_Register_New_Account extends BaseTest {
 	private WebDriver driver;
@@ -26,7 +26,7 @@ public class Common_01_Register_New_Account extends BaseTest {
 	public void beforeTest(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		userEmail = getRandomNumber() + "@test.com";
 		userPassword = "password";

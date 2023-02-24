@@ -42,6 +42,6 @@ public class UserLoginPageObject extends BasePage {
 		sendKeyToEmailTextbox(email);
 		sendKeyToPasswordTextbox(password);
 		clickOnLoginButton();
-		return PageGeneratorManager.getUserHomePage(driver);
+		return PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 	}
 }

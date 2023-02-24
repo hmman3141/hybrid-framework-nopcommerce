@@ -43,7 +43,7 @@ public class User_05_My_Account_01 extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		createdEmail = getRandomNumber() + "@test.com";
 		createdFirstName = "First name";

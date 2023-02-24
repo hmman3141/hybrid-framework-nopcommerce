@@ -24,7 +24,7 @@ public class User_02_Login_03_Page_Generator_Manager extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		homePageObject = PageGeneratorManager.getUserHomePage(driver);
+		homePageObject = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 		email = getRandomNumber() + "@test.com";
 		invalidEmail = "abc@test/com";
 		password = "password";

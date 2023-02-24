@@ -22,7 +22,7 @@ public class UserHomePageObject extends BasePage {
 	public UserDesktopsPageObject hoverMouseToDesktopsLinkInComputersDropdownAndClick() {
 		waitForAllElementsVisibile(driver, BasePageUI.DESKTOPS_DROPDOWN_TOPMENU_CHOICE);
 		hoverMouseToElementAndClick(driver, BasePageUI.DESKTOPS_DROPDOWN_TOPMENU_CHOICE);
-		return PageGeneratorManager.getUserDesktopsPage(driver);
+		return PageGeneratorManager.getPageGenerator().getUserDesktopsPage(driver);
 	}
 
 	public UserRegisterPageObject clickOnRegisterLink() {

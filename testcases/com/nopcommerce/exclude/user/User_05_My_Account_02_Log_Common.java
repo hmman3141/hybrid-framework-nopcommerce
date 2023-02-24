@@ -1,5 +1,7 @@
 package com.nopcommerce.exclude.user;
 
+import static reportConfig.TestListener.log4J;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -16,8 +18,6 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import reportConfig.TestListener;
 
-import static reportConfig.TestListener.log4J;
-
 public class User_05_My_Account_02_Log_Common extends BaseTest {
 	private WebDriver driver;
 	private String dayOfBirth, monthOfBirth, yearOfBirth, firstName, lastName, email, company;
@@ -30,7 +30,7 @@ public class User_05_My_Account_02_Log_Common extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver);
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver);
 
 		String userEmail = Common_01_Register_New_Account.userEmail;
 		String userPassword = Common_01_Register_New_Account.userPassword;

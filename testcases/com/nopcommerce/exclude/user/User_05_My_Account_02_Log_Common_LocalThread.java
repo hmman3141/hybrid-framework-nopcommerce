@@ -26,7 +26,7 @@ public class User_05_My_Account_02_Log_Common_LocalThread extends BaseTest_Local
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		getBrowserDriver(browserName, GlobalConstants.PORTAL_PAGE_URL);
-		userHomePage = PageGeneratorManager.getUserHomePage(driver.get());
+		userHomePage = PageGeneratorManager.getPageGenerator().getUserHomePage(driver.get());
 
 		createdEmail = getRandomNumber() + "@test.com";
 		createdFirstName = "First name";
