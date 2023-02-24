@@ -2865,3 +2865,185 @@
 [INFO] [2023-02-12 20:40:44,615] Delete Post - Step 09: Verify undisplayed post by post content with value 'Edited Content for testing'
 [INFO] [2023-02-12 20:40:49,669] PASSED
 [INFO] [2023-02-12 20:40:49,672] TEST SUCCEEDED
+[INFO] [2023-02-24 12:04:26,161] TEST SKIPPED
+[INFO] [2023-02-24 12:04:26,360] TEST FAILED
+[INFO] [2023-02-24 12:04:26,368] OS name = window
+[INFO] [2023-02-24 12:04:26,368] 
+[INFO] [2023-02-24 12:05:26,539] TEST SKIPPED
+[INFO] [2023-02-24 12:05:26,702] TEST FAILED
+[INFO] [2023-02-24 12:05:26,707] OS name = window
+[INFO] [2023-02-24 12:05:26,707] 
+[INFO] [2023-02-24 12:05:56,339] TEST SKIPPED
+[INFO] [2023-02-24 12:05:56,501] TEST FAILED
+[INFO] [2023-02-24 12:05:56,507] OS name = window
+[INFO] [2023-02-24 12:05:56,507] 
+[INFO] [2023-02-24 12:06:22,979] TEST SKIPPED
+[INFO] [2023-02-24 12:06:23,152] TEST FAILED
+[INFO] [2023-02-24 12:06:23,159] OS name = window
+[INFO] [2023-02-24 12:06:23,159] 
+[INFO] [2023-02-24 12:09:18,288] TEST SKIPPED
+[INFO] [2023-02-24 12:09:18,453] TEST FAILED
+[INFO] [2023-02-24 12:09:18,456] OS name = window
+[INFO] [2023-02-24 12:09:18,456] 
+[INFO] [2023-02-24 12:09:45,077] TEST SKIPPED
+[INFO] [2023-02-24 12:09:45,225] TEST FAILED
+[INFO] [2023-02-24 12:09:45,226] OS name = window
+[INFO] [2023-02-24 12:09:45,227] 
+[INFO] [2023-02-24 12:10:02,745] TEST SKIPPED
+[INFO] [2023-02-24 12:10:02,889] TEST FAILED
+[INFO] [2023-02-24 12:10:02,891] OS name = window
+[INFO] [2023-02-24 12:10:02,891] 
+[INFO] [2023-02-24 12:10:14,955] TEST SKIPPED
+[INFO] [2023-02-24 12:10:15,110] TEST FAILED
+[INFO] [2023-02-24 12:10:15,112] OS name = window
+[INFO] [2023-02-24 12:10:15,112] 
+[INFO] [2023-02-24 12:10:49,258] TEST SKIPPED
+[INFO] [2023-02-24 12:10:49,415] TEST FAILED
+[INFO] [2023-02-24 12:10:49,416] OS name = window
+[INFO] [2023-02-24 12:10:49,417] 
+[INFO] [2023-02-24 12:15:48,098] Login - Step 01: Click on login link
+[INFO] [2023-02-24 12:15:58,623] TEST SKIPPED
+[INFO] [2023-02-24 12:15:58,627] OS name = window
+[INFO] [2023-02-24 12:15:58,627] 
+[INFO] [2023-02-24 12:18:35,977] Login - Step 01: Click on login link
+[INFO] [2023-02-24 12:18:39,160] Login - Step 02: Login with information: null/null
+[INFO] [2023-02-24 12:18:41,154] TEST SKIPPED
+[INFO] [2023-02-24 12:18:41,159] OS name = window
+[INFO] [2023-02-24 12:18:41,159] 
+[INFO] [2023-02-24 12:38:12,334] Register - Step 01: Click on register link
+[INFO] [2023-02-24 12:38:15,717] Register - Step 02: Send key to first name textbox
+[INFO] [2023-02-24 12:38:17,947] Register - Step 03: Send key to last name textbox
+[INFO] [2023-02-24 12:38:20,135] Register - Step 04: Send key to password textbox
+[INFO] [2023-02-24 12:38:22,305] Register - Step 05: Send key to confirm password textbox
+[INFO] [2023-02-24 12:38:24,556] Register - Step 06: Send key to email textbox
+[INFO] [2023-02-24 12:38:26,742] Register - Step 07: Click on register button
+[INFO] [2023-02-24 12:38:29,527] Register - Step 08: Verify successful register message
+[INFO] [2023-02-24 12:38:31,099] PASSED
+[INFO] [2023-02-24 12:38:31,099] Register - Step 09: Click on logout button
+[INFO] [2023-02-24 12:38:41,611] TEST SKIPPED
+[INFO] [2023-02-24 12:38:41,613] OS name = window
+[INFO] [2023-02-24 12:38:41,614] 
+[INFO] [2023-02-24 12:39:31,149] Register - Step 01: Click on register link
+[INFO] [2023-02-24 12:39:34,450] Register - Step 02: Send key to first name textbox
+[INFO] [2023-02-24 12:39:36,569] Register - Step 03: Send key to last name textbox
+[INFO] [2023-02-24 12:39:38,583] Register - Step 04: Send key to password textbox
+[INFO] [2023-02-24 12:39:40,669] Register - Step 05: Send key to confirm password textbox
+[INFO] [2023-02-24 12:39:42,857] Register - Step 06: Send key to email textbox
+[INFO] [2023-02-24 12:39:45,024] Register - Step 07: Click on register button
+[INFO] [2023-02-24 12:39:47,665] Register - Step 08: Verify successful register message
+[INFO] [2023-02-24 12:39:49,194] PASSED
+[INFO] [2023-02-24 12:39:49,479] Login - Step 01: Click on login link
+[INFO] [2023-02-24 12:39:51,693] Login - Step 02: Login with information: 1557791277@test.com/password
+[INFO] [2023-02-24 12:39:58,428] Login - Step 03: Verify account is linked
+[INFO] [2023-02-24 12:39:58,695] PASSED
+[INFO] [2023-02-24 12:39:58,817] TC_01_Customer_Information test is starting.
+[INFO] [2023-02-24 12:39:58,818] User-Customer Information - Step 01: Click on my account link
+[INFO] [2023-02-24 12:40:02,095] PASSED
+[INFO] [2023-02-24 12:40:02,095] User-Customer Information - Step 02: Click on female radio button
+[INFO] [2023-02-24 12:40:04,058] User-Customer Information - Step 03: Send key to first name test box with value: Automation
+[INFO] [2023-02-24 12:40:06,124] User-Customer Information - Step 04: Send key to last name test box with value: FC
+[INFO] [2023-02-24 12:40:08,197] User-Customer Information - Step 05: Send key to email test box with value: automationfc.vn@gmail.com
+[INFO] [2023-02-24 12:40:10,239] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-02-24 12:40:12,367] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-02-24 12:40:14,476] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-02-24 12:40:16,574] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-02-24 12:40:18,612] User-Customer Information - Step 10: Click on save button
+[INFO] [2023-02-24 12:40:20,754] User-Customer Information - Step 11: Verify first name with value: Automation
+[INFO] [2023-02-24 12:40:21,718] PASSED
+[INFO] [2023-02-24 12:40:21,719] User-Customer Information - Step 12: Verify first name with value: FC
+[INFO] [2023-02-24 12:40:22,774] PASSED
+[INFO] [2023-02-24 12:40:22,775] User-Customer Information - Step 13: Verify first name with value: automationfc.vn@gmail.com
+[INFO] [2023-02-24 12:40:23,765] PASSED
+[INFO] [2023-02-24 12:40:23,766] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-02-24 12:40:24,759] PASSED
+[INFO] [2023-02-24 12:40:24,760] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-02-24 12:40:26,921] PASSED
+[INFO] [2023-02-24 12:40:26,921] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-02-24 12:40:29,119] PASSED
+[INFO] [2023-02-24 12:40:29,119] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-02-24 12:40:51,597] PASSED
+[INFO] [2023-02-24 12:40:51,667] TEST SUCCEEDED
+[INFO] [2023-02-24 12:40:51,670] OS name = window
+[INFO] [2023-02-24 12:40:51,670] 
+[INFO] [2023-02-24 12:52:56,803] Register - Step 01: Click on register link
+[INFO] [2023-02-24 12:53:00,236] Register - Step 02: Send key to first name textbox
+[INFO] [2023-02-24 12:53:02,420] Register - Step 03: Send key to last name textbox
+[INFO] [2023-02-24 12:53:04,577] Register - Step 04: Send key to password textbox
+[INFO] [2023-02-24 12:53:06,768] Register - Step 05: Send key to confirm password textbox
+[INFO] [2023-02-24 12:53:09,020] Register - Step 06: Send key to email textbox
+[INFO] [2023-02-24 12:53:11,194] Register - Step 07: Click on register button
+[INFO] [2023-02-24 12:53:13,902] Register - Step 08: Verify successful register message
+[INFO] [2023-02-24 12:53:15,473] PASSED
+[INFO] [2023-02-24 12:53:15,713] Login - Step 01: Click on login link
+[INFO] [2023-02-24 12:53:17,978] Login - Step 02: Login with information: -638668127@test.com/password
+[INFO] [2023-02-24 12:53:24,819] Login - Step 03: Verify account is linked
+[INFO] [2023-02-24 12:53:25,090] PASSED
+[INFO] [2023-02-24 12:53:25,166] TC_01_Customer_Information test is starting.
+[INFO] [2023-02-24 12:53:25,166] User-Customer Information - Step 01: Click on my account link
+[INFO] [2023-02-24 12:53:28,530] PASSED
+[INFO] [2023-02-24 12:53:28,530] User-Customer Information - Step 02: Click on female radio button
+[INFO] [2023-02-24 12:53:30,531] User-Customer Information - Step 03: Send key to first name test box with value: Automation
+[INFO] [2023-02-24 12:53:32,688] User-Customer Information - Step 04: Send key to last name test box with value: FC
+[INFO] [2023-02-24 12:53:34,770] User-Customer Information - Step 05: Send key to email test box with value: automationfc-638668127@test.com
+[INFO] [2023-02-24 12:53:36,922] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-02-24 12:53:39,150] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-02-24 12:53:41,331] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-02-24 12:53:43,569] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-02-24 12:53:45,685] User-Customer Information - Step 10: Click on save button
+[INFO] [2023-02-24 12:53:48,204] User-Customer Information - Step 11: Verify first name with value: Automation
+[INFO] [2023-02-24 12:53:49,249] PASSED
+[INFO] [2023-02-24 12:53:49,249] User-Customer Information - Step 12: Verify first name with value: FC
+[INFO] [2023-02-24 12:53:50,278] PASSED
+[INFO] [2023-02-24 12:53:50,279] User-Customer Information - Step 13: Verify first name with value: automationfc-638668127@test.com
+[INFO] [2023-02-24 12:53:51,345] PASSED
+[INFO] [2023-02-24 12:53:51,346] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-02-24 12:53:52,458] PASSED
+[INFO] [2023-02-24 12:53:52,458] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-02-24 12:53:54,833] PASSED
+[INFO] [2023-02-24 12:53:54,834] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-02-24 12:53:57,211] PASSED
+[INFO] [2023-02-24 12:53:57,211] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-02-24 12:54:21,163] PASSED
+[INFO] [2023-02-24 12:54:21,227] TEST SUCCEEDED
+[INFO] [2023-02-24 12:54:21,228] OS name = window
+[INFO] [2023-02-24 12:54:21,229] 
+[INFO] [2023-02-24 12:55:26,338] Register - Step 01: Click on register link
+[INFO] [2023-02-24 12:55:29,111] Register - Step 02: Send key to first name textbox
+[INFO] [2023-02-24 12:55:31,218] Register - Step 03: Send key to last name textbox
+[INFO] [2023-02-24 12:55:33,323] Register - Step 04: Send key to password textbox
+[INFO] [2023-02-24 12:55:35,471] Register - Step 05: Send key to confirm password textbox
+[INFO] [2023-02-24 12:55:37,511] Register - Step 06: Send key to email textbox
+[INFO] [2023-02-24 12:55:39,748] Register - Step 07: Click on register button
+[INFO] [2023-02-24 12:55:42,553] Register - Step 08: Verify successful register message
+[INFO] [2023-02-24 12:55:44,112] PASSED
+[INFO] [2023-02-24 12:55:44,372] Login - Step 01: Click on login link
+[INFO] [2023-02-24 12:55:46,588] Login - Step 02: Login with information: -1446086856@test.com/password
+[INFO] [2023-02-24 12:55:53,318] Login - Step 03: Verify account is linked
+[INFO] [2023-02-24 12:55:53,593] PASSED
+[INFO] [2023-02-24 12:55:53,681] TC_01_Customer_Information test is starting.
+[INFO] [2023-02-24 12:55:53,682] User-Customer Information - Step 01: Click on my account link
+[INFO] [2023-02-24 12:55:56,962] PASSED
+[INFO] [2023-02-24 12:55:56,963] User-Customer Information - Step 02: Click on female radio button
+[INFO] [2023-02-24 12:55:58,842] User-Customer Information - Step 03: Send key to first name test box with value: Automation
+[INFO] [2023-02-24 12:56:00,994] User-Customer Information - Step 04: Send key to last name test box with value: FC
+[INFO] [2023-02-24 12:56:03,071] User-Customer Information - Step 05: Send key to email test box with value: automationfc-1446086856@test.com
+[INFO] [2023-02-24 12:56:05,186] User-Customer Information - Step 06: Select item from day checkbox with value: 1
+[INFO] [2023-02-24 12:56:07,440] User-Customer Information - Step 07: Select item from month checkbox with value: January
+[INFO] [2023-02-24 12:56:09,654] User-Customer Information - Step 08: Select item from year checkbox with value: 1999
+[INFO] [2023-02-24 12:56:11,744] User-Customer Information - Step 09: Send key to company test box with value: Automation FC
+[INFO] [2023-02-24 12:56:13,774] User-Customer Information - Step 10: Click on save button
+[INFO] [2023-02-24 12:56:16,200] User-Customer Information - Step 11: Verify first name with value: Automation
+[INFO] [2023-02-24 12:56:17,193] PASSED
+[INFO] [2023-02-24 12:56:17,194] User-Customer Information - Step 12: Verify first name with value: FC
+[INFO] [2023-02-24 12:56:18,201] PASSED
+[INFO] [2023-02-24 12:56:18,202] User-Customer Information - Step 13: Verify first name with value: automationfc-1446086856@test.com
+[INFO] [2023-02-24 12:56:19,208] PASSED
+[INFO] [2023-02-24 12:56:19,209] User-Customer Information - Step 14: Verify first name with value: Automation FC
+[INFO] [2023-02-24 12:56:20,234] PASSED
+[INFO] [2023-02-24 12:56:20,234] User-Customer Information - Step 15: Verify first name with value: 1
+[INFO] [2023-02-24 12:56:22,492] PASSED
+[INFO] [2023-02-24 12:56:22,493] User-Customer Information - Step 16: Verify first name with value: January
+[INFO] [2023-02-24 12:56:24,842] PASSED
+[INFO] [2023-02-24 12:56:24,843] User-Customer Information - Step 17: Verify first name with value: 1999
+[INFO] [2023-02-24 12:56:48,148] PASSED
+[INFO] [2023-02-24 12:56:48,207] TEST SUCCEEDED

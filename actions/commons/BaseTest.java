@@ -94,7 +94,6 @@ public class BaseTest {
 	}
 
 	protected WebDriver getBrowserDriver(String browserName, String url) {
-		System.out.println(url);
 		switch (browserName) {
 		case "firefox":
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
@@ -153,6 +152,7 @@ public class BaseTest {
 		driver.get(url);
 		return driver;
 	}
+
 
 	protected int getRandomNumber() {
 		Random rand = new Random();

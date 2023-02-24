@@ -14,4 +14,9 @@ public class GlobalConstants {
 	public static final long SHORT_TIMEOUT = 5;
 	public static final long LONG_TIMEOUT = 10;
 	public static final long RETRY_TEST_FAIL = 3;
+	
+	public static final String SAUCELAB_EMAIL = "huaminhman15112000-326ef";
+	public static final String SAUCELAB_ID = "277eb7ad-3b0f-4023-8aef-d84b58315dc2";
+	public static final String SAUCELAB_BUILDID = "selenium-build-1X0H9";
+	
 }
